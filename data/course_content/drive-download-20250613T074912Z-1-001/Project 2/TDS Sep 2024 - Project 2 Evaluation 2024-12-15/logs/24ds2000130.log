@@ -1,0 +1,31 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/SaarthakTuli/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/24ds2000130']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds2000130/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully read CSV with utf-8-sig encoding
+Data Loaded Successfully
+Descriptive Statistics Generation Complete
+Data Visualization Chart Completed
+Narative Generation Completed
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24ds2000130/autolysis.py`
+Installed 34 packages in 302ms
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+
+
+------------------------------------------------------------------------
+

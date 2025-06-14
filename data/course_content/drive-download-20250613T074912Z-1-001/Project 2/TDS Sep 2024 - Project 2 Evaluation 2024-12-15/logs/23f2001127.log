@@ -1,0 +1,43 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/antareep18-geek/TDS-project2.git', '/root/.local/share/tds-sep-24-project-2/23f2001127']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001127/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f2001127/autolysis.py", line 67, in <module>
+    df = pd.read_csv('dataset.csv', encoding='latin-1')  # 'latin-1' encoding is often used for non-ASCII characters
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1026, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 620, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1620, in __init__
+    self._engine = self._make_engine(f, self.engine)
+                   ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/io/parsers/readers.py", line 1880, in _make_engine
+    self.handles = get_handle(
+                   ~~~~~~~~~~^
+        f,
+        ^^
+    ...<6 lines>...
+        storage_options=self.options.get("storage_options", None),
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+        handle,
+    ...<3 lines>...
+        newline="",
+    )
+FileNotFoundError: [Errno 2] No such file or directory: 'dataset.csv'
+
+
+------------------------------------------------------------------------
+

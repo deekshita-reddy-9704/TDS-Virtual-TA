@@ -1,0 +1,157 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/SRaghunathen/TDS2.git', '/root/.local/share/tds-sep-24-project-2/23f2003777']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2003777/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+API Call Error: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+API Call Error: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+API Call Error: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+API Call Error: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+API Call Error: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+An error occurred: Failed to execute LLM code after maximum attempts
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2003777/autolysis.py`
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2003777/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Attempt 1 failed: could not convert string to float: '043965548X'
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 23 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+dtypes: float64(3), int64(13), object(7)
+memory usage: 1.8+ MB
+Attempt 2 failed: Cannot convert non-finite values (NA or inf) to integer
+Attempt 3 failed: could not convert string to float: 'Suzanne Collins'
+Attempt 4 failed: could not convert string to float: 'Gillian Flynn'
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 23 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+dtypes: float64(3), int64(13), object(7)
+memory usage: 1.8+ MB
+
+Data Summary:
+---------------
+Total entries: 10000
+Columns: ['book_id', 'goodreads_book_id', 'best_book_id', 'work_id', 'books_count', 'isbn', 'isbn13', 'authors', 'original_publication_year', 'original_title', 'title', 'language_code', 'average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5', 'image_url', 'small_image_url']
+Missing values found and removed in key columns: 'average_rating', 'ratings_count'.
+Outlier entries based on Z-score method have been identified.
+Correlation matrix: 
+                         average_rating  ...  work_text_reviews_count
+average_rating                 1.000000  ...                 0.007481
+ratings_count                  0.044990  ...                 0.779635
+work_ratings_count             0.045042  ...                 0.807009
+work_text_reviews_count        0.007481  ...                 1.000000
+
+[4 rows x 4 columns]
+Feature importance based on correlation to average rating: 
+average_rating             1.000000
+work_ratings_count         0.045042
+ratings_count              0.044990
+work_text_reviews_count    0.007481
+Name: average_rating, dtype: float64
+Mean average ratings trend by publication year: 
+     original_publication_year  average_rating
+0                      -1750.0        3.630000
+1                       -762.0        4.030000
+2                       -750.0        4.005000
+3                       -720.0        3.730000
+4                       -560.0        4.050000
+..                         ...             ...
+288                     2013.0        4.012297
+289                     2014.0        3.985378
+290                     2015.0        3.954641
+291                     2016.0        4.027576
+292                     2017.0        4.100909
+
+[293 rows x 2 columns]
+Top 10 authors based on average rating: 
+                                                authors  average_rating
+300          Anonymous, Lane T. Dennis, Wayne A. Grudem        4.760000
+494                                      Bill Watterson        4.710833
+304         Anonymous, Ronald A. Beers, Ronald A. Beers        4.670000
+3324  Neil Gaiman, Mike Dringenberg, Chris Bachalo, ...        4.650000
+1193                                      EiichirÅ Oda        4.630000
+1630                                              Hafez        4.630000
+1941                                   James E. Talmage        4.630000
+236                                        Angie Thomas        4.620000
+136                          Alisa Kwitney, Neil Gaiman        4.610000
+1566                                 Gordon B. Hinckley        4.610000
+
+Attempt 1 failed: All arrays must be of the same length
+Attempt 2 failed: All arrays must be of the same length
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2003777/autolysis.py`
+<string>:14: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+<string>:32: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+
+
+------------------------------------------------------------------------
+

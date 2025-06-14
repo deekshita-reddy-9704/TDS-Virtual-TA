@@ -1,0 +1,40 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f2004671/Project2.git', '/root/.local/share/tds-sep-24-project-2/23f2004671']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2004671/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Loaded dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f2004671/autolysis.py", line 121, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/23f2004671/autolysis.py", line 118, in main
+    process_dataset(file_path)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23f2004671/autolysis.py", line 106, in process_dataset
+    create_visualizations(data, output_dir)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23f2004671/autolysis.py", line 52, in create_visualizations
+    sns.heatmap(data.corr(), annot=True, fmt=".2f", cmap="coolwarm")
+                ~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/frame.py", line 11049, in corr
+    mat = data.to_numpy(dtype=float, na_value=np.nan, copy=False)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/frame.py", line 1993, in to_numpy
+    result = self._mgr.as_array(dtype=dtype, copy=copy, na_value=na_value)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/internals/managers.py", line 1694, in as_array
+    arr = self._interleave(dtype=dtype, na_value=na_value)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/internals/managers.py", line 1753, in _interleave
+    result[rl.indexer] = arr
+    ~~~~~~^^^^^^^^^^^^
+ValueError: could not convert string to float: '043965548X'
+
+
+------------------------------------------------------------------------
+

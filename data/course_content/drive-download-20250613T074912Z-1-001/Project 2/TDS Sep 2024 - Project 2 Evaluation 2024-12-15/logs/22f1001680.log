@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/rahulyadav46691499/Project2.git', '/root/.local/share/tds-sep-24-project-2/22f1001680']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001680/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f1001680/autolysis.py", line 77, in <module>
+    if len(sys.argv) != 2:
+           ^^^
+NameError: name 'sys' is not defined. Did you forget to import 'sys'?
+
+
+------------------------------------------------------------------------
+

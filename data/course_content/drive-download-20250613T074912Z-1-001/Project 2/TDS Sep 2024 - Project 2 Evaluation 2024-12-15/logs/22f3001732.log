@@ -1,0 +1,17 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Madras-protagonist/Project_2.git', '/root/.local/share/tds-sep-24-project-2/22f3001732']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001732/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error in main execution: Error analyzing data: NDFrame.describe() got an unexpected keyword argument 'datetime_is_numeric'
+
+
+
+
+------------------------------------------------------------------------
+

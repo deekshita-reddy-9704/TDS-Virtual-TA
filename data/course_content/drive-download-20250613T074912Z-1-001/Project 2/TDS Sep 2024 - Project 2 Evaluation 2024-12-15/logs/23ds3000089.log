@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Stephen-iitm/autolysis.git', '/root/.local/share/tds-sep-24-project-2/23ds3000089']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000089/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Loading and describing the dataset...
+Dataset loaded successfully.
+Querying the LLM for analysis suggestions...
+Analysis suggestions received.
+Creating visualizations...
+Generating README.md...
+README.md and visualizations created successfully in goodreads.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000089/autolysis.py`
+Installed 25 packages in 170ms
+
+
+------------------------------------------------------------------------
+

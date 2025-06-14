@@ -1,0 +1,31 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Samcoderg78/project.git', '/root/.local/share/tds-sep-24-project-2/23f1003171']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1003171/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1003171/autolysis.py`
+ERROR:root:Error generating narration: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions. Retrying in 5 seconds...
+ERROR:root:Error generating narration: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions. Retrying in 5 seconds...
+ERROR:root:Error generating narration: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions. Retrying in 5 seconds...
+ERROR:root:Max retries reached. Exiting.
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1003171/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1003171/autolysis.py`
+INFO:root:Analysis completed. Results saved in /root/.local/share/tds-sep-24-project-2/datasets/goodreads/README.md and visualizations.
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,54 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/AbdulHadiCreator/TDSProject2.git', '/root/.local/share/tds-sep-24-project-2/22f1001445']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001445/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Loaded dataset '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv' with shape (10000, 23)
+Performing analysis for dataset 'goodreads'...
+Detected outliers in 'book_id': 0 rows
+Detected outliers in 'goodreads_book_id': 345 rows
+Detected outliers in 'best_book_id': 357 rows
+Detected outliers in 'work_id': 601 rows
+Detected outliers in 'books_count': 844 rows
+Detected outliers in 'isbn13': 556 rows
+Detected outliers in 'original_publication_year': 1031 rows
+Detected outliers in 'average_rating': 158 rows
+Detected outliers in 'ratings_count': 1163 rows
+Detected outliers in 'work_ratings_count': 1143 rows
+Detected outliers in 'work_text_reviews_count': 1005 rows
+Detected outliers in 'ratings_1': 1140 rows
+Detected outliers in 'ratings_2': 1156 rows
+Detected outliers in 'ratings_3': 1149 rows
+Detected outliers in 'ratings_4': 1131 rows
+Detected outliers in 'ratings_5': 1158 rows
+Feature Importance Analysis:
+                      Feature  Importance
+9          work_ratings_count    0.654384
+8               ratings_count    0.175535
+0                     book_id    0.085978
+14                  ratings_4    0.034219
+7              average_rating    0.028437
+10    work_text_reviews_count    0.005056
+11                  ratings_1    0.003867
+1           goodreads_book_id    0.002400
+12                  ratings_2    0.002189
+13                  ratings_3    0.001894
+6   original_publication_year    0.001459
+4                 books_count    0.001436
+5                      isbn13    0.001271
+3                     work_id    0.001270
+2                best_book_id    0.000606
+Analysis completed. Results saved to /root/.local/share/tds-sep-24-project-2/eval/22f1001445/goodreads.csv/goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1001445/autolysis.py`
+Installed 38 packages in 129ms
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Karthikey2003/TDS_PROJ2.git', '/root/.local/share/tds-sep-24-project-2/23f1001992']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001992/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+  File "/root/.local/share/tds-sep-24-project-2/23f1001992/autolysis.py", line 131
+    else:
+    ^^^^
+SyntaxError: invalid syntax
+
+
+------------------------------------------------------------------------
+

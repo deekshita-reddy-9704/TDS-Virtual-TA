@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/priyankaa1102/autolysis.git', '/root/.local/share/tds-sep-24-project-2/23ds3000079']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000079/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Data loaded successfully with UTF-8 encoding. Shape: (10000, 23)
+Visualization error: could not convert string to float: '043965548X'
+README.md written to ./README.md
+
+
+
+
+------------------------------------------------------------------------
+

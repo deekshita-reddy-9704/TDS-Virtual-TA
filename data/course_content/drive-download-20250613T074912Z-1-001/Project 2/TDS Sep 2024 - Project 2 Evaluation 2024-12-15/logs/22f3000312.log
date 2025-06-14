@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'submission', 'https://github.com/r4mbhardwaj/autolysis.git', '/root/.local/share/tds-sep-24-project-2/22f3000312']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000312/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+LLM Request Error: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Analysis complete. `README.md` and charts have been generated in ./goodreads.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3000312/autolysis.py`
+Installed 25 packages in 111ms
+
+
+------------------------------------------------------------------------
+

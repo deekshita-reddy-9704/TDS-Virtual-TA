@@ -1,0 +1,30 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/code-kalrav/IITM-P2.git', '/root/.local/share/tds-sep-24-project-2/22f1000894']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000894/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Successfully read CSV with inferred delimiter.
+Error generating story: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000894/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Successfully read CSV with inferred delimiter.
+README.md file created successfully!
+
+
+
+
+------------------------------------------------------------------------
+

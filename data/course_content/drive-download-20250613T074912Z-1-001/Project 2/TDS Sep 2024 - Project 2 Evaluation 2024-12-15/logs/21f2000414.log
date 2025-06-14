@@ -1,0 +1,62 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Varun-K34/tds-project.git', '/root/.local/share/tds-sep-24-project-2/21f2000414']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+.env file loaded successfully.
+Loaded AIPROXY_TOKEN: eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImFuYW5kQHN0dWR5LmlpdG0uYWMuaW4ifQ.IHWS5POBISxhcnbSv9_w8xOBifR06GtjDixGL3PovRU
+API token retrieved from environment variables.
+Output directory created at: /root/.local/share/tds-sep-24-project-2/eval/21f2000414/goodreads.csv/goodreads
+Detected file type: .csv
+Loading CSV file...
+Dataset loaded successfully.
+Cleaning the dataset...
+Analyzing the dataset...
+Creating visualizations...
+An error occurred: module 'openai' has no attribute 'error'
+
+
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f2000414/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+
+
+------------------------------------------------------------------------
+

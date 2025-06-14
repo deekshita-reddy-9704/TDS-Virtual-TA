@@ -1,0 +1,275 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/JAISUBIKSHA-T/TDS_PROJECT2.git', '/root/.local/share/tds-sep-24-project-2/23f2001696']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001696/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+File Info: {'encoding': 'utf-8', 'confidence': 0.99, 'language': ''}
+Output directory created
+    You are given a file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+    As a creativ story teller give insights from the following.
+    Features:
+    book_id: int64
+goodreads_book_id: int64
+best_book_id: int64
+work_id: int64
+books_count: int64
+isbn: object
+isbn13: float64
+authors: object
+original_publication_year: float64
+original_title: object
+title: object
+language_code: object
+average_rating: float64
+ratings_count: int64
+work_ratings_count: int64
+work_text_reviews_count: int64
+ratings_1: int64
+ratings_2: int64
+ratings_3: int64
+ratings_4: int64
+ratings_5: int64
+image_url: object
+small_image_url: object
+
+    Here are a few samples:
+       book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+
+    Summary Statistics:
+               book_id  goodreads_book_id  ...     ratings_4     ratings_5
+count  10000.00000       1.000000e+04  ...  1.000000e+04  1.000000e+04
+mean    5000.50000       5.264697e+06  ...  1.996570e+04  2.378981e+04
+std     2886.89568       7.575462e+06  ...  5.144736e+04  7.976889e+04
+min        1.00000       1.000000e+00  ...  7.500000e+02  7.540000e+02
+25%     2500.75000       4.627575e+04  ...  5.405750e+03  5.334000e+03
+50%     5000.50000       3.949655e+05  ...  8.269500e+03  8.836000e+03
+75%     7500.25000       9.382225e+06  ...  1.602350e+04  1.730450e+04
+max    10000.00000       3.328864e+07  ...  1.481305e+06  3.011543e+06
+
+[8 rows x 16 columns]
+
+    Missing Values:
+    book_id                         0
+goodreads_book_id               0
+best_book_id                    0
+work_id                         0
+books_count                     0
+isbn                          700
+isbn13                        585
+authors                         0
+original_publication_year      21
+original_title                585
+title                           0
+language_code                1084
+average_rating                  0
+ratings_count                   0
+work_ratings_count              0
+work_text_reviews_count         0
+ratings_1                       0
+ratings_2                       0
+ratings_3                       0
+ratings_4                       0
+ratings_5                       0
+image_url                       0
+small_image_url                 0
+dtype: int64
+
+    Number of unique values in each column:
+    book_id                      10000
+goodreads_book_id            10000
+best_book_id                 10000
+work_id                      10000
+books_count                    597
+isbn                          9300
+isbn13                        9153
+authors                       4664
+original_publication_year      293
+original_title                9274
+title                         9964
+language_code                   25
+average_rating                 184
+ratings_count                 9003
+work_ratings_count            9053
+work_text_reviews_count       4581
+ratings_1                     2630
+ratings_2                     4117
+ratings_3                     6972
+ratings_4                     7762
+ratings_5                     8103
+image_url                     6669
+small_image_url               6669
+dtype: int64
+
+    Number of duplicated rows:
+    0
+
+    Correlation Analysis:
+                                book_id  goodreads_book_id  ...  ratings_4  ratings_5
+book_id                    1.000000           0.115154  ...  -0.407079  -0.332486
+goodreads_book_id          0.115154           1.000000  ...  -0.063310  -0.056145
+best_book_id               0.104516           0.966620  ...  -0.054462  -0.049524
+work_id                    0.113861           0.929356  ...  -0.054775  -0.046745
+books_count               -0.263841          -0.164578  ...   0.349564   0.279559
+isbn13                    -0.011291          -0.048246  ...   0.010161   0.006622
+original_publication_year  0.049875           0.133790  ...  -0.025785  -0.015388
+average_rating            -0.040880          -0.024848  ...   0.036108   0.115412
+ratings_count             -0.373178          -0.073023  ...   0.978869   0.964046
+work_ratings_count        -0.382656          -0.063760  ...   0.987764   0.966587
+work_text_reviews_count   -0.419292           0.118845  ...   0.817826   0.764940
+ratings_1                 -0.239401          -0.038375  ...   0.672986   0.597231
+ratings_2                 -0.345764          -0.056571  ...   0.838298   0.705747
+ratings_3                 -0.413279          -0.075634  ...   0.952998   0.825550
+ratings_4                 -0.407079          -0.063310  ...   1.000000   0.933785
+ratings_5                 -0.332486          -0.056145  ...   0.933785   1.000000
+
+[16 rows x 16 columns]
+
+    Give a short description about the given dataset in an interesting way. Also provide a brief description of the given statistical analysis. 
+    
+    Output must be in valid markdown format.
+    
+Monthly Cost: 3.691761000000002
+Monthly Cost: 3.693153000000002
+{'analyses': ['correlation_analysis', 'outlier_detection', 'regression_analysis']}
+Monthly Cost: 3.695505000000002
+{'features': ['books_count', 'original_publication_year', 'average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']}
+Monthly Cost: 3.697944000000002
+{'arguments': '{"features":["books_count","isbn","authors","original_publication_year","original_title","title","language_code","average_rating","ratings_count","work_ratings_count","work_text_reviews_count","ratings_1","ratings_2","ratings_3","ratings_4","ratings_5"],"target":"average_rating"}', 'name': 'extract_features_and_target'}
+Images saved
+Images saved
+Charts saved
+Monthly Cost: 3.709167000000002
+        Analysis Function: correlation_analysis
+
+        Results:
+        {'correlation_matrix':                            books_count  ...  ratings_5
+books_count                   1.000000  ...   0.279559
+original_publication_year    -0.321753  ...  -0.015388
+average_rating               -0.069888  ...   0.115412
+ratings_count                 0.324235  ...   0.964046
+work_ratings_count            0.333664  ...   0.966587
+work_text_reviews_count       0.198698  ...   0.764940
+ratings_1                     0.225763  ...   0.597231
+ratings_2                     0.334923  ...   0.705747
+ratings_3                     0.383699  ...   0.825550
+ratings_4                     0.349564  ...   0.933785
+ratings_5                     0.279559  ...   1.000000
+
+[11 rows x 11 columns], 'chart': 'chart_1.png'}
+    
+        The given analysis was performed on /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv.
+        What are some of the findings of this analysis?
+
+        * Write about the analysis that was performed.
+        * Try to infer insights from the results of the analysis.
+        * Provide a description about the insights you discovered.
+        * Give the implications of your findings.
+        Give narrative in an intersting and creative manner.
+        Make the reader curious about to read.
+        Output in valid markdown format.
+        
+            Additional: Add the chart image which is a .png file with its analysis to the markdown output.
+            Chart Analysis Summary:
+            Based on the correlation heatmap you provided, here are the insights and summaries of the findings:
+
+### Insights from the Correlation Heatmap:
+
+1. **Strong Positive Correlations:**
+   - **Ratings_5 and Average_Rating (0.93):** There is a very strong positive correlation between the number of five-star ratings and the average rating, indicating that books with more five-star ratings tend to have higher average ratings.
+   - **Ratings_1 and Ratings_5 (-0.85):** A strong negative correlation exists between one-star ratings and five-star ratings, suggesting that books receiving many one-star ratings are likely to receive fewer five-star ratings.
+
+2. **Moderate Positive Correlations:**
+   - **Ratings_3 and Average_Rating (0.69):** There’s a moderate positive correlation between three-star ratings and average ratings, indicating that books with more three-star ratings can still maintain a decent average rating.
+   - **Ratings_2 and Ratings_4 (0.71):** This suggests that books with more two-star ratings tend to also get more four-star ratings, indicating a potential overlap in reader satisfaction.
+
+3. **Weak to Moderate Negative Correlations:**
+   - **Books_Count and Average_Rating (-0.32):** A weak negative correlation exists between the total number of books and average ratings, implying that an increase in the number of books does not necessarily lead to higher average ratings.
+
+4. **Non-significant Correlations:**
+   - Most of the other correlations are relatively low, indicating that factors like publication year and the number of books do not have a significant direct impact on the ratings.
+
+### Summary of Findings:
+- The analysis reveals that higher average ratings are strongly associated with the number of five-star ratings, while one-star ratings negatively impact five-star ratings.
+- There is a moderate relationship between three-star ratings and average ratings, suggesting a complex interaction between different rating categories.
+- The total number of books published does not significantly correlate with average ratings, indicating that quality may vary regardless of quantity.
+
+These insights can help guide decisions regarding book publishing and marketing strategies based on reader preferences and rating distributions.
+
+            Output in valid markdown format.
+            
+Monthly Cost: 3.714708000000002
+        Analysis Function: outlier_detection
+
+        Results:
+        {'n_anomalies': np.int64(752), 'n_samples': 10000}
+    
+        The given analysis was performed on /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv.
+        What are some of the findings of this analysis?
+
+        * Write about the analysis that was performed.
+        * Try to infer insights from the results of the analysis.
+        * Provide a description about the insights you discovered.
+        * Give the implications of your findings.
+        Give narrative in an intersting and creative manner.
+        Make the reader curious about to read.
+        Output in valid markdown format.
+        
+Monthly Cost: 3.718356000000002
+Monthly Cost: 3.728607000000002
+        Analysis Function: regression_analysis
+
+        Results:
+        {'r2_score': 0.05057863450204003, 'mae': 0.17890196379689602, 'mse': 0.058169755756060794, 'rmse': 0.24118407027840955, 'coefficient': array([-0.00737757, -0.00426163, -0.08452032,  0.057526  , -0.04732085,
+        0.11504331, -0.07857962, -0.36964963,  0.43399979, -0.02038032]), 'intercept': np.float64(4.00073625), 'feature_names_input': ['books_count', 'original_publication_year', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5'], 'target_name': 'average_rating', 'chart': 'chart_2.png'}
+    
+        The given analysis was performed on /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv.
+        What are some of the findings of this analysis?
+
+        * Write about the analysis that was performed.
+        * Try to infer insights from the results of the analysis.
+        * Provide a description about the insights you discovered.
+        * Give the implications of your findings.
+        Give narrative in an intersting and creative manner.
+        Make the reader curious about to read.
+        Output in valid markdown format.
+        
+            Additional: Add the chart image which is a .png file with its analysis to the markdown output.
+            Chart Analysis Summary:
+            Based on the chart provided, which displays a scatter plot of actual versus predicted values, here are some insights and findings:
+
+1. **Trend Analysis**: The red line representing the predicted values appears to have a positive slope. This indicates that, as the actual values increase, the predicted values tend to increase as well.
+
+2. **Clustering of Data Points**: Most of the data points are clustered around a predicted value of 4, suggesting that the predictions are relatively consistent across a range of actual values.
+
+3. **Deviation from Line**: There are several points that deviate significantly from the predicted line, particularly at lower actual values. This suggests that the model may not be accurately predicting values in that range.
+
+4. **Overall Fit**: While there is a general upward trend, the spread of points around the line indicates that the model may have some limitations in its predictive accuracy, especially for actual values below approximately 3.5.
+
+5. **Potential Improvements**: The model could potentially be improved by incorporating additional features or refining the current features to reduce the prediction error, especially for the lower actual values.
+
+### Summary:
+The chart shows a positive correlation between actual and predicted values, with most predictions clustering around 4. However, there are noticeable deviations, particularly at lower actual values, indicating areas where the model's accuracy could be enhanced.
+
+            Output in valid markdown format.
+            
+Monthly Cost: 3.734412000000002
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001696/autolysis.py`
+Installed 29 packages in 74ms
+
+
+------------------------------------------------------------------------
+

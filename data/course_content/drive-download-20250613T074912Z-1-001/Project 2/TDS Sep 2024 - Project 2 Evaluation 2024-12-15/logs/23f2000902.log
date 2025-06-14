@@ -1,0 +1,17 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/zerx1307/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/23f2000902']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2000902/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error: File '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv' not found.
+
+
+
+
+------------------------------------------------------------------------
+

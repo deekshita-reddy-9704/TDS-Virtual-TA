@@ -1,0 +1,16 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'master', 'https://github.com/GeekAnanya21/TDS_project2.git', '/root/.local/share/tds-sep-24-project-2/21f2000372']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2000372/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+
+
+------------------------------------------------------------------------
+

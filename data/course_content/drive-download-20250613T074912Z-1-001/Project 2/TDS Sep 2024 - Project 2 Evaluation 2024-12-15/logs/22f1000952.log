@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/22f1000952/autolysis.git', '/root/.local/share/tds-sep-24-project-2/22f1000952']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000952/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Saved heatmap: /root/.local/share/tds-sep-24-project-2/datasets/goodreads_correlation_heatmap.png
+Saved distribution plot for book_id: /root/.local/share/tds-sep-24-project-2/datasets/goodreads_book_id_distribution.png
+Saved bar plot for isbn: /root/.local/share/tds-sep-24-project-2/datasets/goodreads_isbn_top_categories.png
+Analysis report saved as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_README.md
+Analysis completed. Visualizations and README saved.
+
+
+
+
+------------------------------------------------------------------------
+

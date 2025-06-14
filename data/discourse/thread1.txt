@@ -1,0 +1,117 @@
+Please post any questions related to 
+Project 1
+
+
+Please use markdown code formatting (fenced code blocks beginning with ```) when sharing code (rather than screenshots). It’s easier for us to copy-paste and test.
+
+
+Deadline: 
+
+
+Tomorrow 11:59 PM
+
+@s.anand
+ 
+@carlton
+
+
+Sir i am done with my api endpoint for project 1 but i did one change in the given test file where we have to edit our api endpoint and test it as mentioned in the project description. I was testing my model but was getting the same response every time even though my model was giving the expected answer to those question when tested separately. I found that in the test file (promptfoo.yaml) the cache is marked as true and because of which whenever i try to run the test file it does not hit my api endpoint and take the old response from the cache. So i changed the cache to false and tried running that test file and got the results as shown below in the image.
+
+
+image
+1861×912 105 KB
+
+
+In this as you can see for the 2nd test case since i am using the openai model to give the final answer so it is using my context and saying that dashboard will show 11/10, but the expected answer should contain “110”. The problem i am facing is as you can see the url given in my response is same as expected which means my model is picking the right context to answer the question but since i am using openai to make my final answer using this context it is very unlikely that it will say that dashboard will show “110” because this doesn’t make sense. So can you please help me how should i tackle this ? As this is the only test case left.
+
+
+And also i have added one prompt field in the test file because i was getting warning regarding this missing field again and again. So is it okay ?
+
+@HritikRoshan_HRM
+ sir can you please help me with this.
+
+Not able to access the tds project link.
+
+
+TDS_Project1
+898×509 16.7 KB
+
+tds.s-anand.net
+
+
+
+
+
+
+Tools in Data Science
+
+Not this one the GitHub repository URL and API endpoint URL submission link not opening.
+
+Sir my all links are working like I submitted by GA1 also but only my project submission link not working. Please solve the problem. How will I submit my project?
+
+Have you completed your project ? I have some doubts.
+
+not yet but how will I gonna submit it. I can’t post this at end. My link should be working to submit my project before deadline.
+
+Submission date is next month, maybe by then they will fix it. I am also not able access submission link.
+
+Sir, the question’s background specifies that we should use Discourse posts from 
+January 1, 2025 through April 14, 2025
+. However, in 
+first testcase
+ we are asked to answer based on the following Discourse post—which dates outside that window:
+
+
+https://discourse.onlinedegree.iitm.ac.in/t/ga5-question-8-clarification/155939
+
+
+Is this an error in the question’s timeframe?
+
+Interesting, that’s my post from Sep 24 Term. I am curious about the context and why did an 8 month old post come up in a Test.
+
+I guess, this question is also covered in previous term, i.e., t1-2025
+
+Actually, in this term (May 25), we received our first project as 
+TDS Virtual TA
+, where we are tasked with designing a chatbot API that acts as a virtual TA. For this project, your post has been provided as an example test case.
+
+Sorry, but I couldn’t find any related question. Could you please send me the link to the post, if you have it?
+
+It maybe in week-4 or 5 GA
+
+@Jivraj
+ 
+@carlton
+ Sir, any updates on my issue?
+
+Sir, i have build an initial model for my project and when i test some question separately then i get somewhat expected answer like
+
+
+image
+1136×435 11.3 KB
+
+
+this is the response which i got from my model
+
+
+@carlton
+ sir can you please help me in this
+
+And the in the test file given in the project description this is the response for this question
+
+
+image
+965×296 9.81 KB
+
+This is the response of the same question given in the promtfoo.yaml file which we have to use for the testing purpose by editing our api endpoint.
+
+
+But the issue is, when i test this file by running that promtfoo.yaml file by editing my api endpoin then for this same question the test case fails.
+
+
+image
+1179×191 12.9 KB
+
+
+also the answer which it shows is not what i get when i run my model for this question as shown in the above image. Can you please help me with this, where i am going wrong ?
+

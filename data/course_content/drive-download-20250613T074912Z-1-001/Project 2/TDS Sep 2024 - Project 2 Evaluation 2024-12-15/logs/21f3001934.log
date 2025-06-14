@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/ramees-thattarath/tds-proj-2.git', '/root/.local/share/tds-sep-24-project-2/21f3001934']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3001934/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f3001934/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/21f3001934/autolysis.py:106: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  numeric_col_data.fillna(numeric_col_data.mean(), inplace=True)
+
+
+------------------------------------------------------------------------
+

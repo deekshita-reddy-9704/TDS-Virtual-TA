@@ -1,0 +1,28 @@
+The ECI website has this data.
+1
+The ECI website has this data.
+2
+… and, most of the data is in PDFs
+3
+The PDF files have a reasonably clear structure
+4
+… that translates into text that can be parsed
+5
+… which, with some effort, can be converted into a structured format
+… and at this point, we need to start checking for errors.
+6
+At this point, we start checking what’s gone wrong
+Each row here is one constituency.
+
+The number of candidates that have contested in each constituency in every year is shown as a table.
+
+You can see that some patterns emerge here.
+7
+Not every spelling error is easily identifiable by the first letter
+8
+
+
+Fortunately, large scale data itself can provide a solution
+9
+… with modern tools that support machine learning
+10

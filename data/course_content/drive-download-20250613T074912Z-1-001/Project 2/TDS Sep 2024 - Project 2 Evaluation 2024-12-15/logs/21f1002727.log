@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/yali369/Project2.git', '/root/.local/share/tds-sep-24-project-2/21f1002727']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1002727/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+An error occurred: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Error processing the LLM response or executing the code: 'NoneType' object has no attribute 'split'
+README.md file generated at /root/.local/share/tds-sep-24-project-2/eval/21f1002727/goodreads.csv/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1002727/autolysis.py`
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/ManasaReddy1904/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000191']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000191/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000191/autolysis.py`
+Installed 35 packages in 93ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23ds3000191/autolysis.py", line 26, in <module>
+    import requests
+ModuleNotFoundError: No module named 'requests'
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,37 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/manoharvvs/LLM-AutomatedAnalysis.git', '/root/.local/share/tds-sep-24-project-2/23f3003721']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3003721/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3003721/autolysis.py`
+2024-12-15 12:32:05,803 - INFO - Trying encoding: utf-8
+2024-12-15 12:32:05,859 - INFO - Starting analysis...
+2024-12-15 12:32:06,086 - INFO - Visualization saved: goodreads/missing_values.png
+2024-12-15 12:32:06,797 - INFO - Visualization saved: goodreads/correlation_heatmap.png
+2024-12-15 12:32:09,173 - INFO - HTTP Request: POST http://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-15 12:32:09,174 - ERROR - LLM call failed: Client error '429 Too Many Requests' for url 'http://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-15 12:32:09,174 - ERROR - Unexpected error: I/O operation on closed file.
+2024-12-15 12:32:09,176 - ERROR - Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f3003721/autolysis.py", line 209, in main
+    analyzer.run()
+    ~~~~~~~~~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/23f3003721/autolysis.py", line 191, in run
+    self.save_output(output_dir, narrative, visualizations)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23f3003721/autolysis.py", line 166, in save_output
+    f.write(f"![{os.path.basename(vis)}]({os.path.basename(vis)})\n\n")
+    ~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ValueError: I/O operation on closed file.
+
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,36 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/PoornimaIITm/P2AutomatedAnalysis.git', '/root/.local/share/tds-sep-24-project-2/24ds1000075']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds1000075/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+'pip' is already available.
+'pandas' is already installed.
+'matplotlib' is already installed.
+'seaborn' is already installed.
+'openai' is already installed.
+'numpy' is already installed.
+'tabulate' is already installed.
+All packages have been successfully installed and imported!
+Processing file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv...
+Viola ! Analysis is complete. Results are saved in README.md
+
+
+/root/.local/share/tds-sep-24-project-2/24ds1000075/autolysis.py:157: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.index, y=top_categories.values, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/24ds1000075/autolysis.py:157: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.index, y=top_categories.values, palette="viridis")
+
+
+------------------------------------------------------------------------
+

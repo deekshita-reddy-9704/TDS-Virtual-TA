@@ -1,0 +1,45 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/shamanthakiitm/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/23f2001942']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001942/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Starting autolysis process...
+Detected file encoding: utf-8
+Dataset loaded successfully.
+Analyzing data...
+Data analysis complete.
+Generating visualizations...
+Saved distribution plot: book_id_distribution.png
+Saved distribution plot: goodreads_book_id_distribution.png
+Saved distribution plot: best_book_id_distribution.png
+Saved distribution plot: work_id_distribution.png
+Saved distribution plot: books_count_distribution.png
+Saved distribution plot: isbn13_distribution.png
+Saved distribution plot: original_publication_year_distribution.png
+Saved distribution plot: average_rating_distribution.png
+Saved distribution plot: ratings_count_distribution.png
+Saved distribution plot: work_ratings_count_distribution.png
+Saved distribution plot: work_text_reviews_count_distribution.png
+Saved distribution plot: ratings_1_distribution.png
+Saved distribution plot: ratings_2_distribution.png
+Saved distribution plot: ratings_3_distribution.png
+Saved distribution plot: ratings_4_distribution.png
+Saved distribution plot: ratings_5_distribution.png
+Generating narrative...
+HTTP error occurred: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+Narrative generation failed. Skipping README creation.
+Autolysis process completed.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001942/autolysis.py`
+
+
+------------------------------------------------------------------------
+

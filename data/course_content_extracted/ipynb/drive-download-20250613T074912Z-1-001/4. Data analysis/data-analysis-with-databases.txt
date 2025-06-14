@@ -1,0 +1,255 @@
+# Data analysis with databases
+
+Databases are where most transactional data resides. Using SQL, we can query and run a fair bit of analyses on them.
+
+We'll explore the [stats database](https://relational-data.org/dataset/Stats) that's publicly exposed by the [relational-dataset repository](https://relational-data.org/). This is an anonymized dump of all user-contributed content on the [Stats Stack Exchange](https://stats.stackexchange.com/).
+
+Relational databases store data in tables. You can query these using SQL.
+
+Here is the list of tables and columns in this database:
+
+![stats schema](https://relational-data.org/assets/img/datasets-generated/stats.svg)
+
+## Query the database
+
+There are many ways to connect to and query a database. We'll use
+[Pandas' `pd.read_sql`](https://pandas.pydata.org/docs/reference/api/pandas.read_sql.html) with
+[SQLAlchemy](https://docs.sqlalchemy.org/).
+It's simple, popular, and returns easy-to-analyze dataframes.
+
+The stats database is a MySQL database (actually, MariaDB, which is compatible) at:
+
+- hostname: db.relational-data.org
+- port: 3306 (which is the default MySQL port)
+- username: guest
+- password: relational
+- database: stats
+
+The SQLAlchemy connection string for this database is:
+
+stats_connection = "mysql+pymysql://guest:relational@db.relational-data.org/stats"
+
+Let's connect to this database and count the number of rows.
+
+import pandas as pd
+import sqlalchemy as sa
+
+engine = sa.create_engine("mysql+pymysql://guest:relational@db.relational-data.org/stats")
+pd.read_sql('SELECT COUNT(*) FROM posts', engine)
+
+That proves we could connect to the database. We know it has under 100,000 rows.
+
+Now, I'm curious: who posted the most questions? Let's find out.
+
+Rather than figure out the query, I'll [ask ChatGPT this question](https://chatgpt.com/share/2cd3a52b-d389-45ec-8be6-a367cd3a8ab1):
+
+```text
+The `posts` table has this structure:
+
+Id: int
+PostTypeId: int
+AcceptedAnswerId: int
+CreaionDate: datetime
+Score: int
+ViewCount: int
+Body: longtext
+OwnerUserId: int
+LasActivityDate: datetime
+Title: varchar
+Tags: varchar
+AnswerCount: int
+CommentCount: int
+FavoriteCount: int
+LastEditorUserId: int
+LastEditDate: datetime
+CommunityOwnedDate: datetime
+ParentId: int
+ClosedDate: datetime
+OwnerDisplayName: varchar
+LastEditorDisplayName: varchar
+
+Write MySQL-compatible SQL to find the top 5 users by post count, showing their names as well as the post count.
+```
+
+def query(sql):
+    return pd.read_sql(sql, engine)
+
+query(
+    """
+SELECT
+    OwnerUserId,
+    OwnerDisplayName,
+    COUNT(*) AS PostCount
+FROM
+    posts
+WHERE
+    OwnerUserId IS NOT NULL
+GROUP BY
+    OwnerUserId,
+    OwnerDisplayName
+ORDER BY
+    PostCount DESC
+LIMIT
+    5;
+""")
+
+The names are all `None` -- because this is an anonymized dataset.
+
+## How concentrated are the posts?
+
+Do 20% of the users ask 80% of the questions? Let's find out.
+
+post_count = query(
+    """
+    SELECT OwnerUserId, COUNT(*) as PostCount
+    FROM posts
+    WHERE OwnerUserId IS NOT NULL
+    GROUP BY OwnerUserId
+    ORDER BY PostCount DESC
+"""
+)
+post_count
+
+Now let's compare the top 20%'s PostCount against the total.
+
+post_count.PostCount.iloc[:len(post_count)//5].sum() / post_count.PostCount.sum()
+
+So, the top 20% account for ~76% of the posts. That's a fairly typical concentration.
+
+# Does age predict reputation?
+
+The `users` table has a `Reputation` column. Let's see if `Age` predicts reputation.
+
+For this, I use this ChatGPT prompt:
+
+```text
+I have a Python function `query(sql)` that returns the results of the SQL as a Pandas DataFrame.
+
+Given a table `users` with columns `Age` and `Reputation`, write Python code to calculate the Pearson correlation coefficient between the two.
+
+Don't do the calculation in Pandas. The data might be too large. Fetch only the aggregated numbers from the database and then calculate the result.
+```
+
+(Later, I asked it to drop NULL values.)
+
+[Let's run the output](https://chatgpt.com/share/5b58fc31-f251-4752-9153-cfb3664c8a9c).
+
+import numpy as np
+
+# Fetch aggregated statistics from the database
+stats_query = """
+SELECT
+    COUNT(*) as n,
+    AVG(Age) as avg_age,
+    AVG(Reputation) as avg_reputation,
+    SUM(Age * Reputation) as sum_age_reputation,
+    SUM(Age * Age) as sum_age_age,
+    SUM(Reputation * Reputation) as sum_reputation_reputation
+FROM
+    users
+WHERE
+    Age IS NOT NULL AND Reputation IS NOT NULL
+"""
+
+stats = query(stats_query)
+
+# Extract the aggregated values from the DataFrame
+n = stats["n"].iloc[0]
+avg_age = stats["avg_age"].iloc[0]
+avg_reputation = stats["avg_reputation"].iloc[0]
+sum_age_reputation = stats["sum_age_reputation"].iloc[0]
+sum_age_age = stats["sum_age_age"].iloc[0]
+sum_reputation_reputation = stats["sum_reputation_reputation"].iloc[0]
+
+# Calculate the Pearson correlation coefficient
+numerator = sum_age_reputation - n * avg_age * avg_reputation
+denominator = np.sqrt(
+    (sum_age_age - n * avg_age**2) * (sum_reputation_reputation - n * avg_reputation**2)
+)
+
+if denominator != 0:
+    pearson_correlation = numerator / denominator
+else:
+    pearson_correlation = np.nan  # Handle division by zero if it occurs
+
+print(f"Pearson correlation coefficient: {pearson_correlation}")
+
+That's a correlation of ~1.7% -- which tells us that age and reputation are not really linked.
+
+
+
+# How many views increase reputation by 1 point?
+
+Let's assume that views drive reputation. (That need not be true. Maybe reputation drives views.)
+
+If so, how many views increase reputation by 1 point?
+
+I asked ChatGPT this question:
+
+```text
+I have a Python function `query(sql)` that returns the results of the SQL as a Pandas DataFrame.
+
+Given a table `users` with columns `Views` and `Reputation`, write Python code to calculate the regression slope of Reputation vs Views.
+
+Don't do the calculation in Pandas. The data might be too large. Fetch only the aggregated numbers (like sum of squares) from the database and then calculate the result. Drop any NULL values.
+```
+
+# SQL query to fetch the required aggregated numbers
+sql = """
+SELECT
+    COUNT(*) AS n,
+    SUM(Views) AS sum_views,
+    SUM(Reputation) AS sum_reputation,
+    SUM(Views * Reputation) AS sum_views_reputation,
+    SUM(Views * Views) AS sum_views_squared
+FROM users
+WHERE Views IS NOT NULL AND Reputation IS NOT NULL
+"""
+
+# Execute the query and get the result
+result = query(sql)
+
+# Extract values from the result
+n = result["n"][0]
+sum_views = result["sum_views"][0]
+sum_reputation = result["sum_reputation"][0]
+sum_views_reputation = result["sum_views_reputation"][0]
+sum_views_squared = result["sum_views_squared"][0]
+
+# Calculate the regression slope (beta_1)
+numerator = n * sum_views_reputation - sum_views * sum_reputation
+denominator = n * sum_views_squared - sum_views**2
+
+if denominator != 0:
+    beta_1 = numerator / denominator
+else:
+    beta_1 = np.nan
+
+print(f"The regression slope (beta_1) is: {beta_1}")
+
+This implies that an increase of 1 view increases reputation by 4.6 points.
+
+But that's crazy!! One view and the reputation increases by 4.6 points?? Let's check the data.
+
+reputation = query("SELECT Views, Reputation FROM users")
+reputation
+
+reputation.mean()
+
+OK, so maybe this is right. The reputation values are much higher than the views. Maybe the views mean something different than wha I thought.
+
+## Lessons
+
+- [Pandas](https://pandas.pydata.org/) and [SQLAlchemy](https://docs.sqlalchemy.org/) are a simple way of querying databases.
+- **SQL is a ANALYTICS tool too**. No need to fetch all the data to Python.
+- **Ask ChatGPT**. It can help you with SQL queries too.
+
+## What else should you know for exams?
+
+[SQLite](https://sqlite.org/) is a database-in-a-file. If you get a SQLite database file (e.g. `data.db`), you can connect to it using the SQLAlchemy string:
+
+```python
+# Assume data.db is in the current directory and has a table named "tablename"
+engine = sa.create_engine("sqlite:///data.db/tablename")
+```
+

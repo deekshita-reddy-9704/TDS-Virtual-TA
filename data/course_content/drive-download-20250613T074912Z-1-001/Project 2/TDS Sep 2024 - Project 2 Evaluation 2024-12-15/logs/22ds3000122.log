@@ -1,0 +1,24 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Raksha120799/tds-proj-2.git', '/root/.local/share/tds-sep-24-project-2/22ds3000122']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22ds3000122/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22ds3000122/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22ds3000122/autolysis.py", line 131, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22ds3000122/autolysis.py", line 91, in main
+    from google.colab import files
+ModuleNotFoundError: No module named 'google'
+
+
+------------------------------------------------------------------------
+

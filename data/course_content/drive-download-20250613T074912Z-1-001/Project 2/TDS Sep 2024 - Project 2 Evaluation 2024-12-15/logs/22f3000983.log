@@ -1,0 +1,17 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/madhavanrmiitm/tds-project2.git', '/root/.local/share/tds-sep-24-project-2/22f3000983']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000983/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis completed. Results saved in directories: ./goodreads
+
+
+
+
+------------------------------------------------------------------------
+

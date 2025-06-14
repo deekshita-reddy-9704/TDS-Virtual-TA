@@ -1,0 +1,23 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Vishu-Ahlawat/tds-project2.git', '/root/.local/share/tds-sep-24-project-2/23f1001747']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001747/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Saving plot to ./ratings_count_work_ratings_count_scatterplot.png
+Saving heatmap to ./correlation_heatmap.png
+Optimal number of clusters: 2
+Clustering plot saved to ./clustering_plot.png
+README.md created at ./README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001747/autolysis.py`
+Installed 38 packages in 99ms
+
+
+------------------------------------------------------------------------
+

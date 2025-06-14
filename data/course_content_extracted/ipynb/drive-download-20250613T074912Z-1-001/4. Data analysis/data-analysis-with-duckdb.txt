@@ -1,0 +1,126 @@
+# DuckDB workshop
+
+[Parquet](https://parquet.apache.org/) is a faster, more compact, and better typed storage format than CSV, Excel, JSON, or SQLite. Prefer it for data storage.
+
+[DuckDB](https://duckdb.org/) is faster than databases and as portable as SQLite. Prefer it for local large data analysis.
+
+!pip install duckdb pandas sqlalchemy sqlite3
+
+# If this doesn't work, you can download the file manually from the link below
+!curl https://github.com/plotly/datasets/raw/master/2015_flights.parquet --output 2015_flights.parquet --location --continue-at - --silent
+
+# Take a look at the first few rows of the dataset
+import pandas as pd
+
+df = pd.read_parquet('2015_flights.parquet')
+df.head()
+
+## Parquet is faster and smaller
+
+Let's save this in a few other formats and look at their speed and sizes
+
+%timeit -n 1 -r 1 df.to_csv('2015_flights.csv', index=False)
+
+%timeit -n 1 -r 1 df.to_json('2015_flights.json', orient='records')
+
+%timeit -n 1 -r 1 df.to_sql('2015_flights', 'sqlite:///2015_flights.db', index=False, if_exists='replace')
+
+%timeit -n 1 -r 1 df.to_parquet('2015_flights.saved.parquet')
+
+# If this command doesn't work, just look at the file size in this directory
+!ls -la 2015_flights.*
+
+# DuckDB is faster and takes less memory than Pandas
+
+This is because:
+
+1. DuckDB uses **parallel processing**. Pandas cannot.
+2. DuckDB uses **columnar storage**, which is efficient for analysis. Pandas uses row-based storage.
+3. DuckDB uses **on-disk operations**. Pandas loads everything into memory.
+
+Let's calculate the number of unique routes that were delayed by 1 hour, 2 hours, etc.
+
+This is a hard problem because
+
+1. There are several delay buckets (1, 2, 3, .. 1988)
+2. Unique count is a slow operation
+
+# This is the result we want to achieve
+delays = df.groupby('DEPARTURE_DELAY')['DISTANCE'].nunique()
+delays[delays.index > 0]
+
+# This takes ~5 seconds in Pandas
+%timeit df.groupby('DEPARTURE_DELAY')['DISTANCE'].nunique()
+
+# Let's do the same thing with DuckDB
+import duckdb
+
+delays = duckdb.query('''SELECT DEPARTURE_DELAY, COUNT(DISTINCT DISTANCE) FROM "2015_flights.parquet" GROUP BY DEPARTURE_DELAY ORDER BY DEPARTURE_DELAY''').df()
+delays[delays['DEPARTURE_DELAY'] > 0]
+
+# This takes under 200ms in DuckDB
+%timeit duckdb.sql('''SELECT DEPARTURE_DELAY, COUNT(DISTINCT DISTANCE) FROM "2015_flights.parquet" GROUP BY DEPARTURE_DELAY ORDER BY DEPARTURE_DELAY''').df()
+
+The entire process runs on disk, not in memory.
+
+conn = duckdb.connect(database=':memory:', read_only=False)
+delays = conn.execute('SELECT DEPARTURE_DELAY, COUNT(DISTINCT DISTANCE) FROM "2015_flights.parquet" GROUP BY DEPARTURE_DELAY ORDER BY DEPARTURE_DELAY').df()
+print(conn.execute("PRAGMA database_size").fetchall())
+
+# You can mix it up with Pandas
+
+DuckDB can also directly query Pandas DataFrames. You can use it as a replacement for any specific slow Pandas operation.
+
+df = pd.read_parquet('2015_flights.parquet')
+delays = duckdb.sql('SELECT DEPARTURE_DELAY, COUNT(DISTINCT DISTANCE) FROM df GROUP BY DEPARTURE_DELAY ORDER BY DEPARTURE_DELAY').df()
+
+# This takes ~25ms -- 20x faster than Pandas
+%timeit delays = duckdb.sql('''SELECT DEPARTURE_DELAY, COUNT(DISTINCT DISTANCE) FROM df GROUP BY DEPARTURE_DELAY ORDER BY DEPARTURE_DELAY''').df()
+
+# You can interleave Pandas and DuckDB operations
+
+# Step 1: Segment Flights into Short, Medium, Long
+distance_segmented_delays = duckdb.query("""
+SELECT
+  CASE
+    WHEN DISTANCE < 1000 THEN 'Short'
+    WHEN DISTANCE >= 1000 AND DISTANCE < 2000 THEN 'Medium'
+    ELSE 'Long'
+  END AS Distance_Category,
+  DEPARTURE_DELAY,
+  ARRIVAL_DELAY
+FROM df
+""").to_df()
+
+# Step 2: Correlate between Departure and Arrival Delays
+correlations = (
+    distance_segmented_delays.groupby('Distance_Category')
+    .apply(lambda x: x[['DEPARTURE_DELAY', 'ARRIVAL_DELAY']].corr().iloc[0, 1])
+    .reset_index(name='Correlation')
+)
+
+# Step 3: Calculate Average Correlation
+duckdb.query("SELECT AVG(Correlation) AS Avg_Correlation FROM correlations").to_df()
+
+# Exercise
+
+Write the following queries in both Pandas as well as DuckDB. Note the performance of both.
+
+**Exercise 1**: Rank the `ARRIVAL_DELAY` for each `DISTANCE`. (Prioritize rows with lower `DEPARTURE_DELAY` in case of ties.) Get rows with rank 1. (You should get ~13xx rows)
+
+**Exercise 2**: (This is independent of Exercise 1.) Run the code below to create `cost.parquet`. This shows the cost of each arrival delay or departure delay. Calculate the total cost of delays in `2015_flights.parquet` (You should get ~600 mn)
+
+# Code to create `cost.parquet`
+
+import numpy as np
+
+np.random.seed(0)
+arrival_delays, departure_delays = df['ARRIVAL_DELAY'].unique(), df['DEPARTURE_DELAY'].unique()
+cost = pd.DataFrame({
+  'type': ['ARRIVAL_DELAY'] * len(arrival_delays) + ['DEPARTURE_DELAY'] * len(departure_delays),
+  'delay': np.concatenate([arrival_delays, departure_delays]),
+  'cost': np.random.randint(0, 100, len(arrival_delays) + len(departure_delays))
+})
+cost.to_parquet('cost.parquet')
+cost
+

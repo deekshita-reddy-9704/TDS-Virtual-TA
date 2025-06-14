@@ -1,0 +1,31 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/tuxdna/llm-auto-describe.git', '/root/.local/share/tds-sep-24-project-2/21f1005280']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1005280/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+['/root/.local/share/tds-sep-24-project-2/21f1005280/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+Loading file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+{'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1005280/autolysis.py`
+Installed 23 packages in 86ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f1005280/autolysis.py", line 244, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/21f1005280/autolysis.py", line 181, in main
+    description_response = execute_prompt(description_prompt, api_key=api_key)
+  File "/root/.local/share/tds-sep-24-project-2/21f1005280/autolysis.py", line 116, in execute_prompt
+    return resp_json["choices"][0]["message"]["content"]
+           ~~~~~~~~~^^^^^^^^^^^
+KeyError: 'choices'
+
+
+------------------------------------------------------------------------
+

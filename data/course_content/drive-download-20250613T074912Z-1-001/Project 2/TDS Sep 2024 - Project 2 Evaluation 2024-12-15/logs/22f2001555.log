@@ -1,0 +1,32 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/SnehaKukrety/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/22f2001555']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2001555/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Error during AI call: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Error during AI call: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+README generated successfully at: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2001555/autolysis.py`
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2001555/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+README generated successfully at: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2001555/autolysis.py`
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/KanishkarIITM/Project2.git', '/root/.local/share/tds-sep-24-project-2/21f3001666']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3001666/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+error: TOML parse error at line 8, column 13
+  |
+8 |   "dotenv",
+  |             ^
+invalid array
+expected `]`
+
+
+------------------------------------------------------------------------
+

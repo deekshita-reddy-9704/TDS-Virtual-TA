@@ -1,0 +1,67 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/gyanesh-iitmiimb/project2_tds_iit.git', '/root/.local/share/tds-sep-24-project-2/22f3000545']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py`
+Installed 41 packages in 277ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 751, in <module>
+    md.write_report_md()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 720, in write_report_md
+    f.write(self.brief_data_description() + '\n \n')
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 602, in brief_data_description
+    self.data_desc = self.chat_completion(context="Briefly describe the data in this report. Be precise in 2-3 sentences. Give a generalised answer the data passed is just an example subset"
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                        f"be generic in your answer, as data contains {len(self.df)} rows",
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                content=f"{self.df.head(1)}")
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 584, in chat_completion
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/JHX7yBiMk53ImgVr1Wh-v/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 751, in <module>
+    md.write_report_md()
+    ~~~~~~~~~~~~~~~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 720, in write_report_md
+    f.write(self.brief_data_description() + '\n \n')
+            ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 602, in brief_data_description
+    self.data_desc = self.chat_completion(context="Briefly describe the data in this report. Be precise in 2-3 sentences. Give a generalised answer the data passed is just an example subset"
+                     ~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                        f"be generic in your answer, as data contains {len(self.df)} rows",
+                                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                                content=f"{self.df.head(1)}")
+                                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000545/autolysis.py", line 584, in chat_completion
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/JHX7yBiMk53ImgVr1Wh-v/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+------------------------------------------------------------------------
+

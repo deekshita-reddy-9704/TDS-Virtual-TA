@@ -1,0 +1,283 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/subhash2IIT/tds-project2-analyser.git', '/root/.local/share/tds-sep-24-project-2/21f1005006']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+detected encoding :  utf-8
+Detected delimiter: ,
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+Sample Data Sent to GPT:
+[{'book_id': 1, 'goodreads_book_id': 2767052, 'best_book_id': 2767052, 'work_id': 2792775, 'books_count': 272, 'isbn': '439023483', 'isbn13': 9780439023480.0, 'authors': 'Suzanne Collins', 'original_publication_year': 2008.0, 'original_title': 'The Hunger Games', 'title': 'The Hunger Games (The Hunger Games, #1)', 'language_code': 'eng', 'average_rating': 4.34, 'ratings_count': 4780653, 'work_ratings_count': 4942365, 'work_text_reviews_count': 155254, 'ratings_1': 66715, 'ratings_2': 127936, 'ratings_3': 560092, 'ratings_4': 1481305, 'ratings_5': 2706317, 'image_url': 'https://images.gr-assets.com/books/1447303603m/2767052.jpg', 'small_image_url': 'https://images.gr-assets.com/books/1447303603s/2767052.jpg'}, {'book_id': 2, 'goodreads_book_id': 3, 'best_book_id': 3, 'work_id': 4640799, 'books_count': 491, 'isbn': '439554934', 'isbn13': 9780439554930.0, 'authors': 'J.K. Rowling, Mary GrandPré', 'original_publication_year': 1997.0, 'original_title': "Harry Potter and the Philosopher's Stone", 'title': "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)", 'language_code': 'eng', 'average_rating': 4.44, 'ratings_count': 4602479, 'work_ratings_count': 4800065, 'work_text_reviews_count': 75867, 'ratings_1': 75504, 'ratings_2': 101676, 'ratings_3': 455024, 'ratings_4': 1156318, 'ratings_5': 3011543, 'image_url': 'https://images.gr-assets.com/books/1474154022m/3.jpg', 'small_image_url': 'https://images.gr-assets.com/books/1474154022s/3.jpg'}, {'book_id': 3, 'goodreads_book_id': 41865, 'best_book_id': 41865, 'work_id': 3212258, 'books_count': 226, 'isbn': '316015849', 'isbn13': 9780316015840.0, 'authors': 'Stephenie Meyer', 'original_publication_year': 2005.0, 'original_title': 'Twilight', 'title': 'Twilight (Twilight, #1)', 'language_code': 'en-US', 'average_rating': 3.57, 'ratings_count': 3866839, 'work_ratings_count': 3916824, 'work_text_reviews_count': 95009, 'ratings_1': 456191, 'ratings_2': 436802, 'ratings_3': 793319, 'ratings_4': 875073, 'ratings_5': 1355439, 'image_url': 'https://images.gr-assets.com/books/1361039443m/41865.jpg', 'small_image_url': 'https://images.gr-assets.com/books/1361039443s/41865.jpg'}]
+Error: 429, {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Image location
+Error: 429, {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Summary here
+ There is no summar for now its on the way
+location of images
+[]
+get working dir
+/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv
+README.md updated successfully at /root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/Readme.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py`
+Installed 27 packages in 194ms
+/root/.cache/uv/archive-v0/W7fhjqQpcJKfX4uppMVTu/lib/python3.13/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'aiproxy.sanand.workers.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+/root/.cache/uv/archive-v0/W7fhjqQpcJKfX4uppMVTu/lib/python3.13/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'aiproxy.sanand.workers.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+detected encoding :  utf-8
+Detected delimiter: ,
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+Sample Data Sent to GPT:
+[{'book_id': 1, 'goodreads_book_id': 2767052, 'best_book_id': 2767052, 'work_id': 2792775, 'books_count': 272, 'isbn': '439023483', 'isbn13': 9780439023480.0, 'authors': 'Suzanne Collins', 'original_publication_year': 2008.0, 'original_title': 'The Hunger Games', 'title': 'The Hunger Games (The Hunger Games, #1)', 'language_code': 'eng', 'average_rating': 4.34, 'ratings_count': 4780653, 'work_ratings_count': 4942365, 'work_text_reviews_count': 155254, 'ratings_1': 66715, 'ratings_2': 127936, 'ratings_3': 560092, 'ratings_4': 1481305, 'ratings_5': 2706317, 'image_url': 'https://images.gr-assets.com/books/1447303603m/2767052.jpg', 'small_image_url': 'https://images.gr-assets.com/books/1447303603s/2767052.jpg'}, {'book_id': 2, 'goodreads_book_id': 3, 'best_book_id': 3, 'work_id': 4640799, 'books_count': 491, 'isbn': '439554934', 'isbn13': 9780439554930.0, 'authors': 'J.K. Rowling, Mary GrandPré', 'original_publication_year': 1997.0, 'original_title': "Harry Potter and the Philosopher's Stone", 'title': "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)", 'language_code': 'eng', 'average_rating': 4.44, 'ratings_count': 4602479, 'work_ratings_count': 4800065, 'work_text_reviews_count': 75867, 'ratings_1': 75504, 'ratings_2': 101676, 'ratings_3': 455024, 'ratings_4': 1156318, 'ratings_5': 3011543, 'image_url': 'https://images.gr-assets.com/books/1474154022m/3.jpg', 'small_image_url': 'https://images.gr-assets.com/books/1474154022s/3.jpg'}, {'book_id': 3, 'goodreads_book_id': 41865, 'best_book_id': 41865, 'work_id': 3212258, 'books_count': 226, 'isbn': '316015849', 'isbn13': 9780316015840.0, 'authors': 'Stephenie Meyer', 'original_publication_year': 2005.0, 'original_title': 'Twilight', 'title': 'Twilight (Twilight, #1)', 'language_code': 'en-US', 'average_rating': 3.57, 'ratings_count': 3866839, 'work_ratings_count': 3916824, 'work_text_reviews_count': 95009, 'ratings_1': 456191, 'ratings_2': 436802, 'ratings_3': 793319, 'ratings_4': 875073, 'ratings_5': 1355439, 'image_url': 'https://images.gr-assets.com/books/1361039443m/41865.jpg', 'small_image_url': 'https://images.gr-assets.com/books/1361039443s/41865.jpg'}]
+GPT Response:
+### 1. Pearson Correlation Heatmap
+**Relevant Columns:**
+- `average_rating`
+- `ratings_count`
+- `work_ratings_count`
+- `work_text_reviews_count`
+- `ratings_1`
+- `ratings_2`
+- `ratings_3`
+- `ratings_4`
+- `ratings_5`
+
+**Reason:** These columns are suitable for a Pearson correlation heatmap as they are all numerical and can be used to assess the linear relationships between different variables related to book ratings and reviews. Correlation values can provide insights into how these factors relate to each other; for example, one might expect a positive correlation between `average_rating` and `work_ratings_count`, suggesting that more ratings lead to a more reliable average rating.
+
+### 2. Boxplot
+**Relevant Columns:**
+- `average_rating`
+- `authors`
+
+**Reason:** A boxplot is effective for visualizing the distribution of `average_rating` across different `authors`. This visualization can reveal differences in rating distributions between authors, showing metrics such as median ratings, interquartile ranges, and potential outliers, highlighting how different authors are perceived by readers.
+
+### 3. Pairplot
+**Relevant Columns:**
+- `average_rating`
+- `ratings_count`
+- `work_ratings_count`
+- `work_text_reviews_count`
+- `ratings_1`
+- `ratings_2`
+- `ratings_3`
+- `ratings_4`
+- `ratings_5`
+
+**Reason:** A pairplot allows for pairwise comparisons between all specified numerical columns, enabling the exploration of possible relationships and distributions in the dataset. This is particularly useful in identifying correlations, trends, and potential clusters within the different metrics related to book ratings and reviews, helping uncover deeper insights into how these variables interact.
+
+### 4. Histogram
+**Relevant Columns:**
+- `average_rating`
+- `ratings_count`
+- `work_ratings_count`
+- `work_text_reviews_count`
+- `books_count`
+- `original_publication_year`
+
+**Reason:** Histograms are useful for visualizing the distributions of numerical data points across intervals or bins. By plotting histograms for the provided columns, one can analyze aspects such as the distribution of average ratings among books or the frequency of ratings counts. This helps understand the spread of ratings, the popularity of books over publication years, and overall trends in book ratings and readership, which can inform discussions about reading preferences and market dynamics.
+linesparsing debugging
+['### 1. Pearson Correlation Heatmap', '**Relevant Columns:**', '- `average_rating`', '- `ratings_count`', '- `work_ratings_count`', '- `work_text_reviews_count`', '- `ratings_1`', '- `ratings_2`', '- `ratings_3`', '- `ratings_4`', '- `ratings_5`', '', '**Reason:** These columns are suitable for a Pearson correlation heatmap as they are all numerical and can be used to assess the linear relationships between different variables related to book ratings and reviews. Correlation values can provide insights into how these factors relate to each other; for example, one might expect a positive correlation between `average_rating` and `work_ratings_count`, suggesting that more ratings lead to a more reliable average rating.', '', '### 2. Boxplot', '**Relevant Columns:**', '- `average_rating`', '- `authors`', '', '**Reason:** A boxplot is effective for visualizing the distribution of `average_rating` across different `authors`. This visualization can reveal differences in rating distributions between authors, showing metrics such as median ratings, interquartile ranges, and potential outliers, highlighting how different authors are perceived by readers.', '', '### 3. Pairplot', '**Relevant Columns:**', '- `average_rating`', '- `ratings_count`', '- `work_ratings_count`', '- `work_text_reviews_count`', '- `ratings_1`', '- `ratings_2`', '- `ratings_3`', '- `ratings_4`', '- `ratings_5`', '', '**Reason:** A pairplot allows for pairwise comparisons between all specified numerical columns, enabling the exploration of possible relationships and distributions in the dataset. This is particularly useful in identifying correlations, trends, and potential clusters within the different metrics related to book ratings and reviews, helping uncover deeper insights into how these variables interact.', '', '### 4. Histogram', '**Relevant Columns:**', '- `average_rating`', '- `ratings_count`', '- `work_ratings_count`', '- `work_text_reviews_count`', '- `books_count`', '- `original_publication_year`', '', '**Reason:** Histograms are useful for visualizing the distributions of numerical data points across intervals or bins. By plotting histograms for the provided columns, one can analyze aspects such as the distribution of average ratings among books or the frequency of ratings counts. This helps understand the spread of ratings, the popularity of books over publication years, and overall trends in book ratings and readership, which can inform discussions about reading preferences and market dynamics.']
+{'Pearson_correlation': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5'], 'Boxplot': ['average_rating', 'authors'], 'Pairplot': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5'], 'Histogram': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'books_count', 'original_publication_year']}
+/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv
+/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/correlation_heatmap.png
+post cleaning
+{'Pearson_correlation': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5'], 'Boxplot': ['average_rating', 'authors'], 'Pairplot': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5'], 'Histogram': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'books_count', 'original_publication_year']}
+Visualizations saved in './file_path'
+Image location
+Business-Oriented Dataset Summary:
+## Dataset Summary for Business Analysis
+
+### Key Trends
+1. **Diversity in Authors**: The dataset includes a wide range of authors, with the top five accounting for a significant number of books. Notably, Stephen King leads with 60 books, indicating his prolific presence. This trend suggests a potential market focus on popular authors, which may drive sales and marketing strategies.
+   
+2. **Publication Year Distribution**: The average publication year is around 1982, with a median of 2004. This indicates that while some classic titles exist, newer publications are also prominent, suggesting opportunities for targeting both nostalgic readers and current trends.
+
+3. **Ratings and Reviews**: The average rating across the dataset is approximately 4.00, which is relatively high, indicating a generally favorable reception of the books. The ratings count ranges widely, with some books receiving as many as 4.78 million ratings, highlighting significant reader engagement.
+
+### Significant Patterns and Outliers
+1. **Outliers in Ratings**: Some books, such as the one with 4,780,653 ratings, significantly skew the distribution of ratings count. Such outliers can represent bestsellers or books that have gone viral, which could inform marketing and acquisition strategies for boosting visibility and sales.
+
+2. **High Standard Deviations**: The standard deviation in ratings counts (over 150,000) indicates substantial variability, suggesting that while many books have moderate engagement, a few dominate in popularity. Understanding the factors behind high engagement could lead to better marketing and content strategies.
+
+### Dominant Categories
+1. **ISBNs and Authors**: With unique values for ISBN codes slightly lower than total records, it appears many books lack a unique identifier, which can complicate inventory and sales tracking. Furthermore, the author category shows concentration with a few key names rising above others, suggesting a potential market dynamic where certain authors can drive significantly higher sales volumes.
+
+2. **Language Code**: The dataset shows a dominance of English as the primary language, implying a need for localized marketing strategies if the business seeks to expand into other language markets. The presence of authors in both English and translated works presents opportunities for international growth.
+
+### Missing Data Issues
+1. **ISBN and Original Title**: There are 700 missing ISBN values and 585 missing original titles. This can pose challenges in cataloging books or analyzing market trends based on book identifiers. Stakeholders may need to implement stricter data entry protocols or consider data enhancement strategies to fill these gaps.
+
+2. **Language Codes**: With 1,084 missing language codes, this may affect targeted marketing and customer segmentation, as understanding the language preference of the reader base is crucial for marketing efforts. Some analysis may need to account for these gaps.
+
+### Additional Insights
+1. **Trends in Ratings**: The distribution of ratings (ratings_1 to ratings_5) suggests that while there is some engagement at lower scores, there’s also significant positive feedback at higher ratings. This can guide marketing strategies to promote highly-rated titles more prominently.
+
+2. **Visual Engagement**: The dataset shows a high incidence of a specific "no photo" placeholder for images, pointing towards potential issues with visual representation in the catalog. Investing in quality images or graphic design could enhance marketing efforts and customer engagement.
+
+3. **Collection Size Variances**: Books_count indicates a wide range of collection sizes, with a max of 3,455 books. This variability suggests that businesses may wish to curate collections strategically, focusing on high-demand genres or popular authors that can maximize sales potential.
+
+### Conclusion
+Overall, this dataset provides valuable insights into reader preferences, trends in author popularity, and the dynamics of book ratings. Addressing the gaps in missing data and leveraging trends can inform strategic decisions that optimize marketing efforts, improve sales performance, and guide acquisitions to enhance the overall catalog. Stakeholders should emphasize popular authors, analyze engagement with high-rated books, and strategize to enhance visibility for titles currently overshadowed by outliers.
+Summary here
+## Dataset Summary for Business Analysis
+
+### Key Trends
+1. **Diversity in Authors**: The dataset includes a wide range of authors, with the top five accounting for a significant number of books. Notably, Stephen King leads with 60 books, indicating his prolific presence. This trend suggests a potential market focus on popular authors, which may drive sales and marketing strategies.
+   
+2. **Publication Year Distribution**: The average publication year is around 1982, with a median of 2004. This indicates that while some classic titles exist, newer publications are also prominent, suggesting opportunities for targeting both nostalgic readers and current trends.
+
+3. **Ratings and Reviews**: The average rating across the dataset is approximately 4.00, which is relatively high, indicating a generally favorable reception of the books. The ratings count ranges widely, with some books receiving as many as 4.78 million ratings, highlighting significant reader engagement.
+
+### Significant Patterns and Outliers
+1. **Outliers in Ratings**: Some books, such as the one with 4,780,653 ratings, significantly skew the distribution of ratings count. Such outliers can represent bestsellers or books that have gone viral, which could inform marketing and acquisition strategies for boosting visibility and sales.
+
+2. **High Standard Deviations**: The standard deviation in ratings counts (over 150,000) indicates substantial variability, suggesting that while many books have moderate engagement, a few dominate in popularity. Understanding the factors behind high engagement could lead to better marketing and content strategies.
+
+### Dominant Categories
+1. **ISBNs and Authors**: With unique values for ISBN codes slightly lower than total records, it appears many books lack a unique identifier, which can complicate inventory and sales tracking. Furthermore, the author category shows concentration with a few key names rising above others, suggesting a potential market dynamic where certain authors can drive significantly higher sales volumes.
+
+2. **Language Code**: The dataset shows a dominance of English as the primary language, implying a need for localized marketing strategies if the business seeks to expand into other language markets. The presence of authors in both English and translated works presents opportunities for international growth.
+
+### Missing Data Issues
+1. **ISBN and Original Title**: There are 700 missing ISBN values and 585 missing original titles. This can pose challenges in cataloging books or analyzing market trends based on book identifiers. Stakeholders may need to implement stricter data entry protocols or consider data enhancement strategies to fill these gaps.
+
+2. **Language Codes**: With 1,084 missing language codes, this may affect targeted marketing and customer segmentation, as understanding the language preference of the reader base is crucial for marketing efforts. Some analysis may need to account for these gaps.
+
+### Additional Insights
+1. **Trends in Ratings**: The distribution of ratings (ratings_1 to ratings_5) suggests that while there is some engagement at lower scores, there’s also significant positive feedback at higher ratings. This can guide marketing strategies to promote highly-rated titles more prominently.
+
+2. **Visual Engagement**: The dataset shows a high incidence of a specific "no photo" placeholder for images, pointing towards potential issues with visual representation in the catalog. Investing in quality images or graphic design could enhance marketing efforts and customer engagement.
+
+3. **Collection Size Variances**: Books_count indicates a wide range of collection sizes, with a max of 3,455 books. This variability suggests that businesses may wish to curate collections strategically, focusing on high-demand genres or popular authors that can maximize sales potential.
+
+### Conclusion
+Overall, this dataset provides valuable insights into reader preferences, trends in author popularity, and the dynamics of book ratings. Addressing the gaps in missing data and leveraging trends can inform strategic decisions that optimize marketing efforts, improve sales performance, and guide acquisitions to enhance the overall catalog. Stakeholders should emphasize popular authors, analyze engagement with high-rated books, and strategize to enhance visibility for titles currently overshadowed by outliers.
+location of images
+['/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/correlation_heatmap.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/boxplot_outliers.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/pairplot.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/histogram_average_rating.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/histogram_ratings_count.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/histogram_work_ratings_count.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/histogram_work_text_reviews_count.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/histogram_books_count.png', '/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/histogram_original_publication_year.png']
+get working dir
+/root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv
+README.md updated successfully at /root/.local/share/tds-sep-24-project-2/eval/21f1005006/goodreads.csv/Readme.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py`
+/root/.cache/uv/archive-v0/W7fhjqQpcJKfX4uppMVTu/lib/python3.13/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'aiproxy.sanand.workers.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 26449 (\N{CJK UNIFIED IDEOGRAPH-6751}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 26149 (\N{CJK UNIFIED IDEOGRAPH-6625}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 27193 (\N{CJK UNIFIED IDEOGRAPH-6A39}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 27494 (\N{CJK UNIFIED IDEOGRAPH-6B66}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 20869 (\N{CJK UNIFIED IDEOGRAPH-5185}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 23376 (\N{CJK UNIFIED IDEOGRAPH-5B50}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 26395 (\N{CJK UNIFIED IDEOGRAPH-671B}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 28147 (\N{CJK UNIFIED IDEOGRAPH-6DF3}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 30707 (\N{CJK UNIFIED IDEOGRAPH-77F3}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 30000 (\N{CJK UNIFIED IDEOGRAPH-7530}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12473 (\N{KATAKANA LETTER SU}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12452 (\N{KATAKANA LETTER I}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 20904 (\N{CJK UNIFIED IDEOGRAPH-51A8}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 27179 (\N{CJK UNIFIED IDEOGRAPH-6A2B}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 32681 (\N{CJK UNIFIED IDEOGRAPH-7FA9}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 21338 (\N{CJK UNIFIED IDEOGRAPH-535A}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 49888 (\N{HANGUL SYLLABLE SIN}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 44221 (\N{HANGUL SYLLABLE GYEONG}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 49689 (\N{HANGUL SYLLABLE SUG}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 31070 (\N{CJK UNIFIED IDEOGRAPH-795E}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 23614 (\N{CJK UNIFIED IDEOGRAPH-5C3E}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 33865 (\N{CJK UNIFIED IDEOGRAPH-8449}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 27147 (\N{CJK UNIFIED IDEOGRAPH-6A0B}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 21475 (\N{CJK UNIFIED IDEOGRAPH-53E3}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 27224 (\N{CJK UNIFIED IDEOGRAPH-6A58}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 26716 (\N{CJK UNIFIED IDEOGRAPH-685C}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 22338 (\N{CJK UNIFIED IDEOGRAPH-5742}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 27915 (\N{CJK UNIFIED IDEOGRAPH-6D0B}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12354 (\N{HIRAGANA LETTER A}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12378 (\N{HIRAGANA LETTER ZU}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12414 (\N{HIRAGANA LETTER MA}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12365 (\N{HIRAGANA LETTER KI}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12424 (\N{HIRAGANA LETTER YO}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12402 (\N{HIRAGANA LETTER HI}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12371 (\N{HIRAGANA LETTER KO}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12513 (\N{KATAKANA LETTER ME}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.local/share/tds-sep-24-project-2/21f1005006/autolysis.py:134: UserWarning: Glyph 12459 (\N{KATAKANA LETTER KA}) missing from font(s) DejaVu Sans.
+  plt.savefig(os.path.join(output_dir, "boxplot_outliers.png"))
+/root/.cache/uv/archive-v0/W7fhjqQpcJKfX4uppMVTu/lib/python3.13/site-packages/urllib3/connectionpool.py:1099: InsecureRequestWarning: Unverified HTTPS request is being made to host 'aiproxy.sanand.workers.dev'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#tls-warnings
+  warnings.warn(
+
+
+------------------------------------------------------------------------
+

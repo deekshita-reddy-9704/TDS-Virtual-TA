@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/querulous-virgo/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/22f3000813']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000813/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+/root/.local/share/tds-sep-24-project-2/datasets/goodreads
+Analyzing /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv...
+
+README generated successfully.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3000813/autolysis.py`
+Installed 28 packages in 131ms
+
+
+------------------------------------------------------------------------
+

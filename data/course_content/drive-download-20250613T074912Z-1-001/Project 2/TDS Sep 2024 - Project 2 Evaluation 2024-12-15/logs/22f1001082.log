@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/GIT1001082/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/22f1001082']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001082/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+File '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv' already exists in the folder.
+Folder '/root/.local/share/tds-sep-24-project-2/datasets/goodreads' already exists.
+README.md created successfully.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1001082/autolysis.py`
+Installed 22 packages in 72ms
+
+
+------------------------------------------------------------------------
+

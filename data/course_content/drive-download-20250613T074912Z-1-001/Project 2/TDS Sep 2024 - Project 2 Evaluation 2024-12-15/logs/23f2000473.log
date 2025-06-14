@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/PRAVINKUMAR99/TDS-PROJECT-2.git', '/root/.local/share/tds-sep-24-project-2/23f2000473']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2000473/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2000473/autolysis.py`
+Installed 35 packages in 95ms
+  File "/root/.local/share/tds-sep-24-project-2/23f2000473/autolysis.py", line 255
+    """Move a file only if it exists."""
+                                     ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 267)
+
+
+------------------------------------------------------------------------
+

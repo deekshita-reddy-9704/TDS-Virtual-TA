@@ -1,0 +1,29 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/raghavi-1401/TDS-proj2.git', '/root/.local/share/tds-sep-24-project-2/22f1000528']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000528/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset loaded successfully!
+First 5 rows of the dataset:
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+Analysis complete!
+- Summary written to README.md
+- Plots saved: book_id_distribution.png, goodreads_book_id_distribution.png, best_book_id_distribution.png, work_id_distribution.png, books_count_distribution.png, isbn13_distribution.png, original_publication_year_distribution.png, average_rating_distribution.png, ratings_count_distribution.png, work_ratings_count_distribution.png, work_text_reviews_count_distribution.png, ratings_1_distribution.png, ratings_2_distribution.png, ratings_3_distribution.png, ratings_4_distribution.png, ratings_5_distribution.png
+
+
+
+
+------------------------------------------------------------------------
+

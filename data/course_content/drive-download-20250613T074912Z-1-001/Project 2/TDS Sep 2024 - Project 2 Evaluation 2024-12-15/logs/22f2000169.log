@@ -1,0 +1,27 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/ArnoldMathew1998/TDS-project2.git', '/root/.local/share/tds-sep-24-project-2/22f2000169']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000169/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Starting autolysis process...
+Detected file encoding: utf-8
+Dataset loaded successfully.
+Analyzing data...
+Data analysis complete.
+Generating visualizations...
+Charts created: ['/root/.local/share/tds-sep-24-project-2/datasets/goodreads/book_id_distribution.png', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads/goodreads_book_id_distribution.png', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads/best_book_id_distribution.png']
+Generating narrative...
+Narrative successfully written to /root/.local/share/tds-sep-24-project-2/datasets/goodreads/README.md.
+Autolysis process completed.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2000169/autolysis.py`
+
+
+------------------------------------------------------------------------
+

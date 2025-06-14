@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/rahulg-101/TDS-Project-2--Dataset-Analysis-Using-LLM.git', '/root/.local/share/tds-sep-24-project-2/22ds2000074']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22ds2000074/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+for basic info 0.0410618782043457
+For getting sample values 0.016950130462646484
+For outlier detection 0.024559497833251953
+Error in main function: No module named 'statsmodels'
+
+
+
+
+------------------------------------------------------------------------
+

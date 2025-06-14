@@ -1,0 +1,79 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'master', 'https://github.com/vaibhavgupta-iitm/Auto-Analysis.git', '/root/.local/share/tds-sep-24-project-2/21f2001529']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2001529/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+No cache file found. Initializing a new cache.
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f2001529/autolysis.py", line 339, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/21f2001529/autolysis.py", line 333, in main
+    generate_visualizations(df, args.filename)
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/21f2001529/autolysis.py", line 246, in generate_visualizations
+    columns_and_visualizations = ask_llm_for_columns_and_visualizations(df, filename)
+  File "/root/.local/share/tds-sep-24-project-2/21f2001529/autolysis.py", line 221, in ask_llm_for_columns_and_visualizations
+    raise RuntimeError(f"Error from LLM API: {response.status_code} {response.text}")
+RuntimeError: Error from LLM API: 429 {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2001529/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+No cache file found. Initializing a new cache.
+Cache saved successfully.
+Response cached.
+{
+    "columns": ["average_rating", "ratings_count", "work_ratings_count", "work_text_reviews_count", "ratings_1", "ratings_2", "ratings_3", "ratings_4", "ratings_5"],
+    "visualizations": [
+        "import pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_csv('your_dataset.csv')\n\ncorrelation_matrix = df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']].corr()\nsns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')\nplt.title('Correlation Matrix')\nplt.savefig('correlation_matrix.png')\nplt.close()",
+        "import matplotlib.pyplot as plt\nimport seaborn as sns\n\ndf = pd.read_csv('your_dataset.csv')\n\nplt.figure(figsize=(10, 6))\nsns.boxplot(data=df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count']])\nplt.title('Boxplot for Outliers')\nplt.savefig('boxplot_outliers.png')\nplt.close()"
+    ]
+}
+{'columns': ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5'], 'visualizations': ["import pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_csv('your_dataset.csv')\n\ncorrelation_matrix = df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']].corr()\nsns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')\nplt.title('Correlation Matrix')\nplt.savefig('correlation_matrix.png')\nplt.close()", "import matplotlib.pyplot as plt\nimport seaborn as sns\n\ndf = pd.read_csv('your_dataset.csv')\n\nplt.figure(figsize=(10, 6))\nsns.boxplot(data=df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count']])\nplt.title('Boxplot for Outliers')\nplt.savefig('boxplot_outliers.png')\nplt.close()"]}
+Key: columns, Value: ['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']
+Key: visualizations, Value: ["import pandas as pd\nimport seaborn as sns\nimport matplotlib.pyplot as plt\n\ndf = pd.read_csv('your_dataset.csv')\n\ncorrelation_matrix = df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']].corr()\nsns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')\nplt.title('Correlation Matrix')\nplt.savefig('correlation_matrix.png')\nplt.close()", "import matplotlib.pyplot as plt\nimport seaborn as sns\n\ndf = pd.read_csv('your_dataset.csv')\n\nplt.figure(figsize=(10, 6))\nsns.boxplot(data=df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count']])\nplt.title('Boxplot for Outliers')\nplt.savefig('boxplot_outliers.png')\nplt.close()"]
+Recommended columns for analysis: average_rating, ratings_count, work_ratings_count, work_text_reviews_count, ratings_1, ratings_2, ratings_3, ratings_4, ratings_5
+Executing visualization code: import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+df = pd.read_csv('/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv')
+
+correlation_matrix = df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']].corr()
+sns.heatmap(correlation_matrix, annot=True, cmap='coolwarm')
+plt.title('Correlation Matrix')
+plt.savefig('correlation_matrix.png')
+plt.close()
+Executing visualization code: import matplotlib.pyplot as plt
+import seaborn as sns
+
+df = pd.read_csv('/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv')
+
+plt.figure(figsize=(10, 6))
+sns.boxplot(data=df[['average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count']])
+plt.title('Boxplot for Outliers')
+plt.savefig('boxplot_outliers.png')
+plt.close()
+Uploading 2 PNG files.
+Cache saved successfully.
+Moved: README.md -> /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+Moved: boxplot_outliers.png -> /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+Moved: correlation_matrix.png -> /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+
+
+
+
+------------------------------------------------------------------------
+

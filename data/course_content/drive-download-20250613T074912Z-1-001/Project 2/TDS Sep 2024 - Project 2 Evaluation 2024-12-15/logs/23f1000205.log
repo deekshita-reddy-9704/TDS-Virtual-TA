@@ -1,0 +1,28 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/itznoor998/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/23f1000205']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1000205/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Dataset loaded successfully with 10000 rows and 23 columns.
+{
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f1000205/autolysis.py", line 258, in <module>
+    story = generate_story(data_analysis,data)
+  File "/root/.local/share/tds-sep-24-project-2/23f1000205/autolysis.py", line 224, in generate_story
+    raw_story =  response.json()['choices'][0]['message']['function_call']['arguments']
+                 ~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'choices'
+
+
+------------------------------------------------------------------------
+

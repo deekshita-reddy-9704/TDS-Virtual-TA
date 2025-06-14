@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f1000647/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1000647']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1000647/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+File loaded successfully
+{'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+Error: 'choices'
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1000647/autolysis.py`
+Installed 34 packages in 184ms
+
+
+------------------------------------------------------------------------
+

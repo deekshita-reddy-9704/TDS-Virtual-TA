@@ -1,0 +1,850 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/SravanVullanki/23f1001610-TDS_PROJECT_2.git', '/root/.local/share/tds-sep-24-project-2/23f1001610']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001610/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Starting autolysis process...
+Directory 'goodreads' created.
+Loading dataset...
+Detected file encoding: utf-8
+Dataset loaded successfully.
+Analyzing data...
+Data analysis complete.
+Generating visualizations...
+Saved correlation heatmap: goodreads/correlation_heatmap.png
+Saved pairplot: goodreads/pairplot_numeric_features.png
+Saved cluster scatter plot: goodreads/cluster_scatter_plot.png
+Generating narrative...
+HTTP error occurred: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+Narrative generation failed. Skipping README creation.
+Autolysis process completed.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001610/autolysis.py`
+Installed 28 packages in 108ms
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/tNfuldqD76QyVvD0_pQdU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: 
+The markers list has fewer values (2) than needed (3) and will cycle, which may produce an uninterpretable plot.
+  func(x=x, y=y, **kwargs)
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/kasturi190602/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/21f3002143']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3002143/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Loaded dataset with 10000 rows and 23 columns.
+Error during dynamic LLM interactions: module 'openai' has no attribute 'error'
+Failed to generate narrative from LLM: module 'openai' has no attribute 'error'
+Analysis complete. Results saved in goodreads/
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f3002143/autolysis.py`
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,24 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Madhu1005/tds-project2.git', '/root/.local/share/tds-sep-24-project-2/23f1001418']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001418/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Dataset loaded: 10000 rows, 23 columns
+Dataset summary prepared.
+Heatmap saved to: goodreads/correlation_heatmap.png
+Distribution plot saved to: goodreads/distribution.png
+Boxplot saved to: goodreads/boxplot.png
+README.md written to: goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001418/autolysis.py`
+
+
+------------------------------------------------------------------------
+

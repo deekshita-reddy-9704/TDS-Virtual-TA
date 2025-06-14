@@ -1,0 +1,33 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/LakshayB05/tds_project_2.git', '/root/.local/share/tds-sep-24-project-2/23f3002347']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3002347/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Error: 429, {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3002347/autolysis.py`
+Installed 27 packages in 64ms
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3002347/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Analysis complete for goodreads. Outputs saved in the current directory.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3002347/autolysis.py`
+
+
+------------------------------------------------------------------------
+

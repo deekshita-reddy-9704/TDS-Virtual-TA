@@ -1,0 +1,43 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/SohamGhosh2510/Project-2.git', '/root/.local/share/tds-sep-24-project-2/23f2003803']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Summary statistics generated.
+Correlation matrix saved as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_matrix.png.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py", line 100, in <module>
+    analyze_csv(csv_file)
+    ~~~~~~~~~~~^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py", line 88, in analyze_csv
+    analysis_story = send_to_ai_proxy(summary_stats, columns_info, corr)
+  File "/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py", line 62, in send_to_ai_proxy
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/4aSJIvSSwI5SW2AP0fG38/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Summary statistics generated.
+Correlation matrix saved as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_matrix.png.
+Analysis completed and saved to README.md.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2003803/autolysis.py`
+
+
+------------------------------------------------------------------------
+

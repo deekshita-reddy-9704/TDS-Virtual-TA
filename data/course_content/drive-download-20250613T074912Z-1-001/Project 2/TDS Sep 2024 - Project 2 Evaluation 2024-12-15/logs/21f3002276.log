@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/miriitm/tdsproj2.git', '/root/.local/share/tds-sep-24-project-2/21f3002276']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3002276/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Loaded dataset /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv with 10000 rows and 23 columns.
+README.md file created successfully.
+
+
+
+
+------------------------------------------------------------------------
+

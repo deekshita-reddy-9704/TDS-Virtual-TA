@@ -1,0 +1,36 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/kunj-10/TDS-IITM-Project2.git', '/root/.local/share/tds-sep-24-project-2/23f2001876']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001876/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+AI Proxy token found. eyJhbGciOiJIUzI1NiJ9.eyJlbWFpbCI6ImFuYW5kKzFAc3R1ZHkuaWl0bS5hYy5pbiJ9.jdGgA-2la0liaTRX-YJz-7GWFHUawA0W9Rk2O4-0KMI
+Detected encoding: utf_8
+
+Initial setup complete. Ready for analysis!
+Saved Correlation Heatmap 1
+No column fits a normal distribution well. Best column: average_rating, p-value: 3.207914045482263e-30
+Saved Histogram 2
+No Categorical Columns found for finding the Pie Chart
+Saved Kmeans Cluster 3
+Monthly Credit Usage: Not Available USD
+Saved Correlation Heatmap 1
+No column fits a normal distribution well. Best column: average_rating, p-value: 3.207914045482263e-30
+Saved Histogram 2
+Saved Kmeans Cluster 3
+Readme Made!
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001876/autolysis.py`
+/root/.cache/uv/archive-v0/uh2P2tIkB8jM6PzJfB9c8/lib/python3.13/site-packages/scipy/stats/_axis_nan_policy.py:573: UserWarning: scipy.stats.shapiro: For N > 5000, computed p-value may not be accurate. Current N is 10000.
+  res = hypotest_fun_out(*samples, **kwds)
+/root/.cache/uv/archive-v0/uh2P2tIkB8jM6PzJfB9c8/lib/python3.13/site-packages/scipy/stats/_axis_nan_policy.py:573: UserWarning: scipy.stats.shapiro: For N > 5000, computed p-value may not be accurate. Current N is 10000.
+  res = hypotest_fun_out(*samples, **kwds)
+
+
+------------------------------------------------------------------------
+

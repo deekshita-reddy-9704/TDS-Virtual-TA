@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Mv98dell/23ds3000044-project2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000044']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000044/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000044/autolysis.py`
+Installed 27 packages in 138ms
+
+
+------------------------------------------------------------------------
+

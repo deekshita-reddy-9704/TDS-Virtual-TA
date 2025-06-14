@@ -1,0 +1,29 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/bhavin-iitm/tds-project2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000248']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000248/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Created directory: ./goodreads
+Successfully loaded /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv with encoding utf-8
+Saved correlation_heatmap.png in ./goodreads
+Saved book_id_distribution.png in ./goodreads
+Saved isbn_count.png in ./goodreads
+Saved book_id_boxplot.png in ./goodreads
+Saved book_id_vs_goodreads_book_id_clusters.png in ./goodreads
+Saved book_id_vs_goodreads_book_id_interactive.html in ./goodreads
+Successfully generated dynamic narrative with LLM.
+Saved README.md in ./goodreads
+Analysis completed. Results saved in directory: ./goodreads
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000248/autolysis.py`
+
+
+------------------------------------------------------------------------
+

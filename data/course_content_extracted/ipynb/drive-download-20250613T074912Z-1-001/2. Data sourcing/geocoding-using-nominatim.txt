@@ -1,0 +1,32 @@
+# Scraping using Geocoding API of Open Street Maps (OSM)
+We would be using the Nominatim API to scrape geocoding information of any open ended address text using Python.
+
+# No need to install these if using Google Colab
+# !pip install geopandas
+# !pip install geopy
+
+# import the nominatim library
+from geopy.geocoders import Nominatim
+
+# activate nominatim geocoder
+# NOTE: replace "myGeoCoder" with your email ID if you get a HTTP Error 403.
+locator = Nominatim(user_agent="myGeocoder")
+
+# type any address text
+location = locator.geocode("Champ de Mars, Paris, France")
+
+# print lattitude and longitude of the address
+print("Latitude = {}, Longitude = {}".format(location.latitude, location.longitude))
+
+# The API output has multiple other details as a json like altitude, lattitude, longitude, correct raw addres, etc.
+# Print all the informaton
+location.raw,location.point,location.longitude,location.latitude,location.altitude,location.address
+
+# Try another address
+location2 = locator.geocode("IIT Madras")
+
+# Print all the informaton
+location2.raw,location2.point,location2.longitude,location2.latitude,location2.altitude,location2.address
+
+Try your own.
+

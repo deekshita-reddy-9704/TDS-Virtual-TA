@@ -1,0 +1,10 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'autolysis.py', 'https://github.com/nitharsh935/TDS-PROJECT-2-.git', '/root/.local/share/tds-sep-24-project-2/22f1000935']
+
+
+
+warning: Could not find remote branch autolysis.py to clone.
+fatal: Remote branch autolysis.py not found in upstream origin
+
+
+------------------------------------------------------------------------
+

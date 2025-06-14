@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/joshna-dhanokar/tds_project2.git', '/root/.local/share/tds-sep-24-project-2/21f2000753']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2000753/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv' loaded successfully.
+README.md generated at goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f2000753/autolysis.py`
+Installed 33 packages in 66ms
+
+
+------------------------------------------------------------------------
+

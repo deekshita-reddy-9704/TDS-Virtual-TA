@@ -1,0 +1,16 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/NomitRwt/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/21f1005029']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1005029/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+
+
+------------------------------------------------------------------------
+

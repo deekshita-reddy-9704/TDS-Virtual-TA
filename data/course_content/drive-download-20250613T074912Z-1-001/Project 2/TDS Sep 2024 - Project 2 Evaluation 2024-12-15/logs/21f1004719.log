@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/rebornphoenix01/AutomatedDataAnalysis.git', '/root/.local/share/tds-sep-24-project-2/21f1004719']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1004719/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+File converted to UTF-8: /root/.local/share/tds-sep-24-project-2/datasets/goodreads_utf8.csv
+Analysis completed. Results saved in /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1004719/autolysis.py`
+Installed 35 packages in 168ms
+
+
+------------------------------------------------------------------------
+

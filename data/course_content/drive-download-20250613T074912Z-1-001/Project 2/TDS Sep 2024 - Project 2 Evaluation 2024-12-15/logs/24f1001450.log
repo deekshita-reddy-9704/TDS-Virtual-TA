@@ -1,0 +1,181 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Aish-TheMagician/TDS-PROJECT2.git', '/root/.local/share/tds-sep-24-project-2/24f1001450']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1001450/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset loaded successfully: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Performing generic analysis...
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 23 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+dtypes: float64(3), int64(13), object(7)
+memory usage: 1.8+ MB
+None
+
+Summary statistics:
+           book_id  goodreads_book_id  ...     ratings_4     ratings_5
+count  10000.00000       1.000000e+04  ...  1.000000e+04  1.000000e+04
+mean    5000.50000       5.264697e+06  ...  1.996570e+04  2.378981e+04
+std     2886.89568       7.575462e+06  ...  5.144736e+04  7.976889e+04
+min        1.00000       1.000000e+00  ...  7.500000e+02  7.540000e+02
+25%     2500.75000       4.627575e+04  ...  5.405750e+03  5.334000e+03
+50%     5000.50000       3.949655e+05  ...  8.269500e+03  8.836000e+03
+75%     7500.25000       9.382225e+06  ...  1.602350e+04  1.730450e+04
+max    10000.00000       3.328864e+07  ...  1.481305e+06  3.011543e+06
+
+[8 rows x 16 columns]
+
+Missing values per column:
+book_id                         0
+goodreads_book_id               0
+best_book_id                    0
+work_id                         0
+books_count                     0
+isbn                          700
+isbn13                        585
+authors                         0
+original_publication_year      21
+original_title                585
+title                           0
+language_code                1084
+average_rating                  0
+ratings_count                   0
+work_ratings_count              0
+work_text_reviews_count         0
+ratings_1                       0
+ratings_2                       0
+ratings_3                       0
+ratings_4                       0
+ratings_5                       0
+image_url                       0
+small_image_url                 0
+dtype: int64
+
+Correlation Matrix:
+                            book_id  goodreads_book_id  ...  ratings_4  ratings_5
+book_id                    1.000000           0.087902  ...  -0.406989  -0.331490
+goodreads_book_id          0.087902           1.000000  ...  -0.052599  -0.049535
+best_book_id               0.075554           0.964134  ...  -0.042866  -0.042464
+work_id                    0.088396           0.922607  ...  -0.044123  -0.039715
+books_count               -0.264681          -0.154868  ...   0.356088   0.283797
+isbn13                    -0.011340          -0.048231  ...   0.010187   0.006631
+original_publication_year  0.046347           0.127520  ...  -0.024622  -0.013921
+average_rating            -0.043498          -0.053373  ...   0.039500   0.117404
+ratings_count             -0.372847          -0.063824  ...   0.979000   0.964091
+work_ratings_count        -0.382115          -0.054231  ...   0.987824   0.966659
+work_text_reviews_count   -0.416753           0.133928  ...   0.820138   0.767148
+ratings_1                 -0.238841          -0.031527  ...   0.672312   0.596102
+ratings_2                 -0.345496          -0.045429  ...   0.837598   0.704930
+ratings_3                 -0.413398          -0.062788  ...   0.952816   0.825546
+ratings_4                 -0.406989          -0.052599  ...   1.000000   0.934101
+ratings_5                 -0.331490          -0.049535  ...   0.934101   1.000000
+
+[16 rows x 16 columns]
+Correlation heatmap saved as ./correlation_heatmap.png
+
+Outliers per column:
+book_id                         0
+goodreads_book_id             523
+best_book_id                  562
+work_id                       491
+books_count                   807
+isbn13                        555
+original_publication_year     990
+average_rating                151
+ratings_count                1095
+work_ratings_count           1089
+work_text_reviews_count       961
+ratings_1                    1087
+ratings_2                    1087
+ratings_3                    1071
+ratings_4                    1064
+ratings_5                    1103
+dtype: int64
+
+Clustering Analysis (KMeans):
+Cluster
+0.0    6836
+1.0    2031
+3.0     473
+2.0      57
+Name: count, dtype: int64
+Clustered data saved as ./clustered_data.csv
+Generating insights using LLM...
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 24 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+ 23  Cluster                    9397 non-null   float64
+dtypes: float64(4), int64(13), object(7)
+memory usage: 1.8+ MB
+Error generating README.md: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+Report saved as ./README.md
+
+
+
+
+------------------------------------------------------------------------
+

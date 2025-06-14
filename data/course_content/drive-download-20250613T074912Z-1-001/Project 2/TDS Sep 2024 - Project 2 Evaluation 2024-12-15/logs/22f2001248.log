@@ -1,0 +1,28 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/theduskyrobe/TDSProject2.git', '/root/.local/share/tds-sep-24-project-2/22f2001248']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2001248/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. Check README.md and generated PNG files for charts.
+Analysis results saved in goodreads directory
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2001248/autolysis.py`
+Installed 34 packages in 86ms
+2024-12-15 11:17:53,155 - INFO - Initializing analysis for dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 11:17:53,213 - INFO - Successfully loaded dataset using utf-8 encoding with 10000 rows
+2024-12-15 11:17:53,216 - WARNING - Could not generate descriptive statistics: NDFrame.describe() got an unexpected keyword argument 'datetime_is_numeric'
+2024-12-15 11:17:56,977 - INFO - HTTP Request: POST http://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-15 11:17:56,977 - WARNING - Failed endpoint http://aiproxy.sanand.workers.dev/openai/v1/chat/completions: Client error '429 Too Many Requests' for url 'http://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-15 11:17:56,978 - ERROR - All LLM endpoints failed
+2024-12-15 11:17:56,978 - INFO - Analysis completed successfully
+
+
+------------------------------------------------------------------------
+

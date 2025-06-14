@@ -1,0 +1,17 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Leena2403/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1001357']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001357/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+****************************** Autolysis Completed ******************************
+
+
+
+
+------------------------------------------------------------------------
+

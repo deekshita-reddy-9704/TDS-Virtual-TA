@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/sumitt2408/TDS-project_2.git', '/root/.local/share/tds-sep-24-project-2/23f2002871']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2002871/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2002871/autolysis.py`
+Installed 21 packages in 58ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f2002871/autolysis.py", line 119, in <module>
+    domain = send_llm_request(messages)
+  File "/root/.local/share/tds-sep-24-project-2/23f2002871/autolysis.py", line 111, in send_llm_request
+    return r.json()["choices"][0]["message"]["content"]
+           ~~~~~~~~^^^^^^^^^^^
+KeyError: 'choices'
+
+
+------------------------------------------------------------------------
+

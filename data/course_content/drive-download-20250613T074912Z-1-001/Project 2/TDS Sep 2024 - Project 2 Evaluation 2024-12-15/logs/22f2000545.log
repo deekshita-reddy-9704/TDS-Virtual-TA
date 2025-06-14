@@ -1,0 +1,35 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/kik893/Project2.git', '/root/.local/share/tds-sep-24-project-2/22f2000545']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000545/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected file encoding: utf-8
+Loaded dataset /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv with 10000 rows and 23 columns.
+Error communicating with AI Proxy: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Error communicating with AI Proxy: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+README.md file created successfully.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2000545/autolysis.py`
+Installed 31 packages in 72ms
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000545/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected file encoding: utf-8
+Loaded dataset /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv with 10000 rows and 23 columns.
+README.md file created successfully.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2000545/autolysis.py`
+
+
+------------------------------------------------------------------------
+

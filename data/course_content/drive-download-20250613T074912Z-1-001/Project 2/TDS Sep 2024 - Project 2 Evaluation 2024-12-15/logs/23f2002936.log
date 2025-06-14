@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Tarun-Kandarpa/TDS-PROJECT-2.git', '/root/.local/share/tds-sep-24-project-2/23f2002936']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2002936/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. See the 'goodreads' directory for results.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2002936/autolysis.py`
+
+
+------------------------------------------------------------------------
+

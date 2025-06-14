@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Shilajit04/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/23f2002702']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2002702/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+  File "/root/.local/share/tds-sep-24-project-2/23f2002702/autolysis.py", line 10
+    !pip install chardet
+    ^
+SyntaxError: invalid syntax
+
+
+------------------------------------------------------------------------
+

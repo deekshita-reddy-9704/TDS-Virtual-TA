@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/22f1000259/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/22f1000259']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000259/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1000259/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f1000259/autolysis.py", line 35, in <module>
+    raise ValueError("API token not set. Please set AI_PROXY in the environment.")
+ValueError: API token not set. Please set AI_PROXY in the environment.
+
+
+------------------------------------------------------------------------
+

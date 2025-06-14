@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/kdiitm99/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1003155']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1003155/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Analysis complete. Files generated:
+- README.md
+- correlation_heatmap.png
+- distribution.png
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1003155/autolysis.py`
+
+
+------------------------------------------------------------------------
+

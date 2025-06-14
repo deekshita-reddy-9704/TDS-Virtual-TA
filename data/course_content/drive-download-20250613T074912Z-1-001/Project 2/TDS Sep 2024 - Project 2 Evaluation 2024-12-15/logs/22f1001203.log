@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/anand-ballabh/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/22f1001203']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001203/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis and visualizations saved to README.md and PNG files.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1001203/autolysis.py`
+Installed 27 packages in 287ms
+
+
+------------------------------------------------------------------------
+

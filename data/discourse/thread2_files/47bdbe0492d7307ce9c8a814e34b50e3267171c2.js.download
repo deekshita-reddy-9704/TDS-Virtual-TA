@@ -1,0 +1,17 @@
+"define"in window&&define("discourse/theme-9/discourse/api-initializers/clickable-topic-row",["exports","discourse/lib/api","discourse/lib/intercept-click"],(function(e,t,i){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+require("discourse/lib/theme-settings-store").getObjectForTheme(9)
+e.default=(0,t.apiInitializer)((e=>{e.registerBehaviorTransformer("topic-list-item-click",(t=>{let{context:r,next:o}=t
+const s=r.event.target,c=r.topic,l=["topic-list-data","link-bottom-line","topic-list-item"]
+if(e.container.lookup("service:site").mobileView&&l.push("topic-item-metadata","topic-item-stats"),l.some((e=>s.classList.contains(e))))return!!(0,i.wantsNewWindow)(event)||r.navigateToTopic(c,c.lastUnreadUrl)
+o()}))}))})),"define"in window&&define("discourse/theme-9/discourse/connectors/above-latest-topic-list-item/clickable-topic-row",["exports","@glimmer/component","@ember/object","@ember/render-modifiers/modifiers/did-insert","@ember/render-modifiers/modifiers/will-destroy","discourse/lib/decorators","discourse/lib/intercept-click","discourse/lib/url","@ember/component","@ember/template-factory"],(function(e,t,i,r,o,s,c,l,n,a){"use strict"
+Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0
+require("discourse/lib/theme-settings-store").getObjectForTheme(9)
+class d extends t.default{clickHandler(e){const t=e.target,i=this.args.outletArgs.topic
+if("DIV"===t.tagName){if((0,c.wantsNewWindow)(e))return!0
+l.default.routeTo(i.lastUnreadUrl||i.url)}}static#e=(()=>dt7948.n(this.prototype,"clickHandler",[s.bind]))()
+registerClickHandler(e){e.parentElement.addEventListener("click",this.clickHandler)}static#t=(()=>dt7948.n(this.prototype,"registerClickHandler",[i.action]))()
+removeClickHandler(e){e.parentElement.removeEventListener("click",this.clickHandler)}static#i=(()=>dt7948.n(this.prototype,"removeClickHandler",[i.action]))()
+static#r=(()=>(0,n.setComponentTemplate)((0,a.createTemplateFactory)({id:null,block:'[[[1,"\\n    "],[11,0],[24,0,"hidden"],[4,[32,0],[[30,0,["registerClickHandler"]]],null],[4,[32,1],[[30,0,["removeClickHandler"]]],null],[12],[13],[1,"\\n  "]],[],false,[]]',moduleName:"/discourse/theme-9/discourse/connectors/above-latest-topic-list-item/clickable-topic-row",scope:()=>[r.default,o.default],isStrictMode:!0}),this))()}e.default=d}))
+
+//# sourceMappingURL=47bdbe0492d7307ce9c8a814e34b50e3267171c2.map?__ws=discourse.onlinedegree.iitm.ac.in

@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/harry26ds/TDS_pro2.git', '/root/.local/share/tds-sep-24-project-2/22f2000059']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000059/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f2000059/autolysis.py", line 24, in <module>
+    from textblob import TextBlob
+ModuleNotFoundError: No module named 'textblob'
+
+
+------------------------------------------------------------------------
+

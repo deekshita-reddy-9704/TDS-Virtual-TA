@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Tannukr/TDSPROJECT2.git', '/root/.local/share/tds-sep-24-project-2/22f2001632']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2001632/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2001632/autolysis.py`
+Installed 37 packages in 84ms
+  File "/root/.local/share/tds-sep-24-project-2/22f2001632/autolysis.py", line 303
+    >>>>>>> 0739ef544a390a0f664a5a2b7c311a631d19d44c
+               ^
+SyntaxError: invalid decimal literal
+
+
+------------------------------------------------------------------------
+

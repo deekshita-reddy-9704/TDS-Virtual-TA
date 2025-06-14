@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/swaraj753/Project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1001245']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001245/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f1001245/autolysis.py", line 18, in <module>
+    from google.colab import files
+ModuleNotFoundError: No module named 'google'
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f1001535/automated-analysis.git', '/root/.local/share/tds-sep-24-project-2/23f1001535']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001535/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Dataset loaded successfully with 10000 rows and 23 columns.
+Heatmap saved as heatmap.png with size (512, 512).
+Error: 429 - {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Data processing completed successfully.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001535/autolysis.py`
+Installed 31 packages in 66ms
+
+
+------------------------------------------------------------------------
+

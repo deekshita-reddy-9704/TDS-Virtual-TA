@@ -1,0 +1,47 @@
+# **Tutorial To Scrape PDFs from a Given URL**
+This tutorial will help us to download all the PDFs in a given URL. In addition to downloading the PDF, this tutorial also helps us in reading a PDF and saving a table from the PDF to a conservative structured format like a CSV.
+
+import os
+import requests
+import pandas as pd
+from urllib.parse import urljoin
+from bs4 import BeautifulSoup
+
+# Tabula scrapes tables from PDFs
+!pip install tabula-py
+import tabula
+
+from google.colab import drive
+drive.mount('/content/drive')
+
+The url input for dowloading pdfs and setting up output folder path
+
+# Save contents from url into folder_location
+url = 'https://www.premierleague.com/publications'
+folder_location = r'/content/drive/MyDrive/Colab Notebooks/premier_league'
+if not os.path.exists(folder_location):
+    os.mkdir(folder_location)
+
+Actual Code
+
+response = requests.get(url)
+soup = BeautifulSoup(response.text, "html.parser")
+
+# Loop through all PDF links in the page
+for link in soup.select("a[href$='.pdf']"):
+    # Local lile name is the same as PDF file name in the URL (ignoring rest of the path)
+    # https://premierleague-static-files.s3.amazonaws.com/premierleague/document/2016/07/02/e1648e96-4eeb-456e-8ce0-d937d2bc7649/2011-12-premier-league-season-review.pdf
+    filename = os.path.join(folder_location, link['href'].split('/')[-1])
+    with open(filename, 'wb') as f:
+        f.write(requests.get(urljoin(url,link['href'])).content)
+
+Reading a table from a PDF document and storing it in a csv file
+
+combined_pdf = folder_location + "/This-is-PL-Interactive-Combined.pdf"
+tabula.read_pdf(combined_pdf,  pages='18')
+
+from tabula import convert_into
+
+convert_into(combined_pdf, folder_location +"/table_output.csv", output_format="csv",pages = 18,area=[[275,504,640,900]])
+pd.read_csv(folder_location+"/table_output.csv")
+

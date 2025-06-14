@@ -1,0 +1,10 @@
+/* Translation data for theme 6 (en)*/
+const data = {"en":{"hamburger_menu":{"theme_selector":"Theme Selector"}}};
+
+for (let lang in data){
+  let cursor = I18n.translations;
+  for (let key of [lang, "js", "theme_translations"]){
+    cursor = cursor[key] ??= {};
+  }
+  cursor[6] = data[lang];
+}

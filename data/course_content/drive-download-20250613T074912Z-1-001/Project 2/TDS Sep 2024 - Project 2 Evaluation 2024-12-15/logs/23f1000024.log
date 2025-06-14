@@ -1,0 +1,34 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Your-Coder-Guy/Tool_In_Data_Science_Project_2.git', '/root/.local/share/tds-sep-24-project-2/23f1000024']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+CSV file loaded successfully with UTF-8 encoding.
+Error generating story: 'choices'
+Story and images saved in folder: goodreads
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+/root/.local/share/tds-sep-24-project-2/23f1000024/autolysis.py:50: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  date_cols = df.select_dtypes(include=['datetime', 'object']).apply(lambda col: pd.to_datetime(col, errors='coerce')).dropna(axis=1).columns
+
+
+------------------------------------------------------------------------
+

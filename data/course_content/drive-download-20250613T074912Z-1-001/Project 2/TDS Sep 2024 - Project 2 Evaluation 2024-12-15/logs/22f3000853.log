@@ -1,0 +1,26 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Pahel-03/TDS-project.git', '/root/.local/share/tds-sep-24-project-2/22f3000853']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000853/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. See README.md for details.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3000853/autolysis.py`
+<string>:10: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+<string>:29: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+
+
+------------------------------------------------------------------------
+

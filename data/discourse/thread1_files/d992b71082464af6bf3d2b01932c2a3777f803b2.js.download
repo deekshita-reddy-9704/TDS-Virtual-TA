@@ -1,0 +1,10 @@
+/* Translation data for theme 12 (en)*/
+const data = {"en":{"top_contributors":{"title":"Top Contributors","view_all":"View All"}}};
+
+for (let lang in data){
+  let cursor = I18n.translations;
+  for (let key of [lang, "js", "theme_translations"]){
+    cursor = cursor[key] ??= {};
+  }
+  cursor[12] = data[lang];
+}

@@ -1,0 +1,47 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Aadil-Iqbal1729/TDS_PROJECT-2.git', '/root/.local/share/tds-sep-24-project-2/23f1001130']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001130/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001130/autolysis.py`
+Installed 35 packages in 69ms
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/dsZr-lxI6AbzZ_nxEklFu/lib/python3.13/site-packages/pandas/compat/_optional.py", line 135, in import_optional_dependency
+    module = importlib.import_module(name)
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/importlib/__init__.py", line 88, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1324, in _find_and_load_unlocked
+ModuleNotFoundError: No module named 'tabulate'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f1001130/autolysis.py", line 166, in <module>
+    main(args.csv_file, args.output_dir)
+    ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23f1001130/autolysis.py", line 152, in main
+    readme_path = save_analysis_report(output_dir, summary_stats, missing_values, outliers)
+  File "/root/.local/share/tds-sep-24-project-2/23f1001130/autolysis.py", line 121, in save_analysis_report
+    f.write(summary_stats.to_markdown() + "\n\n")
+            ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/dsZr-lxI6AbzZ_nxEklFu/lib/python3.13/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/root/.cache/uv/archive-v0/dsZr-lxI6AbzZ_nxEklFu/lib/python3.13/site-packages/pandas/core/frame.py", line 2983, in to_markdown
+    tabulate = import_optional_dependency("tabulate")
+  File "/root/.cache/uv/archive-v0/dsZr-lxI6AbzZ_nxEklFu/lib/python3.13/site-packages/pandas/compat/_optional.py", line 138, in import_optional_dependency
+    raise ImportError(msg)
+ImportError: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+
+
+------------------------------------------------------------------------
+

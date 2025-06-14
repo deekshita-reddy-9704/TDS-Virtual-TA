@@ -1,0 +1,37 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/24f1002025/TDS-Project-2-Automated-Analysis.git', '/root/.local/share/tds-sep-24-project-2/24f1002025']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1002025/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+🔍 Analyzing: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+🔍 Detected Encoding: utf-8 (Confidence: 0.99)
+🔍 Starting Data Analysis...
+✅ Data Structure Analyzed
+🖼️ Visualizations Generated
+🔬 Advanced Analysis Completed
+⚠️ LLM Story Generation Failed: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+📖 Narrative Generated
+🚨 HTTP Error during image analysis: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+✅ Analysis complete. Check /root/.local/share/tds-sep-24-project-2/datasets/goodreads_analysis directory.
+
+📊 Quick Dataset Summary:
+Total Rows: 10000
+Total Columns: 23
+Numeric Columns: book_id, goodreads_book_id, best_book_id, work_id, books_count, isbn13, original_publication_year, average_rating, ratings_count, work_ratings_count, work_text_reviews_count, ratings_1, ratings_2, ratings_3, ratings_4, ratings_5
+Categorical Columns: isbn, authors, original_title, title, language_code, image_url, small_image_url
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24f1002025/autolysis.py`
+Installed 29 packages in 108ms
+
+
+------------------------------------------------------------------------
+

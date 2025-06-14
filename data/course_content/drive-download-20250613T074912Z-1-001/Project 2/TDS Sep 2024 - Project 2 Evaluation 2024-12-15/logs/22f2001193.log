@@ -1,0 +1,24 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/22f2001193-neeraj-menon-iitm/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/22f2001193']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2001193/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. Check README.md and analysis_visualization.png
+Analysis results saved in goodreads directory
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2001193/autolysis.py`
+2024-12-15 10:39:39,219 - INFO - Initializing analysis for dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 10:39:39,300 - INFO - Successfully loaded dataset using utf-8 encoding with 10000 rows
+2024-12-15 10:39:40,508 - INFO - Visualizations created successfully
+2024-12-15 10:39:54,857 - INFO - HTTP Request: POST http://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-15 10:39:54,858 - INFO - Analysis completed successfully
+
+
+------------------------------------------------------------------------
+

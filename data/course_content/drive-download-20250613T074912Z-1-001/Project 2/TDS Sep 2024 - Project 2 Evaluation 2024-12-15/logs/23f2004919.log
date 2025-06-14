@@ -1,0 +1,107 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Vscode918/project-2-automated-analysis.git', '/root/.local/share/tds-sep-24-project-2/23f2004919']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2004919/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset Info:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 23 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+dtypes: float64(3), int64(13), object(7)
+memory usage: 1.8+ MB
+None
+
+Sample Data:
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+
+Numeric Columns: ['book_id', 'goodreads_book_id', 'best_book_id', 'work_id', 'books_count', 'isbn13', 'original_publication_year', 'average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']
+
+Summary Statistics:
+           book_id  goodreads_book_id  ...     ratings_4     ratings_5
+count  10000.00000       1.000000e+04  ...  1.000000e+04  1.000000e+04
+mean    5000.50000       5.264697e+06  ...  1.996570e+04  2.378981e+04
+std     2886.89568       7.575462e+06  ...  5.144736e+04  7.976889e+04
+min        1.00000       1.000000e+00  ...  7.500000e+02  7.540000e+02
+25%     2500.75000       4.627575e+04  ...  5.405750e+03  5.334000e+03
+50%     5000.50000       3.949655e+05  ...  8.269500e+03  8.836000e+03
+75%     7500.25000       9.382225e+06  ...  1.602350e+04  1.730450e+04
+max    10000.00000       3.328864e+07  ...  1.481305e+06  3.011543e+06
+
+[8 rows x 16 columns]
+Saved correlation heatmap as correlation_heatmap.png
+Saved histograms as histograms.png
+Saved cluster analysis plot as cluster_analysis.png
+Error generating narrative: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+Generated README.md report.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2004919/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f2004919/autolysis.py", line 173, in generate_llm_narrative
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+    ...<5 lines>...
+        temperature=0.7
+    )
+  File "/root/.cache/uv/archive-v0/1nkhM-YoHmwPrrP_IFKdb/lib/python3.13/site-packages/openai/lib/_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+
+
+------------------------------------------------------------------------
+

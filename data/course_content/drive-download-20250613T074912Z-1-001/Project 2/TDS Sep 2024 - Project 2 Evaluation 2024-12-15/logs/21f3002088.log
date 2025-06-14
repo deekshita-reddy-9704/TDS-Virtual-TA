@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/letspython1503/Project2-TDS.git', '/root/.local/share/tds-sep-24-project-2/21f3002088']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3002088/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Fetching Results: ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 100% 0:00:03
+Analysis saved to 'README.md'.
+
+
+
+
+------------------------------------------------------------------------
+

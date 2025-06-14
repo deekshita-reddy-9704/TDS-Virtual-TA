@@ -1,0 +1,51 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/harrycode54/P2Autolysis.git', '/root/.local/share/tds-sep-24-project-2/21f2000584']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2000584/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset loaded: 10000 rows, 23 columns.
+Heatmap saved: ./correlation_heatmap.png
+Cluster plot saved: ./cluster_plot.png
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f2000584/autolysis.py", line 99, in query_llm
+    response = openai.ChatCompletion.create(
+        model="gpt-4o-mini",
+    ...<2 lines>...
+        max_tokens=700
+    )
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/openai/lib/_old_api.py", line 39, in __call__
+    raise APIRemovedInV1(symbol=self._symbol)
+openai.lib._old_api.APIRemovedInV1: 
+
+You tried to access openai.ChatCompletion, but this is no longer supported in openai>=1.0.0 - see the README at https://github.com/openai/openai-python for the API.
+
+You can run `openai migrate` to automatically upgrade your codebase to use the 1.0.0 interface. 
+
+Alternatively, you can pin your installation to the old version, e.g. `pip install openai==0.28`
+
+A detailed migration guide is available here: https://github.com/openai/openai-python/discussions/742
+
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f2000584/autolysis.py", line 151, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/21f2000584/autolysis.py", line 145, in main
+    insights = query_llm(insights_prompt)
+  File "/root/.local/share/tds-sep-24-project-2/21f2000584/autolysis.py", line 106, in query_llm
+    except openai.error.OpenAIError as e:
+           ^^^^^^^^^^^^
+AttributeError: module 'openai' has no attribute 'error'
+
+
+------------------------------------------------------------------------
+

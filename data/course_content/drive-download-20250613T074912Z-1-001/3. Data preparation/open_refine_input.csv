@@ -1,0 +1,401 @@
+case_id,trade_nm,legal_name,street_addr_1_txt,cty_nm,st_cd,zip_cd,naic_cd,naics_code_description,case_violtn_cnt,cmp_assd_cnt,ee_violtd_cnt,bw_atp_amt,ee_atp_cnt,findings_start_date,findings_end_date
+1531281,365 Electrician,365 Electrician,2498 Roll Drive,San Diego,CA,92154,238210,Electrical Contractors and Other Wiring Installation Contractors,0,0,0,0,0,11/18/2006,11/17/2008
+1642548,365 Electrician,"365 Electrician, Inc.","9227 Haven Ave., Suite 330",Rancho Cucamonga,CA,91730,238210,Electrical Contractors and Other Wiring Installation Contractors,11,0,9,1096.25,9,1/9/2011,1/1/2012
+1639542,365 Electrician,"365 Electrician, Inc.",9227 Haven Ave Suite 330,Rancho Cucamonga,CA,91730,238210,Electrical Contractors and Other Wiring Installation Contractors,3,0,3,6530.32,3,8/7/2011,1/1/2012
+1672496,Three Sixty-Five Electrician,365 Electrician Inc,15723 Parkhouse Dr 82,Fontana,CA,92336,238210,Electrical Contractors and Other Wiring Installation Contractors,0,0,0,0,0,1/2/2012,10/26/2012
+1697914,3D Land & Farms - AGER,"3D Land & Farms, LLC",2516 SW 202 Street,Newberry,FL,32669,111219,Other Vegetable (except Potato) and Melon Farming,4,700,0,0,0,6/3/2013,6/18/2013
+1794354,3D Land & Farms (AGER),"3D Land & Farms, LLC",2561 SW 202 Street,Newberry,FL,32669,111219,Other Vegetable (except Potato) and Melon Farming,2,400,0,0,0,5/15/2016,6/14/2016
+1731857,"3D Land & Farms, LLC (Ager)","3D Land & Farms, LLC",2516 SW 202nd street,Newberry,FL,32669,11121,Vegetable and Melon Farming,1,0,0,0,0,6/19/2013,6/11/2014
+1856384,"3D Land & Farms, LLC (AGER)","3D Land & Farms, LLC",2516 SW 202 Street,Newberry,FL,32669,111339,Other Noncitrus Fruit Farming,1,1465.8,0,0,0,5/20/2018,6/13/2018
+1661703,3S Network,"3S Network, Inc.",16301 NE 8th St.,Bellevue,WA,98008,541690,Other Scientific and Technical Consulting Services,2,0,1,7302,1,6/23/2011,2/16/2012
+1708471,3S Network,"3S Network, Inc.",30398 Esperanza,Rancho Santa Margarita,CA,92688,541690,Other Scientific and Technical Consulting Services,4,0,1,12755.8,1,3/23/2011,7/13/2013
+1528710,"3S Network, Inc.","3S Network, Inc.","16301 NE 8th St., #217",Bellevue,WA,98008,517910,Other Telecommunications,155,0,155,58143.32,155,1/1/2007,12/31/2008
+1752551,3S Network Inc.,"3S Network, Inc.",30398 Esperanza,Rancho Santa Margarita,CA,92688,5179,Other Telecommunications,6,0,5,15547.21,5,1/1/2014,5/31/2015
+1494532,Hilton Garden Inn,4MB Inc,3600 Sycamore Dairy Rd,Fayetteville,NC,28303,721110,Hotels (except Casino Hotels) and Motels,4,0,3,722.11,3,10/27/2006,10/23/2007
+1508305,Hilton Garden Inn,4MB Inc,3600 Sycamore Dairy Road,Fayetteville,NC,28303,721110,Hotels (except Casino Hotels) and Motels,32,5984,32,3301.1,32,10/1/2005,3/21/2008
+1660527,Hilton Garden Inn & Suites,"4MB, Inc",4025 Sycamore Dairy Rd,Fayetteville,NC,28303,72111,Hotels (except Casino Hotels) and Motels,33,1485,27,3739.85,27,2/5/2011,7/16/2012
+1609292,Hilton Garden Inn,"4MB, Inc",4025 Sycamore Dairy Road,Fayetteville,NC,28303,72111,Hotels (except Casino Hotels) and Motels,17,0,16,2658.45,16,2/4/2009,2/3/2011
+1657061,7 Springs Farm,7 Springs Farm,588 Seven Springs Road,Wellington,AL,36279,111334,Berry (except Strawberry) Farming,0,0,0,0,0,5/22/2010,5/21/2012
+1549252,Springs Farm,"Springs Farm, Inc.",1200 Springfield Pkwy,Fort Mill,SC,29716,111339,Other Noncitrus Fruit Farming,18,0,14,367.57,14,3/1/2008,7/29/2009
+1550305,Springs Farms Housing,Springs Farms,2580 Coltharpe Road,Fort Mill,SC,29715,111339,Other Noncitrus Fruit Farming,5,750,0,0,0,1/16/2009,6/25/2009
+1656371,Springs Farm,"Springs Farm, Inc.",1200 Springfield Parkway,Fort Mill,SC,29716,111339,Other Noncitrus Fruit Farming,5,10650,1,1112.43,1,1/3/2011,5/15/2012
+1845004,Popeye's Louisiana Kitchen,755 Restaurant Corporation,1517 Highway 27 South,Carrollton,GA,30117,722211,Limited-Service Restaurants,10,0,9,308.59,9,5/1/2017,2/15/2018
+1845005,Popeye's,755 Restaurant Corporation,3506 Memorial Drive,Decatur,GA,30032,722211,Limited-Service Restaurants,11,0,11,1281.6,11,2/14/2016,2/13/2018
+1841204,Popeyes Louisiana Kitchen,755 Restaurant Corporation,5557 N. Henry Blvd,Stockbridge,GA,30281,722211,Limited-Service Restaurants,26,0,26,2095.72,26,1/9/2016,1/8/2018
+1846131,755 Restaurant Corporation,755 Restaurant Corporation,3466 Buffington Center,Atlanta,GA,30349,722211,Limited-Service Restaurants,93,0,93,16862.06,93,3/10/2016,3/9/2018
+1751663,Paradise Car Wash  Detail Co./Ancira Chrysler,"A & A Best Investments, LLC",10807 I-10 Frontage Road,San Antonio,TX,78230,811192,Car Washes,7,0,5,983.79,5,1/28/2013,12/1/2014
+1751655,Paradise Car Wash & Detail/ Ancira Nissan,A & A Best Investments LLC,10835 I-10 Frontage Road,San Antonio,TX,78230,811192,Car Washes,6,0,6,486.86,6,1/28/2013,12/1/2014
+1744811,Paradise Car - Wash  & Detail Company,A & A Best Investments LLC,6617 Evers Rd.,San Antonio,TX,78240,811192,Car Washes,22,0,20,4747.79,20,1/28/2013,12/1/2014
+1751666,Paradise Car Wash /Ford McCombs/Toyota McComb,A & A Best Investments LLC,8333 IH-10 Frontage Road,San Antonio,TX,78230,811192,Car Washes,11,0,11,1270.45,11,1/30/2013,12/29/2014
+1377998,A & A Trucking,A & A Trucking,Hwy 71 & Hwy 88,Fouke,AR,71837,53241,"Construction, Transportation, Mining, and Forestry Machinery and Equipment Rental and Leasing",1,0,1,0,0,7/1/2003,10/1/2004
+1570171,"G & A Trucking, Inc.",G & A Trucking,"114 South Center, Suite 108",Gaylord,MI,49735,484220,"Specialized Freight (except Used Goods) Trucking, Local",3,0,2,1347.24,2,4/7/2009,3/26/2011
+1487444,Maria Garcia FLC,L & A Trucking,28 Monaco Terrace,Naples,FL,34112,115115,Farm Labor Contractors and Crew Leaders,7,875,0,0,0,6/4/2007,7/6/2007
+1799252,"A & L Farms, Inc","A & L Farms, Inc",13982 Lake Michigan Dr.,West Olive,MI,49460,111334,Berry (except Strawberry) Farming,0,0,0,0,0,8/17/2014,8/16/2016
+1589583,"A & L Farms, Inc.","A & L Farms, Inc.",12061 144th St.,Grand Haven,MI,49417,713990,All Other Amusement and Recreation Industries,108,17300,51,2011.41,51,7/1/2010,9/23/2010
+1853728,C&L Packing  Corporation- AGER,"C & L Farms, Inc.",1300 State Rd 31,Punta Gorda,FL,33982,111219,Other Vegetable (except Potato) and Melon Farming,1,0,0,0,0,4/16/2018,5/25/2018
+1803597,J L Farms,"J & L Farms, Inc.",11675 415th Ave,Claremont,SD,57432,11211,"Beef Cattle Ranching and Farming, including Feedlots",12,8289.6,5,3434.92,5,3/28/2015,6/29/2016
+1740332,A & S Landscaping,A & S Landscaping Inc,2150 Washington Road,Canonsburg,PA,15317,561730,Landscaping Services,24,0,20,2516.99,20,1/13/2013,1/4/2015
+1583564,R & S Landscaping,"R & S Landscaping, Inc.",170 Mystic Avenue,Medford,MA,2155,561730,Landscaping Services,45,0,44,85025.02,44,8/23/2009,8/20/2011
+1701886,J & S Landscaping Inc,J & S Landscaping Inc,90 Maple Street,Kulpmont,PA,17834,561730,Landscaping Services,5,6850,3,1047.5,2,10/28/2011,10/29/2013
+1650702,"D & S Landscaping, Inc.","D & S Landscaping, Inc.",9782 S. Flynn Road,Livermore,CA,94550,561730,Landscaping Services,26,7854,21,42752.25,21,12/8/2010,4/26/2012
+1587959,Nurse Temps,A + Nurse Temps Inc.,2008 US Hwy 44 W,Inverness,FL,34453,561320,Temporary Help Services,154,167200,152,148679.31,148,5/11/2008,9/18/2011
+1373209,A+Nurse Temps,A+ Nurse Temps,77 E. Wilson Bridge Rd.,Worthington,OH,43085,561320,Temporary Help Services,0,0,1,0,0,1/13/2003,5/10/2004
+1614208,Nurse Temps,"A+ Nurse Temps, Inc","2175 Denton Road, Suite 2",Dothan,AL,36301,561320,Temporary Help Services,0,0,0,0,0,4/4/2009,4/4/2011
+1661994,"Nurse Temps,Inc","Nurse Temps, Inc",2175 Denton Road Ste 2,Dothan,AL,36301,561320,Temporary Help Services,1,0,1,0,0,4/9/2011,7/7/2012
+1391178,Carolyn Mitchell's Loving Care Home,"A Family Affair, Inc.",7556 Cosgrove Way,Sacramento,CA,95822,623312,Homes for the Elderly,0,0,0,0,0,1/1/2003,1/1/2005
+1387311,A Family Affair,A Family Affair,7526 21st Street,Sacramento,CA,95822,623312,Homes for the Elderly,2,0,0,0,0,12/16/2002,12/16/2004
+1674783,CiCi's Pizza,Family Affairs,3379 Battleground Ave.,Greensboro,NC,27410,722211,Limited-Service Restaurants,3,900,2,29,1,11/6/2010,11/5/2012
+1499109,A Family Affair,"A Family Affair, Inc.",1917 O'Neil Way,Sacramento,CA,95822,623210,Residential Mental Retardation Facilities,1,0,0,0,0,7/31/2008,7/30/2010
+1553950,A to Z Food Mart,"A to Z Food Mart, LLC",2301 Broad Street,Selma,AL,36701,447110,Gasoline Stations with Convenience Stores,1,0,0,0,0,8/18/2007,8/15/2009
+1488781,"A to Z Food Mart, LLC","A to Z Food Mart, LLC",2301 Broad Street,Selma,AL,36701,44711,Gasoline Stations with Convenience Stores,4,0,3,156,3,11/6/2006,8/11/2007
+1795218,Pure Gas Station,A to Z Food Mart LLC,2301 Broad Street,Selma,AL,36701,447110,Gasoline Stations with Convenience Stores,28,0,27,587.25,27,6/1/2014,5/29/2016
+1710390,A to Z Food Mart,A to Z Food Mart LLC,2301 Broad Street,Selma,AL,36701,4471,Gasoline Stations,9,616,4,16914.49,4,12/25/2011,12/22/2013
+1729211,"Scott Enterprises, Inc.",A Touch of Home,4301 Crestridge Dr.,Round Rock,TX,78681,623110,Nursing Care Facilities,19,0,9,0,0,10/1/2013,9/30/2015
+1594599,Touch of Home,"A Touch of Home, LLC",131 Jadon Dr,Lebanon,OR,97355,6233,Community Care Facilities for the Elderly,5,0,4,3710.24,4,9/1/2008,8/31/2010
+1683401,"A Touch of Home, Inc.","A Touch of Home, Inc.",1211 Mark Avenue,Tomah,WI,54660,623312,Homes for the Elderly,11,0,10,1541.45,10,1/31/2011,1/26/2013
+1734603,A Touch of Home,"A Touch of Home, Inc",5620 North Freeway,Houston,TX,77076,623220,Residential Mental Health and Substance Abuse Facilities,8,0,4,30537.22,4,9/1/2012,8/31/2014
+1576796,A. Bonamese Contracting (Holmes),"A. Bonamese Contracting, Inc.",860 Boardman Rd.,Boardman,OH,44512,237310,"Highway, Street, and Bridge Construction",22,0,8,20137.7,8,6/17/2009,8/19/2009
+1576797,A. Bonamese Contracting (Gallia),"A. Bonamese Contracting, Inc.",860 Boardman-Canfield Rd.,Boardman,OH,44512,237310,"Highway, Street, and Bridge Construction",35,0,14,15596.1,14,9/2/2009,11/18/2009
+1576798,A. Bonamese Contracting (Adams),"A. Bonamese Contracting, Inc.",860 Boardman-Canfield Rd.,Boardman,OH,44512,237310,"Highway, Street, and Bridge Construction",35,0,20,29435.45,20,7/22/2009,10/14/2009
+1563572,A. Bonamase Contracting (ARRA),"A. Bonamese Contracting, Inc.",860 Boardman-Canfield Rd.,Boardman,OH,44512,237310,"Highway, Street, and Bridge Construction",46,0,20,47464.1,20,8/20/2009,12/16/2009
+1589470,A. B. Y. Corp dba Pronto,A.B.Y. Corporation,1146 S. Crocker Street,Los Angeles,CA,90021,315232,Women's and Girls' Cut and Sew Blouse and Shirt Manufacturing,1,0,0,0,0,4/7/2010,7/7/2010
+1705954,Pronto,A.B.Y. Corporation,1146 S. Crocker St.,Los Angeles,CA,90021,3152,Cut and Sew Apparel Manufacturing,1,0,0,0,0,8/30/2011,8/30/2013
+1829116,A.I.D. Temporary Services,A.I.D. Temporary Services Inc.,1219 Commerce Dr. - Suite #1,Mountain Home,AR,72653,561320,Temporary Help Services,35,0,0,0,0,6/6/2015,6/5/2017
+1829120,A.I. D. Temporary Services,A.I.D. Temporary Services Inc.,306 West Hale,Osceola,AR,72370,561320,Temporary Help Services,20,0,0,0,0,6/6/2015,6/5/2017
+1829123,A.I.D. Temporary Services,A.I.D. Temporary Services Inc.,1415 Commerce Dr. - Suite B,Pocahontas,AR,72455,561320,Temporary Help Services,98,0,48,1254.44,48,8/1/2015,7/31/2017
+1819761,A.I.D. Temporary Services,"A.I.D. Temporary Services, Inc.",1805 Avenir Pl,Jonesboro,AR,72401,561320,Temporary Help Services,105,0,5,121.74,5,6/6/2015,6/5/2017
+1492182,AJM Packaging Corporation,A.J.M. Packaging Corporation,3400 Enterprise Avenue,Joplin,MO,64801,32222,Paper Bag and Coated and Treated Paper Manufacturing,20,0,20,11283.09,18,1/16/2006,1/13/2008
+1689609,AJM Packaging,AJM Packaging Corporation,E-4111 Andover Rd.,Bloomfield Hills,MI,48302,424110,Printing and Writing Paper Merchant Wholesalers,0,0,0,0,0,4/1/2011,3/31/2013
+1691384,AJM Packaging Corporation,AJM Packaging Corp,3401 Southeast Blvd.,Vineland,NJ,8360,561910,Packaging and Labeling Services,0,0,0,0,0,9/20/2011,9/19/2013
+1828814,AJM Packaging Corp,AJM Packaging Corporation,3401 South East Boulevard,Vineland,NJ,8360,488991,Packing and Crating,0,0,0,0,0,10/12/2015,10/11/2017
+1431915,A1 Wireless,A1 Cellular Inc,7703 N Kings Hwy,Myrtle Beach,SC,29572,453998,All Other Miscellaneous Store Retailers (except Tobacco Stores),5,0,3,1714.29,3,9/14/2004,9/13/2006
+1456999,A1 Wireless,A1 Cellular Inc,7703 N Kings Hwy,Myrtle Beach,SC,29572,453998,All Other Miscellaneous Store Retailers (except Tobacco Stores),4,0,2,121.67,2,9/21/2004,9/20/2006
+1459324,A-1 Wireless,A-1 Cellular Inc.,10th Avenue North #19,Myrtle Beach,SC,29577,51731,Telecommunications Resellers,1,0,0,0,0,10/7/2004,10/6/2006
+1459323,A-1 Wireless,A-1 Cellular Inc.,7703 North Kings Hwy Suite 2,Myrtle Beach,SC,29572,517212,Cellular and Other Wireless Telecommunications,35,0,34,17661.55,34,10/4/2004,10/7/2006
+1486293,"A-1 Check Cashing, Inc. - North Jackson",A-1 Management LLC,"5321 I-55 North, Suite B",Jackson,MS,39206,522310,Mortgage and Nonmortgage Loan Brokers,6,0,4,0,0,7/22/2005,7/14/2007
+1487007,"A-1 Management, LLC - Madison","A-1 Management, LLC",110 Depot Drive,Madison,MS,39110,522310,Mortgage and Nonmortgage Loan Brokers,18,0,16,0,0,7/22/2005,7/14/2007
+1486294,"A-1 Check Cashing, Inc. - South Jackson","A-1 Management, LLC","2310 Highway 80 West, Suite B",Jackson,MS,39204,522310,Mortgage and Nonmortgage Loan Brokers,6,0,5,0,0,7/22/2005,7/14/2007
+1477688,"A-1 Check Cashing, Inc. - Pearl","A-1 Management, Inc.",A-1 Management Inc. d/b/a,Pearl,MS,39208,522310,Mortgage and Nonmortgage Loan Brokers,1,0,1,0,0,7/22/2005,7/14/2007
+1481481,"AAA Northwest Ohio, Inc  Airport Rd.","AAA Northwest Ohio, Inc.",5606 Airport Highway,Toledo,OH,43615,561510,Travel Agencies,8,0,7,663.45,7,5/24/2005,5/23/2007
+1481485,"AAA Northwest Ohio, Inc. -  Perrysburg","AAA Northwest Ohio, Inc.","26611 N. Dixie Hwy., Suite 103",Perrysburg,OH,43551,561510,Travel Agencies,5,0,4,339.16,4,5/24/2005,5/23/2007
+1468994,"AAA Northwest Ohio, Inc","AAA Northwest Ohio, Inc",7150 W. Central Avenue,Toledo,OH,43617,561510,Travel Agencies,43,0,42,4237.74,42,5/24/2005,5/23/2007
+1481483,"AAA Northwest Ohio, Inc - Oregon","AAA Northwest Ohio, Inc.",3237 Navarre Ave.,Oregon,OH,43616,561510,Travel Agencies,4,0,3,179,3,5/24/2005,5/23/2007
+1755463,Aall Care Home Health,"Aall Care Living Services, Inc.",8310 East 73rd St.,Tulsa,OK,74133,623990,Other Residential Care Facilities,11,0,10,6935.47,10,4/3/2013,4/2/2015
+1770664,Aall Care Home Health,"Aall Care Living Services, Inc.",8310 East 73rd Street,Tulsa,OK,74133,623990,Other Residential Care Facilities,5,0,4,3139.57,4,4/3/2013,4/2/2015
+1555720,Aall Care  Home Health,"Aall Care Living Services, Inc.",4867 South Sheridan,Tulsa,OK,74145,6216,Home Health Care Services,33,0,32,61490.57,32,2/29/2008,2/27/2010
+1814409,Aall Care,"Aall Care Living Services, Inc.",8310 E. 73rd St.,Tulsa,OK,74133,621610,Home Health Care Services,113,0,113,12945.35,112,7/15/2015,7/14/2017
+1688801,Woodhaven Furniture Industries,Aaron's Incorporated,611 20th Street SE,Cairo,GA,39828,337125,Household Furniture (except Wood and Metal) Manufacturing,0,0,0,0,0,3/23/2011,3/22/2013
+1655513,Aarons,"Aaron's, Inc",34 Weyman Ave,New Rochelle,NY,10805,453998,All Other Miscellaneous Store Retailers (except Tobacco Stores),0,0,0,0,0,6/1/2010,5/31/2012
+1640729,Home Smart,"Aaron's, Inc.",2017 Hoffmeyer Rd.,Florence,SC,29501,53221,Consumer Electronics and Appliances Rental,16,3300,15,13380.79,15,7/16/2011,4/7/2012
+1804119,Aaron's Sales & Lease,Aaron's Inc.,2105 MacArthur Dr.,Orange,TX,77630,337125,Household Furniture (except Wood and Metal) Manufacturing,0,0,0,0,0,3/28/2015,3/18/2017
+1087898,Abacus Technology Corporation,Abacus Technology Corporation,2051 Wyoming Blvd SE,Kirtland AFB,NM,87117,54199,"All Other Professional, Scientific, and Technical Services",41,0,33,206346.79,33,9/1/2000,4/15/2005
+1603756,Abacus Technology Corporation,Abacus Technology Corporation,1951 First St.  Bldg 20140,Kirtland AFB,NM,87117,512199,Other Motion Picture and Video Industries,2,187,1,236.43,1,2/26/2009,2/25/2011
+1621646,Abacus Technology Corporation,Abacus Technology Corporation,2225 Stanley Road,San Antonio,TX,78234,517919,All Other Telecommunications,11,0,11,21367.21,11,9/1/2010,8/31/2011
+1549463,Abacus Technology Corporation,Abacus Technology Corporation,2225 Stanley Road,San Antonio,TX,78234,517110,Wired Telecommunications Carriers,0,0,0,0,0,4/21/2009,9/22/2010
+1511202,Pic N Save,"ABBC, Inc.",440 Douglas Ave,Brewton,AL,36426,445110,Supermarkets and Other Grocery (except Convenience) Stores,7,11880,6,0,0,8/6/2006,8/5/2008
+1410889,Cost Plus Food Outlet #324,"ABBC, Inc",305 E. 3 Notch Street,Andalusia,AL,36420,44511,Supermarkets and Other Grocery (except Convenience) Stores,8,0,7,4726.11,7,6/22/2003,6/19/2005
+1410891,Pic N Sav #321,"ABBC, Inc.",440 Douglas Avenue,Brewton,AL,36426,44511,Supermarkets and Other Grocery (except Convenience) Stores,6,0,5,2970.56,5,6/22/2003,6/19/2005
+1409322,Pic-N-Sav,"ABBC, Inc.",2419 College Avenue,Jackson,AL,36545,44511,Supermarkets and Other Grocery (except Convenience) Stores,8,0,7,4156.7,7,6/22/2003,6/19/2005
+1510019,"ABC Phones, Inc.","ABC Phones of North Carolina, Inc.",3280 South Charles Bvld.,Greenville,NC,27858,44311,"Appliance, Television, and Other Electronics Stores",24,0,24,9515.35,20,6/12/2006,6/11/2008
+1555819,A Wireless Incorporated,"ABC Phones of North Carolina, Inc.",3280 S. Charles Blvd,Greenville,NC,27858,517212,Cellular and Other Wireless Telecommunications,0,0,0,0,0,6/16/2008,8/31/2009
+1825677,A Wireless,"ABC Phone of North Carolina, Inc.",6400 Weddington-Monroe Rd.,Matthews,NC,28104,4431,Electronics and Appliance Stores,0,0,0,0,0,6/28/2015,6/27/2017
+1867988,Verizon,"ABC Phones of North Carolina, Inc.",2049 S Highway 27,Somerset,KY,42501,443112,"Radio, Television, and Other Electronics Stores",0,0,0,0,0,11/17/2016,11/16/2018
+1452874,"ABC Student Transportation, Inc",ABC Student Transportation,12680 Westwood,Detroit,MI,48223,485410,School and Employee Bus Transportation,62,0,61,23442.78,61,9/12/2004,9/9/2006
+1614365,Student Transportation of America,"Student Transportation, Inc.",125 South Main Street,Naugatuck,CT,6770,485410,School and Employee Bus Transportation,1,0,1,599.33,1,7/1/2009,7/1/2011
+1602332,Student Transportation of America,"Student Transportation, Inc.",10 Breezy Hill Road,Bradford,NH,3221,485410,School and Employee Bus Transportation,2,0,1,96.53,1,5/16/2010,6/12/2010
+1684563,"ABC Student Transportation, Inc.","ABC Student Transportation, Inc.",12680 Westwood St,Detroit,MI,48223,48541,School and Employee Bus Transportation,24,5060,23,10654.1,23,5/1/2011,4/26/2013
+1694800,ABG Caulking & Waterproofing,"ABG Caulking Contractors, Inc.",861 Springfield Highway,Goodlettsville,TN,37072,238390,Other Building Finishing Contractors,7,0,3,4639.58,3,3/17/2013,9/8/2013
+1712273,ABG Caulking Contractors Inc,ABG Caulking Contractors Inc,1321 Murfreesboro Road,Nashville,TN,37217,236220,Commercial and Institutional Building Construction,0,0,0,0,0,10/1/2012,11/17/2013
+1571664,ABG Caulking and Waterproofing,"ABG Caulking Contractors, Inc.",301 South Main Street,Goodlettsville,TN,37072,238160,Roofing Contractors,11,0,10,1836.22,10,8/23/2009,3/14/2010
+1835461,ABG Caulking & Waterproofing,"ABG Caulking Contractors, Inc.",861 Springfield Highway,Goodlettsville,TN,37072,238390,Other Building Finishing Contractors,1,0,0,0,0,4/15/2017,10/14/2017
+1683207,"Abilities Services, Inc. -  Crawfordsville","Abilities Services, Inc.",1237 Concord Road,Crawfordsville,IN,47933,62419,Other Individual and Family Services,34,0,34,6842.68,34,4/7/2011,4/6/2013
+1685781,"Abilities Services, Inc. - Frankfort","Abilities Services, Inc.",110 S. Prairie Ave.,Frankfort,IN,46041,9180,State Sheltered Workshops,45,0,45,27194.29,45,4/7/2011,4/6/2013
+1614443,"Abilities Services, Inc","Abilities Services, Inc.",950 McKinley Ave.,Frankfort,IN,46041,624310,Vocational Rehabilitation Services,5,0,5,43.03,5,4/1/2008,3/31/2010
+1691765,Abilities Services Incorporated,Abilities Services INC,2301 Concord Rd.,Lafayette,IN,47909,624120,Services for the Elderly and Persons with Disabilities,1,0,1,1644,1,3/9/2013,4/29/2013
+1825972,ABM,"ABM Industry Groups, LLC","1650 Arch Street, Suite 2200",Philadelphia,PA,19103,561720,Janitorial Services,13,0,6,7847.13,6,8/1/2015,7/31/2017
+1838189,ABM,"ABM Industry Groups, LLC",101 S. 3rd St.  (Am. Revolution Museum),Philadelphia,PA,19106,561720,Janitorial Services,1,0,0,0,0,4/1/2017,8/18/2017
+1827474,ABM Janitorial,"ABM Industry Groups, LLC",354 Gest Street,Cincinnati,OH,45203,561720,Janitorial Services,0,0,1,0,0,10/5/2015,10/5/2017
+1827351,ABM Industry Groups LLC,ABM Industry Groups LLC,1150 S Olive St,Los Angeles,CA,90015,561720,Janitorial Services,12,0,11,22653,11,10/11/2015,10/10/2017
+1736541,ABM Janitorial Services,"ABM Janitorial Services - North Central, Inc.","5300 South 73rd St, Suite #1",Omaha,NE,68127,561720,Janitorial Services,0,0,0,0,0,11/11/2012,11/8/2014
+1699649,ABM Janitorial Services- North Central,"ABM Janitorial Services- North Central, Inc",180 N. Lasalle St Auite 1700,Chicago,IL,60601,561720,Janitorial Services,4,0,3,0,0,1/1/2013,8/31/2013
+1725725,ABM Janitorial Services,"ABM Janitorial Services- North Central, INC.",1752 Howard,Detroit,MI,48216,561720,Janitorial Services,0,0,1,0,0,4/22/2013,4/21/2014
+1650712,ABM Janitorial Services-North Central,"ABM Janitorial Services - North Central, Inc","180 N LaSalle Street, Suite 1700",Chicago,IL,60601,561720,Janitorial Services,2,220,1,10799.75,1,6/25/2010,5/12/2012
+1688710,"ABM Janitorial Services, Inc.","ABM Services, Incorporated",4th street,San Diego,CA,92135,561720,Janitorial Services,4,0,1,15782.98,1,10/1/2011,3/30/2013
+1686632,ABM Janitorial Services (FBI),"ABM Services, Incorporated",9797 Aero Drive,San Diego,CA,92123,561720,Janitorial Services,0,0,0,0,0,5/1/2011,2/14/2013
+1686633,ABM Janitorial Services (DEA),"ABM Services, Incorporated",4560 Viewridge Ave.,San Diego,CA,92123,561720,Janitorial Services,0,0,0,0,0,5/1/2011,2/14/2013
+1675011,ABM Janitorial Services,"ABM Services, Incorporated",3940 Ruffin Rd Suite C,San Diego,CA,92123,561720,Janitorial Services,0,0,0,0,0,2/15/2011,2/14/2013
+1809685,Super 8 (Provo),"ABP Utah, LLC",1555 N Canyon Rd,Provo,UT,84604,721110,Hotels (except Casino Hotels) and Motels,25,0,23,7141.81,23,1/1/2015,12/31/2016
+1824391,Days Inn (Moab),"ABP Utah, LLC",426 North Main Street,Moab,UT,84532,721110,Hotels (except Casino Hotels) and Motels,14,0,13,11933.72,13,7/1/2015,6/30/2017
+1815416,Comfort Inn & Suites (Fillmore),ABP Utah LLC,940 South Hwy 99,Fillmore,UT,84631,721110,Hotels (except Casino Hotels) and Motels,2,0,0,0,0,1/1/2015,12/31/2016
+1815419,Motel 6 (Richfield),ABP Utah LLC,647 S Main St,Richfield,UT,84701,721110,Hotels (except Casino Hotels) and Motels,1,0,0,0,0,1/1/2015,12/31/2016
+1758441,"Absolute Drywall Services, LLC","Absolute Drywall Services, LLC",3909 132nd PL NE,Marysville,WA,98271,238310,Drywall and Insulation Contractors,2,0,1,54,1,5/19/2013,5/16/2015
+1794218,Absolute Drywall,"Absolute Drywall, Inc.",10100 166th Street W.,Lakeville,MN,55044,238310,Drywall and Insulation Contractors,4,0,1,0,0,9/1/2015,6/13/2016
+1598209,"Absolute Drywall, Inc.","Absolute Drywall, Inc.",3031 Williams Blvd SW,Cedar Rapids,IA,52404,238310,Drywall and Insulation Contractors,27,0,10,24553.42,10,2/6/2010,6/30/2011
+1800777,Absolute Drywall,"Absolute Drywall, Inc.",1301 Park Place #42,Burnsville,MN,55337,238310,Drywall and Insulation Contractors,29,0,28,126268,28,6/20/2014,6/19/2016
+1828841,Absolute Janitorial - BLM,"Absolute Janitorial Services, LLC",1296 W 635 S,Orem,UT,84058,561720,Janitorial Services,4,0,2,1935.39,2,7/22/2015,7/21/2017
+1820334,Absolute Janitorial Service - Forest Service,"Absolute Janitorial Service, LLC",1296 W 635 S,Orem,UT,84058,561720,Janitorial Services,6,0,5,2636.43,5,7/16/2015,7/15/2017
+1822784,Absolute Janitorial Services - FAA,"Absolute Janitorial Services, LLC",1296 W 635 S,Orem,UT,84058,561720,Janitorial Services,2,0,1,954.91,1,6/4/2015,6/3/2017
+1823303,Absolute Janitorial Services - DOD,"Absolute Janitorial Services, LLC",1296 W 635 S,Orem,UT,84058,561720,Janitorial Services,1,0,1,4120.24,1,6/4/2015,6/3/2017
+1607157,Pronto,ABY Corp,1146 S. Crocker ST,Los Angeles,CA,90021,31523,Women's and Girls' Cut and Sew Apparel Manufacturing,1,0,0,0,0,10/18/2010,1/18/2011
+1646080,Pronto,A.B.Y. Corp,1146 S. Crocker Street,Los Angeles,CA,90021,3152,Cut and Sew Apparel Manufacturing,1,0,0,0,0,11/14/2011,2/14/2012
+1518587,Acambaro Mexican Restaurant,"Acambaro Mexican Restaurant, Inc.",121 North Thompson,Springdale,AR,72764,722110,Full-Service Restaurants,17,0,16,8443.02,16,8/4/2006,8/1/2008
+1522746,Acambaro Restaurant,"Acambaro Mexican Restaurants, Inc. dba Acamba",150 S Curtis,Pea Ridge,AR,72751,722110,Full-Service Restaurants,6,0,5,1866.15,4,8/18/2006,6/27/2008
+1522747,Acambaro Restaurant,"Acambaro Mexican Restaurant, Inc dba Acambaro",2605 N College,Fayetteville,AR,72703,722110,Full-Service Restaurants,2,0,1,1430,1,8/18/2006,6/27/2008
+1522749,Acambaro  Restaurant,"Acambaro Mexican Restaurants, Inc. dba Acamba",1309 S Walton Blvd,Bentonville,AR,72712,722110,Full-Service Restaurants,9,0,8,4332.75,8,8/4/2006,8/1/2008
+1618073,"Access Therapies, Inc.","Access Therapies, Inc.",5980 W 71st Street Suite,Indianapolis,IN,46278,561320,Temporary Help Services,0,0,0,0,0,10/28/2009,10/28/2010
+1486681,"Access Therapies, Inc.","Access Therapies, Inc.","5980 West 71st Street, Suite",Indianapolis,IN,46278,561310,Employment Placement Agencies,31,0,31,0,0,7/3/2005,3/22/2009
+1481542,"Access Therapies, Inc.","Access Therapies, Inc.","5980 W. 71st Street, Suite 102",Indianapolis,IN,46278,561320,Temporary Help Services,151,212500,53,39945.73,6,2/11/2005,4/7/2010
+1601737,"Access Therapies, Inc.","Access Therapies, Inc.",5980 W. 71st Street Suite  201,Indianapolis,IN,46278,561320,Temporary Help Services,0,0,1,0,0,10/9/2009,2/22/2010
+1742189,Ziggyz,Acer Enterprises,6560 E 41st St.,Tulsa,OK,74145,453220,"Gift, Novelty, and Souvenir Stores",8,0,7,1200.31,7,10/1/2012,9/28/2014
+1742188,Ziggyz,Acer Enterprises,2122 S Memorial Dr.,Tulsa,OK,74129,453220,"Gift, Novelty, and Souvenir Stores",5,0,4,570,4,10/1/2012,9/28/2014
+1742190,Ziggyz,Acer Enterprises Inc.,"4735 S. Memorial Dr., Suite D.",Tulsa,OK,74145,453220,"Gift, Novelty, and Souvenir Stores",4,0,3,1657,3,10/1/2012,9/28/2014
+1742192,Ziggyz,Acer Enterprises,2160 W Albany,Broken Arrow,OK,74012,453220,"Gift, Novelty, and Souvenir Stores",5,0,4,635.06,4,10/1/2012,9/28/2014
+1463955,ACH Foods Incorporated,ACH Food Companies Inc.,710 N Mattis Ave,Champaign,IL,61821,311514,"Dry, Condensed, and Evaporated Dairy Product Manufacturing",1,0,1,0,0,12/20/2004,12/19/2006
+1461696,ACH Foods,ACH Food Companies Inc.,1201 E. Morton,Jacksonville,IL,62650,311999,All Other Miscellaneous Food Manufacturing,1,0,1,0,0,10/30/2006,11/4/2006
+1442599,AC Humko,"ACH Food Companies, Inc.",1201 E. Morton Ave.,Jacksonville,IL,62650,311999,All Other Miscellaneous Food Manufacturing,1,0,1,0,0,5/3/2004,5/2/2006
+1727272,"ACH Foods, Inc.","ACH Food Companies, Inc",6400 Archer Road,Summit Argo,IL,60501,311999,All Other Miscellaneous Food Manufacturing,1,0,1,0,0,4/16/2014,4/17/2014
+1516646,Buford's Restaurant,Ackerman Investment Company,2601 E 13th Street,Ames,IA,50010,72211,Full-Service Restaurants,0,0,0,0,0,6/15/2006,6/14/2008
+1441351,Quality Inn & Suites,Ackerman Investment Company,1601  13th Street,Ames,IA,50010,72111,Hotels (except Casino Hotels) and Motels,2,0,2,1818.49,2,4/23/2004,4/22/2006
+1728330,Quality Inn & Suites Starlite Village Confere,Ackerman Investment Company,2601 E. 13th Street,Ames,IA,50010,721110,Hotels (except Casino Hotels) and Motels,35,0,29,5050.78,29,4/29/2012,4/26/2014
+1395428,Starlite Village Restaurant,Ackerman Investment Company,2601 E 13th Street,Ames,IA,50010,722110,Full-Service Restaurants,4,1485,4,0,0,3/2/2003,2/26/2005
+1590491,ACME Furniture,ACME Furniture Industry Inc.,18895  E. Arenth Ave,City of Industry,CA,91748,423210,Furniture Merchant Wholesalers,27,0,26,45188.43,26,8/5/2008,8/4/2010
+1647640,ACME FURINTURE,"ACME Furniture Industry, Inc.",268 Lemon Ave,Walnut,CA,91789,423220,Home Furnishing Merchant Wholesalers,6,0,5,403.75,5,9/1/2011,2/25/2012
+1647641,ACME Furniture,"ACME Furniture Industry, Inc.",20002 Business Pkwy,Walnut,CA,91789,423220,Home Furnishing Merchant Wholesalers,0,0,0,0,0,9/1/2011,2/27/2012
+1638642,ACME Furniture,"ACME Furniture Industry, Inc.",18895 East Arenth Ave,City of Industry,CA,91748,423220,Home Furnishing Merchant Wholesalers,2,440,2,1227.38,2,8/5/2010,1/18/2012
+1348389,"Acores Foods, Inc.","Acores Foods, Inc.",11375 Douglass Rd. (TRACON project loca),Mather,CA,95655,722212,"Cafeterias, Grill Buffets, and Buffets",0,0,0,0,0,4/1/2002,3/31/2004
+1418904,"Acores Foods, Inc.","Acores Foods, Incorporated",9175 Kearny Villa Road,San Diego,CA,92126,722212,"Cafeterias, Grill Buffets, and Buffets",128,0,109,35186.31,109,10/8/2003,10/8/2005
+1186474,Acores Foods,Acores Foods LLC,Camp Guernsey Dining Facility,Camp Guernsey,WY,82214,72231,Food Service Contractors,0,0,0,0,0,10/1/1999,9/30/2001
+1492430,Acores Foods,"Acores Foods, Inc.",Camp Gilbert Grafton,Devils Lake,ND,58301,722310,Food Service Contractors,34,0,19,13874.26,19,1/15/2006,2/29/2008
+1361332,"Acosta, Magdaleno","Acosta, Magdaleno",1815 Holland Ave.,Mission,TX,78572,115115,Farm Labor Contractors and Crew Leaders,4,435,0,0,0,5/13/2004,5/26/2004
+1577063,"Acosta, Magdaleno","Acosta, Magdaleno",1815 N. Holland Ave,Mission,TX,78572,115115,Farm Labor Contractors and Crew Leaders,0,0,0,0,0,3/11/2010,3/24/2010
+1496423,"Acosta, Magdaleno","Acosta, Magdaleno",1815 Holland,Mission,TX,78572,115115,Farm Labor Contractors and Crew Leaders,0,0,0,0,0,10/4/2007,10/25/2007
+1542153,"Acosta, Magdaleno FLC","Acosta, Magdaleno FLC",1815 N Holland,Mission,TX,78572,115115,Farm Labor Contractors and Crew Leaders,0,0,0,0,0,3/26/2009,4/8/2009
+1333907,Shoe Sensation - Danville,"Acton Enterprises, Inc.",2917 N. Vermilion,Danville,IL,61832,44821,Shoe Stores,1,0,1,45,1,7/14/2002,8/6/2004
+1332476,Shoe Sensation - Champaign,"Acton Enterprises, Inc.",2000 N. Neil (Store 976),Champaign,IL,61822,44821,Shoe Stores,8,0,8,556.59,8,8/6/2002,8/6/2004
+1389735,Shoe Sensation #807,"Acton Enterprises, Inc.",430 Silver Bridge Plaza,Gallipolis,OH,45631,448210,Shoe Stores,1,0,1,0,0,8/16/2003,8/6/2005
+1334746,Shoe Sensation - Decatur,"Acton Enterprises, Inc.","Route 51 North, Hickory Point Mall",Forsyth,IL,62535,44821,Shoe Stores,1,0,1,20,1,11/6/2002,7/1/2003
+1456616,Adamucci Farms,Adamucci Farms,152 Trench Road,Bridgeton,NJ,8302,111336,Fruit and Tree Nut Combination Farming,1,850,0,0,0,8/27/2006,9/27/2006
+1305912,Adamucci Farms,Adamucci Farms,152 Trench Road,Bridgeton,NJ,8302,111339,Other Noncitrus Fruit Farming,2,2950,0,0,0,8/18/2003,8/18/2003
+1359009,Adamucci Farms,Adamucci Farms,139 Trench Road,Bridgeton,NJ,8302,111339,Other Noncitrus Fruit Farming,2,2600,0,0,0,5/14/2004,5/18/2004
+1414876,Adamucci Farms,Adamucci Farms,139 Trench Road,Bridgeton,NJ,8302,111219,Other Vegetable (except Potato) and Melon Farming,0,0,0,0,0,7/28/2004,7/28/2005
+1656995,La Reynera Bakery - 23rd. St.,Adan Orduno,6101 N. 23rd Street,McAllen,TX,78501,31181,Bread and Bakery Product Manufacturing,3,0,1,1602.25,1,9/1/2011,5/15/2012
+1656994,La Reynera Bakery - Mission,Adan Orduno,3100 W. 5 Mile Rd.,Mission,TX,78572,31181,Bread and Bakery Product Manufacturing,10,0,6,18123.49,6,5/16/2010,5/15/2012
+1656991,La Reynera Bakery - Penitas,Adan Orduno,18012 Sago Palm Dr. (7 mile),Penitas,TX,78576,311811,Retail Bakeries,5,0,2,9419,2,5/16/2010,5/15/2012
+1638620,La Reynera Bakery - Montecristo,Adan Orduno,922 Monte Cristo,Edinburg,TX,78541,311811,Retail Bakeries,15,0,7,32840.71,7,5/16/2010,5/15/2012
+1508579,Adidas,Adidas,Chicago Premium Outlet Mall,Aurora,IL,60502,4481,Clothing Stores,1,1320,1,0,0,4/8/2006,4/7/2008
+1539141,Adidas,Adidas,1630 Premium Outlet Blvd,Aurora,IL,60502,4482,Shoe Stores,1,2640,1,0,0,3/31/2008,3/9/2009
+1556182,Adidas,Adidas,923 Rush Street,Chicago,IL,60611,4482,Shoe Stores,0,0,0,0,0,8/31/2007,8/25/2009
+1556181,Adidas,Adidas,845 N. Michigan Avenue,Chicago,IL,60611,4482,Shoe Stores,0,0,0,0,0,8/31/2007,8/25/2009
+1384452,Adirondack Furniture,"Adirondack Colonial Furniture, LLC",1015 N. State Street,Syracuse,NY,13208,442110,Furniture Stores,10,0,10,175.04,2,12/8/2002,11/21/2004
+1387444,Adirondack Furniture,"Adirondack Colonial Furniture, Inc.",6668 Collamer Road,East Syracuse,NY,13057,442110,Furniture Stores,4,0,4,271.62,4,1/12/2003,11/21/2004
+1387446,Adirondack Furniture,"Adirondack Colonial Furniture, Inc.","Route 5, West Main Street",Elbridge,NY,13060,442110,Furniture Stores,3,0,3,119.14,3,1/12/2003,12/5/2004
+1387449,Adirondack Furniture,"Adirondack Colonial Furniture, Inc.",New Hartford Shopping Center,New Hartford,NY,13413,442110,Furniture Stores,2,0,2,185.9,2,1/12/2003,12/5/2004
+1576985,ADP,"ADP, Inc.",1851 N. Resler,El Paso,TX,79912,524210,Insurance Agencies and Brokerages,0,0,1,0,0,6/18/2008,4/23/2010
+1651757,ADP,"ADP, Inc.",3436 Toringdon Way #310,Charlotte,NC,28207,541214,Payroll Services,75,0,74,33308.52,74,5/28/2010,5/27/2012
+1631682,Automatic Data Processing,"ADP, Inc.",445 Electronics Parkway,Liverpool,NY,13088,541214,Payroll Services,1,0,1,0,0,7/11/2011,10/26/2011
+1503946,ADP (Automatic Data Processing),"ADP, Inc.",1 ADP Blvd.,Roseland,NJ,7068,541214,Payroll Services,0,0,0,0,0,9/15/2007,3/20/2008
+1537065,Advance Gastroenterology Associates,Advance Gastroenterology Associates,"34041 US Highway 19 North, Ste A",Palm Harbor,FL,34684,621111,Offices of Physicians (except Mental Health Specialists),11,0,10,4476.28,10,3/4/2007,2/22/2009
+1546314,Advanced Security,"Advanced Security Consulting, Inc",1416 Kingston Street,Aurora,CO,80010,561612,Security Guards and Patrol Services,9,924,6,3374.81,6,6/27/2007,6/26/2009
+1605265,"Advanced Security Consulting, Inc","Advanced Security Consulting, Inc",1491 Clinton Street,Aurora,CO,80010,561612,Security Guards and Patrol Services,1,0,1,348.75,1,6/9/2010,4/16/2011
+1571361,Advanced Security Consulting,"Advanced Security Consulting, Inc",1491 Clinton St,Aurora,CO,80010,561612,Security Guards and Patrol Services,0,0,0,0,0,6/27/2009,6/8/2010
+1456950,"Advanced Security Consulting, Inc","Advanced Security Consulting, Inc","2323 S Troy St., Bldg 5., Ste 200",Aurora,CO,80014,561612,Security Guards and Patrol Services,12,0,7,6215.01,6,6/1/2005,11/27/2006
+1502891,"Campaigners, Inc","Advantage Sales and Marketing, Inc",909 N. Sepulveda # 200,El Segundo,CA,90245,54181,Advertising Agencies,2,0,2,737.63,1,3/13/2006,3/12/2008
+1789165,Advantage Solutions,"Advantage Sales and Marketing, LLC","18100 Von Karman, Ste 1000",Irvine,CA,92612,541613,Marketing Consulting Services,0,0,0,0,0,3/11/2016,4/6/2016
+1600947,"Advantage Sales and Marketing, LLC","Advantage Sales and Marketing, LLC",18100 Von Karrman Ave.,Irvine,CA,92612,541613,Marketing Consulting Services,0,0,0,0,0,7/5/2009,7/3/2011
+1722177,Advantage Sales and Marketing,"Advantage Sales and Marketing, LLC",1400 S Douglas Ste. 200,Anaheim,CA,92806,541613,Marketing Consulting Services,0,0,1,0,0,10/8/2013,3/31/2014
+1583942,Adventist La Grange Memorial Hospital,"Adventist Health System/Sunbelt, Inc.",5101 South Willow Spring Rd,La Grange,IL,60525,9660,Local Hospitals,0,0,1,0,0,1/1/2010,1/1/2011
+1378637,Florida Hospital South,Adventist Health System/Sunbelt Inc.,601 E. Rollins St.,Orlando,FL,32803,62211,General Medical and Surgical Hospitals,5352,0,5352,973441.75,5349,8/13/2004,11/27/2004
+1819263,Central Texas Medical Center,Adventist Health System/Sunbelt Inc.,1301 Wonder World Dr.,San Marcos,TX,78666,622110,General Medical and Surgical Hospitals,0,0,1,0,0,7/20/2015,7/19/2017
+1838360,Florida Hospital Centra Care Palm Coast,"Adventist Health System/Sunbelt, Inc.",1270 Palm Coast Parkway NW,Palm Coast,FL,32137,621493,Freestanding Ambulatory Surgical and Emergency Centers,3,0,2,62.49,2,10/1/2015,2/4/2017
+1679067,El Ahorro,"Adventure Supermarkets, LLC.",5859 Bissonnet,Bellaire,TX,77401,445110,Supermarkets and Other Grocery (except Convenience) Stores,24,0,23,920,23,12/27/2010,12/9/2012
+1672357,El Ahorro,Adventure Supermarkets LLC,2502 N Laurent,Victoria,TX,77901,445110,Supermarkets and Other Grocery (except Convenience) Stores,11,0,8,2273.61,8,10/16/2010,10/15/2012
+1675997,El Ahorro,"Adventure Supermarkets, LLC.",2001 Highway 21 East,Bryan,TX,77803,445110,Supermarkets and Other Grocery (except Convenience) Stores,4,0,2,4904.69,2,12/27/2010,12/9/2012
+1687105,El Ahorro,"Adventure Supermarkets, LLC.",150 W. Parker Road,Houston,TX,77076,445110,Supermarkets and Other Grocery (except Convenience) Stores,517,0,516,20640,516,12/27/2010,12/9/2012
+1516110,American Eagle Outfitters,AE Outfitters Retail Co.,6000 West Markham Street,Little Rock,AR,72205,452111,Department Stores (except Discount Department Stores),3,0,3,128.99,3,6/10/2006,6/7/2008
+1549123,"American Eagle Outfitters, Inc.",AE Outfitters Retail Co.,P.O. Box 788,Warrendale,PA,15095,448190,Other Clothing Stores,0,0,0,0,0,9/2/2007,8/29/2009
+1777562,American Eagle Outfitters,AE Outfitters Retail Co.,Livingston Mall 112 Eisenhower Parkway,Livingston,NJ,7039,448140,Family Clothing Stores,1,0,0,0,0,1/9/2014,1/8/2016
+1838710,"American Eagle Outfitters, Inc. Store #187","AE Outfitters Retail, Co.",8700 N.E. Vancouver Mall Dr.,Vancouver,WA,98662,448140,Family Clothing Stores,0,0,0,0,0,11/12/2015,11/11/2017
+1466505,Aegis Communications Group,"Aegis Communications Group, Inc.",1110 E. 7th Street,Joplin,MO,64801,561422,Telemarketing Bureaus and Other Contact Centers,0,0,0,0,0,8/20/2005,8/18/2007
+1438231,Aegis Communications Group,Aegis Communications Group,609 Bellview Blvd,Fairmont,WV,26554,561422,Telemarketing Bureaus and Other Contact Centers,2,0,1,0,0,3/15/2006,3/29/2006
+1596310,Aegis Communications Group Inc,"Aegis Communications Group, Inc",8001 Bent Branch Drive,Irving,TX,75063,561422,Telemarketing Bureaus and Other Contact Centers,2,0,5,216.3,1,10/21/2009,10/21/2011
+1395327,Aegis Communications,"Aegis Communications Group, Inc",609 Bellview Ave,Fairmont,WV,26554,561422,Telemarketing Bureaus and Other Contact Centers,1,0,1,0,0,11/17/2003,11/21/2003
+1723481,Aerohead Group,"Aerohead Group, INC",1090 Rainbow Drive,Spring Branch,TX,78070,236220,Commercial and Institutional Building Construction,103,0,41,239060.25,41,5/26/2009,5/25/2011
+1742195,Aerohead,"Aerohead Group, Inc.",1090 Rainbow,Spring Branch,TX,78070,238220,"Plumbing, Heating, and Air-Conditioning Contractors",49,0,23,63096.05,23,12/5/2012,11/15/2014
+1757523,Aerohead,"Aerohead Group, Inc.",1090 Rainbow,Spring Branch,TX,78070,238220,"Plumbing, Heating, and Air-Conditioning Contractors",27,0,13,20223.79,13,7/31/2013,3/20/2015
+1655250,Aerohead Mechanical,"Aerohead Group, Inc.",13400 Alameda,Clint,TX,79836,238220,"Plumbing, Heating, and Air-Conditioning Contractors",8,0,7,8220.45,7,5/1/2011,8/24/2012
+1694138,Anytime Fitness,"AF Holdings, Inc.",1011 N. Gammon Road,Middleton,WI,53562,713940,Fitness and Recreational Sports Centers,6,0,4,2193.34,4,5/20/2011,5/19/2013
+1694141,Anytime Fitness,"AF Holdings, Inc.",6420 Cottage Grove Road,Madison,WI,53718,713940,Fitness and Recreational Sports Centers,8,0,6,2837.07,6,5/20/2011,5/19/2013
+1694143,Anytime Fitness,"AF Holdings, Inc.",1117 North Sherman Ave,Madison,WI,53704,713940,Fitness and Recreational Sports Centers,6,0,4,1142.24,4,5/22/2011,5/21/2013
+1694135,Anytime Fitness,"AF Holdings, Inc.",2980 Cahill Main,Madison,WI,53711,713940,Fitness and Recreational Sports Centers,5,0,3,1865.53,3,5/20/2011,5/19/2013
+1748432,Alutiiq Pacific LLC,Afognak Native Corporation,545 W 112  St,New York,NY,10025,561612,Security Guards and Patrol Services,0,0,0,0,0,1/1/2014,12/31/2015
+1696080,"Alutiiq Diversified Services, LLC",Afognak Native Corporation,1000 Liberty AVenue,Pittsburgh,PA,15222,561612,Security Guards and Patrol Services,0,0,0,0,0,2/9/2013,7/20/2013
+1763207,"Alutiiq Diversified Services, LLC",Afognak Native Corporation,Moorhead Federal Building,Pittsburgh,PA,15222,561612,Security Guards and Patrol Services,29,0,29,16566.26,29,10/6/2012,2/2/2013
+1814176,"Alutiiq Diversified Services, LLC",Afognak Native Corporation,Wm. S. Moorehead Federal Bldg.,Pittsburgh,PA,15222,561612,Security Guards and Patrol Services,68,0,58,10470.87,58,3/7/2015,2/25/2017
+1379122,Firestone West Coast (Lakewood),"After Market Services, Inc.",1855 Lakewood Blvd.,Lakewood,CA,90712,4413,"Automotive Parts, Accessories, and Tire Stores",5,0,4,3870.39,4,10/22/2002,10/21/2004
+1379119,Firestone West Coast,"After Market Services, Inc.",3000 Cherry Ave.,Long Beach,CA,90802,4413,"Automotive Parts, Accessories, and Tire Stores",5,0,4,9047.64,4,10/30/2002,10/29/2004
+1379120,Firestone West Coast (torrance),"After Market Services, Inc.",1717 Torrance Blvd.,Torrance,CA,90501,4413,"Automotive Parts, Accessories, and Tire Stores",7,0,6,1758.76,6,9/22/2002,9/21/2004
+1376096,Firestone West Coast (locust),"After Market Services, Inc.",636 Locust Avenue,Long Beach,CA,90802,4413,"Automotive Parts, Accessories, and Tire Stores",5,0,4,6038.44,4,9/18/2002,9/17/2004
+1774856,"Aftercare Nursing Services, Inc.",Aftercare Nursing Services Inc.,1680 Walden Avenue,Buffalo,NY,14225,621610,Home Health Care Services,27,0,26,4126.77,26,5/2/2014,5/1/2016
+1791602,"Aftercare Nursing Services, Inc.","Aftercare Nursing Services, Inc.",500 Pine Street,Jamestown,NY,14701,621610,Home Health Care Services,14,0,13,2626.61,13,5/2/2014,5/1/2016
+1791603,"Aftercare Nursing Services,  Inc.","Aftercare Nursing Services, Inc.",2043 Military Road,Niagara Falls,NY,14304,621610,Home Health Care Services,0,0,0,0,0,5/2/2014,5/1/2016
+1837592,Aftercare Nursing Services,"Aftercare Nursing Services, Inc.",1680 Walden Ave.,Cheektowaga,NY,14225,621610,Home Health Care Services,5,0,5,3225.63,5,5/6/2016,5/5/2018
+1476610,The Agape House,"Agape Family Care Homes, LLC",7320 Bentley Wood Lane,Raleigh,NC,27616,623220,Residential Mental Health and Substance Abuse Facilities,1,0,0,0,0,5/11/2005,5/10/2007
+1747530,Agape Family Care Home,"Agape Family Care Home, Inc.",120 Carriage Loop,Burlington,NC,27217,9690,Local Group Homes for Mentally and Physically Handicapped,7,0,3,0,0,3/9/2013,3/7/2015
+1562658,Agape Group Home,Agape Family Care Homes LLC,3905 Marshcreek Road,Raleigh,NC,27604,9690,Local Group Homes for Mentally and Physically Handicapped,3,0,1,0,0,3/12/2008,3/11/2010
+1809621,Agape Family Care Homes LLC,"Agape Family Care Homes, Inc.",7208 Vixen Ct.,Raleigh,NC,27616,62322,Residential Mental Health and Substance Abuse Facilities,3,296.8,1,7454,1,2/15/2016,11/15/2016
+1443183,Aggregate Industries,"Aggregate Industries, Inc",1707 Cole Blvd,Golden,CO,80401,23899,All Other Specialty Trade Contractors,160,0,130,49666.85,130,6/19/2005,6/3/2006
+1438359,Aggregate Industries,Aggregate Industries,1707 Cole Blvd  Ste 100,Golden,CO,80401,238990,All Other Specialty Trade Contractors,20,0,19,7670.94,19,4/24/2004,4/22/2006
+1424832,Aggregate Industries,"Aggregate Industries, Inc",1707 Cole Blvd; Suite 100,Golden,CO,80401,327320,Ready-Mix Concrete Manufacturing,128,0,127,29790.82,127,2/2/2002,6/18/2006
+1579795,"Southern Nevada Paving, Inc.",Aggregate Industries,3101 E. Craig Rd.,North Las Vegas,NV,89030,2373,"Highway, Street, and Bridge Construction",0,0,0,0,0,1/19/2010,5/19/2010
+1575102,Dunkin' Donuts,AGJ Four Inc.,115 Veterans Highway,Commack,NY,11725,445299,All Other Specialty Food Stores,1,495,1,0,0,3/22/2008,10/4/2008
+1575100,Dunkin' Donuts,AGJ Four Inc.,560 Smithtown Bypass,Smithtown,NY,11787,445299,All Other Specialty Food Stores,1,575,1,0,0,1/2/2010,2/27/2010
+1575106,Dunkin' Donuts,AGJ Four Inc.,731 Nesconset Highway,Smithtown,NY,11787,445299,All Other Specialty Food Stores,1,575,1,0,0,7/27/2009,9/19/2009
+1575108,Dunkin' Donuts,AGJ Four Inc.,1275 Veterans Memorial Highway,Hauppauge,NY,11788,445299,All Other Specialty Food Stores,1,495,1,0,0,3/29/2008,10/25/2008
+1748438,Brick Oven Pizza Kapolei,AGR Inc,889 Kamokila Blvd,Kapolei,HI,96707,722110,Full-Service Restaurants,22,0,21,24149.25,21,12/9/2012,12/8/2014
+1731455,"Brick Oven Pizza -Kalaheo, INC",AGR Inc.,2-2555 Kaumaulii Hwy,Kalaheo,HI,96741,722110,Full-Service Restaurants,19,0,18,21554.84,18,12/9/2012,12/8/2014
+1748436,Brick Oven Pizza Kaneohe,AGR Inc.,46-047 Kamehameha Hwy Unit C6,Kaneohe,HI,96744,722110,Full-Service Restaurants,28,0,27,13423.04,27,12/9/2012,12/8/2014
+1748082,Brick Oven Pizza Wailua,AGR Inc.,4-4361 Kuhio HWY,Kapaa,HI,96746,722110,Full-Service Restaurants,22,0,21,21206.31,21,12/9/2012,12/8/2014
+1588594,Waffle House #1452,"Ahroo Waffles, LLC",3890 Union Deposit Road,Harrisburg,PA,17109,722110,Full-Service Restaurants,3,0,2,156.9,2,11/6/2008,11/5/2010
+1588726,Waffle House Inc #1510,"Ahroo Waffles, LLC",1021 Dillerville Road,Lancaster,PA,17603,722110,Full-Service Restaurants,2,0,1,27.38,1,11/6/2008,11/5/2010
+1588727,"Waffle House, Inc # 1450","Ahroo Waffles, LLC",2499 Lincoln Hwy. East,Lancaster,PA,17602,722110,Full-Service Restaurants,2,0,1,624.8,1,11/6/2008,11/5/2010
+1582827,Waffle House # 1394,"Ahroo Waffles, LLC",1249 Harrisburg Pike,Carlisle,PA,17013,722110,Full-Service Restaurants,3,0,2,2470.59,2,11/6/2008,11/5/2010
+1631835,"Ahtna Technical Services, Inc.","Ahtna Technical Services, Inc",560 East 34th Avenue,Anchorage,AK,99503,561720,Janitorial Services,9,0,9,15168.62,9,3/19/2010,5/5/2012
+1544476,Ahtna Technical Services,Ahtna Technical Services Inc.,26 Harvester Ave.,Batavia,NY,14020,561210,Facilities Support Services,0,0,0,0,0,1/1/2008,1/1/2010
+1565695,"Ahtna Technical Services, Inc.","Ahtna Technical Services, Inc.",27991 Buena Vista Blvd,Los Fresnos,TX,78566,561210,Facilities Support Services,0,0,0,0,0,10/25/2008,10/16/2010
+1599909,ATSI,"Ahtna Technical Services, Inc.",3250 N. Pinal Parkway,Florence,AZ,85232,56161,"Investigation, Guard, and Armored Car Services",0,0,0,0,0,11/1/2009,11/3/2010
+1511875,"Air Property Maintenance Company, Inc.","Air Property Maintenance Company, Inc.",3910 Constellation Road # 104,Lompoc,CA,93438,811490,Other Personal and Household Goods Repair and Maintenance,0,0,0,0,0,10/1/2008,10/15/2008
+1494341,Air Property Maintenance,"Air Property Maintenance Company, Inc.",3910 Constellation Road. Suite # 104,Lompoc,CA,93436,561990,All Other Support Services,36,0,18,23673.28,18,10/14/2005,10/5/2007
+1488375,Air Property Maintenance,"Air Property Maintenance  Company, Inc.",3910 Constellation Road,Lompoc,CA,93436,561990,All Other Support Services,36,0,17,35769.81,17,10/1/2006,10/5/2007
+1494828,Air Property Maintenance,"Air Property Maintenance Company, Inc.",3910 Constellation Road - Suite 104,Lompoc,CA,93436,561990,All Other Support Services,53,0,23,31585.25,23,2/8/2007,10/12/2007
+1612295,Aires Mountain RO- Aurora CO,AIReS Relocation Solutions Inc.,"2260 South Xanadu Way, Suite 300",Aurora,CO,80014,561990,All Other Support Services,30,0,30,28508.57,26,10/1/2008,9/30/2010
+1612297,Aires West Coast RO- Huntington Beach CA,"AIReS Relocation Solutions, Inc.","7755 Center Drive, Suite 1000",Huntington Beach,CA,92647,561990,All Other Support Services,13,0,13,15563.76,13,10/1/2008,9/30/2010
+1612292,Aires Central Regional Office- Pittsburgh PA,"AIReS Relocation Solutions, Inc","6 Penn Center West, Suite 200",Pittsburgh,PA,15276,561990,All Other Support Services,7,0,7,8887.45,6,10/1/2008,9/30/2010
+1612294,Aires Gulf Coast RO- Houston TX,"AIReS Relocation Solutions, Inc","13105 Northwest Freeway, Suite 1110",Houston,TX,77040,561990,All Other Support Services,8,0,8,9960.33,8,10/1/2008,9/30/2010
+1378699,Ajilon Communications,"Ajilon Communications, LLC & Ajilon Communica","2030 E. 4th St., Suite 210",Santa Ana,CA,92701,541618,Other Management Consulting Services,0,0,0,0,0,11/13/2002,11/12/2004
+1461979,"Ajilon Communications, LLC","Ajilon Communications, LLC",12912 Dunlop Circle,Tampa,FL,33626,515210,Cable and Other Subscription Programming,1,0,0,0,0,11/19/2004,11/10/2006
+1436035,Ajilon Communications,"Ajilon Communications, LLC","5131 S. Procyon, #A",Las Vegas,NV,89118,517510,Cable and Other Program Distribution,0,0,1,0,0,12/6/2005,6/1/2006
+1433877,Ajilon Communications,"Ajilon Communications, LLC",Jobsite: Fort Drum,Fort Drum,NY,13602,238210,Electrical Contractors and Other Wiring Installation Contractors,0,0,0,0,0,12/9/2005,5/26/2006
+1599069,AJ's Convenience Store LLC,AJ's Convenience Store LLC,149 South Ash Street,Nowata,OK,74048,445120,Convenience Stores,44,0,28,12402.12,28,9/10/2009,9/9/2011
+1637572,AJ's Convenience Store LLC,AJ's Convenience Store LLC,2605 N. Cincinnati,Tulsa,OK,74106,447110,Gasoline Stations with Convenience Stores,3,0,1,81.6,1,1/5/2010,1/4/2012
+1637573,AJ's Convenience Store LLC,AJ's Convenience Store LLC,302 N. Haskell Blvd,Haskell,OK,74436,447110,Gasoline Stations with Convenience Stores,2,0,0,0,0,12/29/2009,12/28/2011
+1682117,Total Stop,AJ's Convenience Store LLC,501 East 1st Street,Hominy,OK,74035,447110,Gasoline Stations with Convenience Stores,3,0,2,411.9,2,6/1/2012,2/28/2013
+1809881,Handy Dan's Store #4,"REH Convenience Store, LLC.",8310 East Maint St.,Ridgeland,SC,29936,447110,Gasoline Stations with Convenience Stores,15,0,8,11114.92,8,10/19/2014,10/15/2016
+1809882,Handy Dan's Store # 1,"REH Convenience Stores, LLC.",28 Cotton Hill rd.,Tillman,SC,29943,447110,Gasoline Stations with Convenience Stores,23,0,15,7086.08,15,10/19/2014,10/15/2016
+1809883,Handy Dan's Store # 3,"REH Convenience Stores, LLC.",8750 East Main,Ridgeland,SC,29936,447110,Gasoline Stations with Convenience Stores,20,0,14,13014.58,14,10/19/2014,10/15/2016
+1794785,Handy Dan's Store # 2,"REH Convenience Stores, LLC.",5294 Cotton Hill rd.,Tillman,SC,29943,447110,Gasoline Stations with Convenience Stores,22,0,11,7942.13,11,10/19/2014,10/15/2016
+1442365,AKI Industries,"AKI Industries, Inc.",14764 Heritage Crest Way,Riverton,UT,84065,236116,New Multifamily Housing Construction (except Operative Builders),3,0,1,5398.82,1,10/22/2005,11/11/2005
+1378364,AKI Industries,"AKI Industries, Inc.",14764 Heritage Crest Wy,Bluffdale,UT,84065,238130,Framing Contractors,63,0,62,42871.9,62,11/15/2002,11/15/2004
+1451438,"AKI Industries, Inc.","AKI Industries, Inc.",14764 Heritage Crest Way,Salt Lake City,UT,84105,236116,New Multifamily Housing Construction (except Operative Builders),14,0,6,11462.45,6,10/16/2005,11/19/2005
+1485168,AKI Industries,"AKI Industries, Inc.",14764 Heritage Crest Wy,Bluffdale,UT,84065,23611,Residential Building Construction,127,58905,126,18342.14,126,12/1/2004,7/21/2007
+1797870,PUMA -Brenas -996,AKI Petroleum LLC  and AKI Staffing LLC,"Carr 693 Int. 669, Km. 1",Vega Alta,PR,692,447110,Gasoline Stations with Convenience Stores,34,0,22,7213.89,22,7/30/2014,7/26/2016
+1798070,PUMA CAGUAS - 379,AKI Staffing LLC and AKI Petroleum LLC,"Carr #1, Km 26.8",Caguas,PR,725,447110,Gasoline Stations with Convenience Stores,24,0,14,4755.96,14,8/6/2014,8/2/2016
+1798073,PUMA ESPINOSA - 987,AKI Staffing LLC and AKI Petroleum LLC,"Carr #2, Km 24.5 Bo. Espinosa",Dorado,PR,646,447110,Gasoline Stations with Convenience Stores,21,0,12,2905.88,12,8/6/2014,8/2/2016
+1798075,PUMA MANATI - 926,AKI Staffing LLC  and AKI Petroleum LLC,"Carr #2, Km 46.2 Urb Vista Atenas",Manati,PR,674,447110,Gasoline Stations with Convenience Stores,12,0,8,2469.26,8,8/6/2014,8/2/2016
+1456615,"Akima Logistics Services, LLC","Akima Logistics Services, LLC",1524-B Adeline Street,Hattiesburg,MS,39401,541614,"Process, Physical Distribution, and Logistics Consulting Services",0,0,0,0,0,6/15/2006,9/15/2006
+1655976,"Akima Logistics Services, LLC","Akima Logistics Services, LLC","Bldg. 6043, Higgins Road",Schofield Barracks,HI,96857,811111,General Automotive Repair,14,0,14,136019.35,14,12/4/2010,7/21/2012
+1616538,"Akima Logistics Services, LLC","Akima Logistics Services, LLC",13777 Ballantyne Corporate Place,Charlotte,NC,28277,561210,Facilities Support Services,94,0,47,6010.25,47,1/1/2009,4/30/2011
+1803968,Akima Logistics Services LLC,Akima Logistics Services LLC,US Marine Corp Logisics,Barstow,CA,92311,561210,Facilities Support Services,4,0,2,113468.31,2,12/30/2013,12/31/2017
+1861904,Cricket Wireless (The Wireless Solution),Al Meghani Enterprises Inc.,11403 O'Connor Rd,San Antonio,TX,78233,517911,Telecommunications Resellers,5,0,3,382.27,3,8/17/2016,8/16/2018
+1861905,Cricket Wireless (The Wireless Solution),Al Meghani Enterprises Inc.,3023 Thousand Oaks,San Antonio,TX,78247,517911,Telecommunications Resellers,3,0,1,201.92,1,8/17/2016,8/16/2018
+1861906,Cricket Wireless (The Wireless Solution),Al Meghani Enterprises Inc.,"8002 Callaghan Rd, Suite 102",San Antonio,TX,78230,517911,Telecommunications Resellers,2,0,1,133.13,1,8/17/2016,8/16/2018
+1861267,Cricket Wireless (The Wireless Solution),Al Meghani Enterprise Inc,105 S Flores,San Antonio,TX,78204,51721,Wireless Telecommunications Carriers (except Satellite),7,0,3,721.44,3,8/8/2016,8/7/2018
+1407488,Alameda County Department of Probation,Alameda County Department of Probation,"400 Broadway, Suite #412",Oakland,CA,94607,9890,Other Local Governmental Facilities,0,0,0,0,0,6/16/2003,6/15/2005
+1411110,Alameda County Department of Probation,Alameda County Department of Probation,3155 Kearney St.,Fremont,CA,94538,9890,Other Local Governmental Facilities,0,0,0,0,0,6/16/2003,6/15/2005
+1411112,Alameda County Department of Probation,Alameda County Department of Probation,5672 Stoneridge Dr.,Pleasanton,CA,94588,9890,Other Local Governmental Facilities,0,0,0,0,0,6/16/2003,6/15/2005
+1411113,Alameda County Department of Probation,Alameda County Department of Probation,224 Winton Ave.,Hayward,CA,94544,9890,Other Local Governmental Facilities,0,0,0,0,0,6/16/2003,6/15/2005
+1501005,Alameda County Medical Center,Alameda County Medical Center,1411 East 31st Street,Oakland,CA,94602,966,Local Hospitals,1,0,1,2452.8,1,1/25/2006,1/24/2008
+1741560,Alameda Health System,Alameda County Medical Center,1411 E. 31st St,Oakland,CA,94602,9660,Local Hospitals,1,0,1,0,0,1/1/2014,10/8/2014
+1487227,Alameda County Medical Center,Alameda County Medical Center,1411 East 31st Street,Oakland,CA,94602,9660,Local Hospitals,1350,0,1338,873361.32,1338,8/14/2005,8/13/2007
+1617212,Alameda County Medical Center,Alameda County Medical Center,15400 Foothill Blvd,San Leandro,CA,94578,966,Local Hospitals,0,0,1,0,0,5/12/2009,5/11/2011
+1727443,Yoyo 5,"Alan Mode, Inc.",1160 S. Crocker St.,Los Angeles,CA,90021,31523,Women's and Girls' Cut and Sew Apparel Manufacturing,1,0,0,0,0,1/21/2014,4/21/2014
+1585551,Yo Yo 5,"Alan Mode, Inc.",725 E. Washington Blvd #302,Los Angeles,CA,90021,315232,Women's and Girls' Cut and Sew Blouse and Shirt Manufacturing,1,0,0,0,0,3/14/2010,6/14/2010
+1628293,"Alan Mode, Inc. dba Yo Yo 5","Alan Mode, Inc.",1160 S. Crocker Street,Los Angeles,CA,90021,315232,Women's and Girls' Cut and Sew Blouse and Shirt Manufacturing,1,0,0,0,0,5/15/2011,8/15/2011
+1566496,"Alan Mode, Inc DBA Yoyo5","Alan Mode, Inc",1160 S. Crocker St,Los Angeles,CA,90021,31523,Women's and Girls' Cut and Sew Apparel Manufacturing,1,0,0,0,0,12/2/2007,12/1/2009
+1642301,IHOP,Albany Food Corp,16 A Wolf Road,Albany,NY,12205,722211,Limited-Service Restaurants,11,0,11,399.9,11,1/4/2010,1/4/2012
+1637977,IHOP,Albany Food Corporation,16 A Wolf Rd.,Albany,NY,12205,722211,Limited-Service Restaurants,27,0,27,1067.7,27,11/30/2009,11/29/2011
+1642278,IHOP,Albany Food Corp,16 A Wolf Road--Clifton Park Location,Albany,NY,12205,722211,Limited-Service Restaurants,18,0,18,632.5,18,1/4/2010,1/3/2012
+1642287,IHOP,Albany Food Corp,16 A Wolf Road,Albany,NY,12205,722211,Limited-Service Restaurants,10,0,10,332.8,10,1/4/2010,1/3/2012
+1461709,Albany Medical Center,Albany Medical Center,43 New Scotland Avenue,Albany,NY,12208,6221,General Medical and Surgical Hospitals,0,0,1,0,0,3/26/2005,2/27/2006
+1836070,Albany Med EmUrgentCare,Albany Medical Center,11835 US-9W,West Coxsackie,NY,12192,62149,Other Outpatient Care Centers,0,0,0,0,0,12/11/2015,12/8/2017
+1668875,Albany Medical Center,Albany Medical Center Hospital,43 New Scotland Avenue,Albany,NY,12208,622110,General Medical and Surgical Hospitals,0,0,1,0,0,2/10/2012,10/15/2012
+1388202,Albany Medical Center Hospital,Albany Medical Center Hospital,43 New Scotland Ave.,Albany,NY,12208,6221,General Medical and Surgical Hospitals,0,0,1,0,0,11/8/2004,11/15/2004
+1582124,Allegheny County Police,Alegheny County,400 North Lexington Avenue,Pittsburgh,PA,15208,9640,Local Police Protection,7,0,6,62531.42,6,4/18/2009,4/9/2011
+1502971,John J. Kane Regional Center - Glen Hazel,Allegheny County,955 Rivermont Drive,Pittsburgh,PA,15207,9670,Local Nursing Homes,15,0,14,3556.5,14,3/11/2006,3/1/2008
+1491764,Allegheny County Bureau of Police,Allegheny County,400 N. Lexington St,Pittsburgh,PA,15208,9640,Local Police Protection,48,0,48,17374.68,48,9/28/2005,11/17/2007
+1808580,Kane Regional-Scott,Allegheny County,300 Kane Boulevard,Pittsburgh,PA,15243,62311,Nursing Care Facilities,8,0,7,6693.22,7,12/20/2014,12/10/2016
+1734267,"Alex Sanchez, FLC","Alex Sanchez, FLC",280 Savage Rd.,Corapeake,NC,27926,115115,Farm Labor Contractors and Crew Leaders,6,2550,0,0,0,1/1/2014,7/22/2014
+1411614,Alex Sanchez,Alex Sanchez,2111 Liver Pool,Portsmouth,VA,23704,115115,Farm Labor Contractors and Crew Leaders,9,4200,0,0,0,1/5/2004,6/25/2005
+1702774,Alex Sanchez FLC,Alex Sanchez FLC,278 Savage Road,Corapeake,NC,27926,115115,Farm Labor Contractors and Crew Leaders,5,2000,0,0,0,7/22/2013,7/21/2014
+1353738,Alex Sanchez,Alex Sanchez,216 Savage Road,Corapeake,NC,27976,115115,Farm Labor Contractors and Crew Leaders,1,0,0,0,0,3/20/2004,4/20/2004
+1415737,"Alex's Transportation, Inc.",Alex's Transportation Inc,211 N. Piedras,El Paso,TX,79905,485310,Taxi Service,10,0,11,1454.5,3,5/20/2005,9/4/2005
+1424831,Alex's Transportation,"Alex's Transportation, Inc.",2900 Bond St,Everett,WA,98201,48821,Support Activities for Rail Transportation,1,0,1,238.19,1,7/10/2005,10/30/2005
+1368701,Alex's Transportation,Alex's Transportation Inc.,PO Box 31180,Flagstaff,AZ,86003,482112,Short Line Railroads,0,0,0,0,0,8/13/2002,8/19/2004
+1418806,Alex's Transportation,"Alex's Transportation, Inc.",1515 E. Cedar,Flagstaff,AZ,86003,488210,Support Activities for Rail Transportation,329,0,329,318816.63,329,7/8/2005,10/30/2005
+1443831,Alice's Wonderland,"Alice's Wonderland Daycare, Inc.",37 Boulevard Motif,Brownsburg,IN,46112,624410,Child Day Care Services,1,0,1,794.17,1,9/4/2004,5/19/2006
+1696813,Alice's Wonderland Playhouse,Alice's Wonderland Playhouse,888 Chickahominy Road,Toano,VA,23168,624410,Child Day Care Services,0,0,0,0,0,1/2/2013,7/15/2013
+1499630,Alice's Wonderland,"Alice's Wonderland, Inc.",37 Boulevard Motif,Brownsburg,IN,46112,624410,Child Day Care Services,0,0,0,0,0,6/14/2006,12/21/2007
+1723154,Alice's Wonderland,Alice's Wonderland,"223 Michigan Ave. School Rd., NE",Cleveland,TN,37323,624410,Child Day Care Services,2,0,2,48.25,2,3/25/2012,3/21/2014
+1774950,"Circle K Incorporated, #4250 - Seminole","Alimentation Couche-Tard, Inc.",9097 Starkey Road,Seminole,FL,33777,44711,Gasoline Stations with Convenience Stores,10,0,0,0,0,11/7/2013,10/29/2015
+1774951,Circle K Corporation #9782 - Oldsmar,"Alimentation Couche-Tard, Inc.",3170 Tampa Road,Oldsmar,FL,34677,44711,Gasoline Stations with Convenience Stores,10,0,0,0,0,11/7/2013,10/29/2015
+1775505,Circle K Stores,Alimentation Couche-Tard,3400 5th Avenue North,Saint Petersburg,FL,33713,447110,Gasoline Stations with Convenience Stores,0,0,0,0,0,10/31/2013,10/29/2015
+1775942,"Circle K Stores, Inc.","Alimentation Couche-Tard, Inc.",13396 Seminole Blvd.,Largo,FL,33778,447110,Gasoline Stations with Convenience Stores,1,0,0,0,0,11/4/2013,11/2/2015
+1773819,All About Socks,"All About Socks Co., LLC",2315 NW Kings Blvd,Corvallis,OR,97330,448150,Clothing Accessories Stores,2,0,1,318.17,1,8/31/2014,1/7/2016
+1743870,All About Socks & More (ID Falls),All About Socks LLC,2155 E. 17th Street,Idaho Falls,ID,83401,4481,Clothing Stores,2,0,0,0,0,9/19/2012,9/18/2014
+1742603,All About Socks & More (Nampa),All About Socks LLC,16732 N. Marketplace Blvd.,Nampa,ID,83687,4481,Clothing Stores,2,0,0,0,0,2/1/2014,9/18/2014
+1740493,All About Socks & More (Boise),All About Socks LLC,277 N. Milwaukee,Boise,ID,83705,4481,Clothing Stores,5,0,3,620.34,3,1/1/2014,9/18/2014
+1524717,All American Roofing Co.,All American Roofing Co.,4019 Sebastopol Road,Santa Rosa,CA,95407,23816,Roofing Contractors,35,0,35,7838.46,35,9/4/2006,9/4/2008
+1486936,"All American Roofing, Inc.","All American Roofing, Inc.",550 Telser Rd.,Lake Zurich,IL,60047,238160,Roofing Contractors,0,0,0,0,0,5/16/2005,8/15/2007
+1425391,"American Roofing, Inc.","American Roofing, Inc.",PO Box 90004,Gainesville,FL,32653,238160,Roofing Contractors,0,0,0,0,0,1/28/2004,1/18/2006
+1668605,AARC / Dallas LLC,All American Roofing,2845 Ladybird Lane,Dallas,TX,75220,236116,New Multifamily Housing Construction (except Operative Builders),0,0,0,0,0,1/1/2011,12/31/2012
+1666286,All Green Corporation,All Green Lawn Corporation,690 West 155 South,Angola,IN,46703,561730,Landscaping Services,19,3973.75,19,5529.07,17,12/18/2010,12/15/2012
+1660212,All Green Lawn Corporation,All Green Lawn Corporation,690 W. 155 S.,Angola,IN,46703,561730,Landscaping Services,23,0,23,3397.32,23,12/21/2009,12/20/2011
+1628789,All Green Lawn Corporation,All Green Lawn Corporation,432 W. Eliza,Schoolcraft,MI,49087,561730,Landscaping Services,9,1980,9,13477.41,9,12/21/2009,12/20/2011
+1635074,All Green Lawn Corporation,All Green Lawn Corporation,1728 Dewent Drive,Jenison,MI,49428,561730,Landscaping Services,5,0,4,217.95,4,12/21/2009,12/20/2011
+1413836,Pearl Gates Home,Alleluia,1630 Manning Ave,Reedley,CA,93654,6233,Community Care Facilities for the Elderly,5,0,4,368.48,4,8/18/2003,8/17/2005
+1421901,Hollywood Home,Alleluia,405 Hollywood Ave,Reedley,CA,93654,6233,Community Care Facilities for the Elderly,2,0,2,464.94,2,8/18/2003,8/17/2005
+1421902,Acacia Home,Alleluia,783 Acacia Ave,Reedley,CA,93654,6233,Community Care Facilities for the Elderly,4,0,3,10456.43,3,8/18/2003,8/17/2005
+1421899,Reedley Home (Country Home),Alleluia,3461 S. Usry Ave,Reedley,CA,93654,6233,Community Care Facilities for the Elderly,7,0,6,12075.13,6,8/18/2003,8/17/2005
+1587206,Alliance Mechanical Inc,Alliance Mechanical Inc,5025 W. Diablo Dr,Las Vegas,NV,89118,238220,"Plumbing, Heating, and Air-Conditioning Contractors",140,0,86,791210.43,86,7/25/2009,4/16/2011
+1440964,"Alliance Mechanical, Inc.",Alliance Mechanical,"6045 Harrison Drive, #1",Las Vegas,NV,89120,238220,"Plumbing, Heating, and Air-Conditioning Contractors",32,0,20,7651.11,20,3/22/2005,10/31/2006
+1564752,Alliance Mechanical,Alliance Mechanical Inc.,5025 West Diablo Dr,Las Vegas,NV,89118,238220,"Plumbing, Heating, and Air-Conditioning Contractors",0,0,0,0,0,1/1/2009,11/1/2009
+1814674,Alliance Mechanical,Alliance Mechanical Inc.,P.O. Box 666,Essex Junction,VT,5452,238220,"Plumbing, Heating, and Air-Conditioning Contractors",1,0,0,0,0,2/14/2015,2/13/2017
+1422560,Allied Community Services,Allied Community Services,3 Pearson Way,Enfield,CT,6082,62431,Vocational Rehabilitation Services,1,0,1,25.87,1,7/16/2003,7/15/2005
+1566039,Allied Community Services,Allied Community Services,6 Craftsman Road,East Windsor,CT,6088,624120,Services for the Elderly and Persons with Disabilities,0,0,0,0,0,3/24/2009,1/15/2010
+1484465,Allied Community Services,Allied Community Services,6 Craftsman Road,East Windsor,CT,6088,624310,Vocational Rehabilitation Services,1,0,1,133.16,1,7/1/2005,6/11/2007
+1576516,Allied Rehabilitation Centers,"Allied Community Services, Inc.",3 Pearson Way,Enfield,CT,6082,624120,Services for the Elderly and Persons with Disabilities,9,0,9,1516.29,9,1/1/2008,1/15/2010
+1591225,"Allied Industries, Inc.","Allied Industries, Inc.",11333 Vanowen Street,North Hollywood,CA,91605,23891,Site Preparation Contractors,0,0,0,0,0,1/30/2009,1/29/2011
+1532241,Allied Environmental Services,"Allied Industries, Inc.",4570 Van Nuys Blvd # 308,Sherman Oaks,CA,91403,238910,Site Preparation Contractors,128,0,125,50664.41,125,5/31/2007,5/30/2009
+1573965,Allied Environmental Services,Allied Industries Inc,11333 Van Owen Street,North Hollywood,CA,91605,238990,All Other Specialty Trade Contractors,0,0,0,0,0,3/7/2008,3/6/2010
+1527490,Allied industries/Allied Environmental,"Allied Industries, Inc.",5725 Kerny Villa Rd Suite A,San Diego,CA,92123,238990,All Other Specialty Trade Contractors,0,0,0,0,0,9/30/2007,7/15/2009
+1609582,Allina Health System,Allina Health System,"2925 Chicago Ave S, Mail Route 10905",Minneapolis,MN,55407,622110,General Medical and Surgical Hospitals,0,0,1,0,0,2/23/2009,9/22/2010
+1785875,Mercy Hospital,Allina Health Systems,4050 Coon Rapids Blvd.,Minneapolis,MN,55433,622110,General Medical and Surgical Hospitals,0,0,1,0,0,4/6/2014,4/5/2016
+1709019,Allina Health,Allina Health System,Mail Route 10905,Minneapolis,MN,55440,62211,General Medical and Surgical Hospitals,2,0,1,0,0,2/7/2012,2/4/2013
+1842816,Edina Family Physicians,Allina Health System,5301 Vernon Avenue S,Minneapolis,MN,55436,6221,General Medical and Surgical Hospitals,28000,0,1,0,0,12/11/2017,2/7/2018
+1741762,"Alutiiq Pacific, LLC","Allutiiq Pacific, LLC",100 University Drive,Fairmont,WV,26554,561612,Security Guards and Patrol Services,0,0,0,0,0,4/1/2013,10/18/2014
+1708795,"Alutiiq Pacific, LLC","Alutiiq Pacific, LLC","3909 Arctic Blvd, Suite 400",Anchorage,AK,99503,561612,Security Guards and Patrol Services,23,0,12,4145.14,12,10/1/2012,9/30/2013
+1703263,"Alutiiq Pacific, LLC.","Alutiiq Pacific, LLC.",8619 Westwood Center Drive,Vienna,VA,22182,561612,Security Guards and Patrol Services,1,0,1,2038.2,1,4/1/2013,1/25/2014
+1847852,Alutiiq Pacific LLC,Alutiiq Pacific LLC,3909 Arctic Blvd  Suite 500,Anchorage,AK,99503,561612,Security Guards and Patrol Services,0,0,0,0,0,4/3/2016,4/3/2018
+1435294,The Country Market,"Aloia Enterprises, Inc.",1392 Old Highway 16,Jefferson,NC,28640,445120,Convenience Stores,1,0,1,120.52,1,2/5/2004,2/2/2006
+1435296,Nathan's Creek General Store,"Aloia Enterprises, Inc.",4778 US Highway 221 N.,Jefferson,NC,28640,445120,Convenience Stores,1,0,1,2522.5,1,2/5/2004,2/2/2006
+1435293,Mike's Community Mart,"Aloia Enterprises, Inc.",203 Beaver Creek School Road,West Jefferson,NC,28694,445120,Convenience Stores,1,0,1,3272.5,1,2/5/2004,2/2/2006
+1420193,The Corner Market,"Aloia Enterprises, Inc.",1462 US Highway 221North,Jefferson,NC,28640,445120,Convenience Stores,3,0,3,5563.22,3,2/5/2004,2/2/2006
+1491075,Alondra Gonzalez Farm Corp.,Alondra Gonzalez Farm Corp.,2229 East Pine Avenue,Fresno,CA,93703,111332,Grape Vineyards,0,0,0,0,0,10/1/2006,9/21/2007
+1558350,Alondra Gonzalez Farm Corp.,Alondra Gonzalez Farm Corp.,Alondra Gonzalez Farm Corp,Fresno,CA,93703,111332,Grape Vineyards,0,0,0,0,0,5/9/2009,9/15/2009
+1404263,Alondra Gonzalez Farm Corp.,Alondra Gonzalez Farm Corp.,2429 East Pine Avenue,Fresno,CA,93703,115115,Farm Labor Contractors and Crew Leaders,0,0,0,0,0,1/1/2005,4/14/2005
+1403228,Alondra Gonzalez Farm Corp.,Alondra Gonzalez Farm Corp.,2429 E. Pine Avenue,Fresno,CA,93703,115115,Farm Labor Contractors and Crew Leaders,36,11175,29,11200,28,1/3/2005,4/14/2005
+1679791,"Alpha Protective Services, Inc (EPA, RTP)","Alpha Protective Services, Inc.",1701 Colonial Drive,Thomasville,GA,31757,561612,Security Guards and Patrol Services,139,0,63,170708.46,63,11/30/2012,12/21/2012
+1681003,"Alpha Protective Services, Inc. (Fort Bragg)","Alpha Protective Services, Inc","Fort Bragg, NC",Fayetteville,NC,28301,561612,Security Guards and Patrol Services,398,0,139,0,0,11/30/2012,12/20/2012
+1495896,Alpha Protective Services,"Alpha Protective Services, Inc.",1701 Colonial Dr,Thomasville,GA,31757,561612,Security Guards and Patrol Services,2,0,2,1327.68,2,5/23/2007,11/26/2007
+1444548,Alpha Protective Services,"Alpha Protective Services, Inc.",1701 Colonial Drive,Thomasville,GA,31758,561612,Security Guards and Patrol Services,533,0,233,181848.75,233,4/10/2005,4/8/2007
+1501715,Alpha Security LLC,Alpha Security LLC,"1951 W. Camelback Rd., Suite 205",Phoenix,AZ,85015,561612,Security Guards and Patrol Services,1,0,2,0,0,3/1/2006,2/28/2008
+1274706,Alpha Security,"Alpha Security, L.L.C.",6245 N. 35th Avenue,Phoenix,AZ,85015,561612,Security Guards and Patrol Services,115,21114,113,44579.16,113,1/24/2002,3/27/2003
+1525444,Alpha Security Services,Alpha Security LLC,"1951 W. Camelback, #205",Phoenix,AZ,85015,561612,Security Guards and Patrol Services,0,0,2,0,0,6/6/2008,10/30/2008
+1581240,Alpha Security,"Alpha Security, Inc.","12805 Old Fort Road, Suite 302",Fort Washington,MD,20744,561611,Investigation Services,63,0,63,3462.46,63,3/25/2009,3/23/2011
+1694080,"Alutiiq Diversified Services, LLC","Alutiiq Diversified Services, LLC","3909 Arctic Blvd., Suite 400",Anchorage,AK,99503,54199,"All Other Professional, Scientific, and Technical Services",0,0,0,0,0,2/4/2013,10/26/2013
+1808617,Alutiiq LLC,"Alutiiq Diversified Services, llc",3909 Arctic Boulevard,Anchorage,AK,99503,561612,Security Guards and Patrol Services,1,0,0,0,0,1/8/2015,1/7/2017
+1756632,"Alutiiq Diversified Services, LLC","Alutiiq Diversified Services, LLC",200 4th St SW,Huron,SD,57350,921190,Other General Government Support,0,0,0,0,0,10/1/2014,4/23/2015
+1847975,"Alutiiq Diversified Services, LLC","Alutiiq Diversified Services, LLC",3909 Arctic Blvd.,Anchorage,AK,99503,561612,Security Guards and Patrol Services,0,0,0,0,0,2/1/2016,1/31/2018
+1780849,"AM Recycling, Inc.","AM Recycling, Inc.",17305 Valley Blvd,La Puente,CA,91744,423930,Recyclable Material Merchant Wholesalers,2,0,1,1836,1,7/29/2014,7/28/2016
+1797939,"AM Recycling, Inc.(Compton)","AM Recycling, Inc.",1800 N. Long Beach Blvd,Compton,CA,90221,423930,Recyclable Material Merchant Wholesalers,1,0,0,0,0,7/29/2014,7/28/2016
+1844145,AM Recycling,AM Recycling,10365 Balboa Blvd,Granada Hills,CA,91344,42393,Recyclable Material Merchant Wholesalers,3,0,1,787.5,1,2/16/2016,2/2/2018
+1844151,AM Recycling,AM Recycling Inc,1800 N LONG BEACH BLVD,Compton,CA,90221,423930,Recyclable Material Merchant Wholesalers,6,0,6,2331.3,6,2/10/2016,2/9/2018

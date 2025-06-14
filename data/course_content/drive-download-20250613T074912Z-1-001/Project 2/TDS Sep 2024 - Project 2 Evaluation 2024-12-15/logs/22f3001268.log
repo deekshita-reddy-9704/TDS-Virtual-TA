@@ -1,0 +1,58 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/gittymadman/TDS_project_2.git', '/root/.local/share/tds-sep-24-project-2/22f3001268']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Hello from tds-project-2!
+goodreads
+Folder Created:/root/.local/share/tds-sep-24-project-2/eval/22f3001268/goodreads.csv/goodreads
+Error:429,{
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py`
+Installed 59 packages in 254ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py", line 275, in <module>
+    main()
+  File "/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py", line 266, in main
+    narrative = ask_question_to_open_ai(summary,analysis,folder_path,csv_file_path)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py", line 166, in ask_question_to_open_ai
+    return output
+           ^^^^^^
+UnboundLocalError: cannot access local variable 'output' where it is not associated with a value
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Hello from tds-project-2!
+goodreads
+Folder Created:/root/.local/share/tds-sep-24-project-2/eval/22f3001268/goodreads.csv/goodreads
+Extracted code saved in file...
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py", line 275, in <module>
+    main()
+  File "/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py", line 270, in main
+    run_python_code(main_directory_path,folder_path)
+  File "/root/.local/share/tds-sep-24-project-2/22f3001268/autolysis.py", line 230, in run_python_code
+    subprocess.run(['python',code_file_path],stdout=file,stderr=file,check=True,cwd=main_directory_path) # check=True stops execution if there is any error in executing generated python file.
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.12.8-linux-x86_64-gnu/lib/python3.12/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['python', '/root/.local/share/tds-sep-24-project-2/eval/22f3001268/goodreads.csv/goodreads/extracted_code.py']' returned non-zero exit status 1.
+
+
+------------------------------------------------------------------------
+

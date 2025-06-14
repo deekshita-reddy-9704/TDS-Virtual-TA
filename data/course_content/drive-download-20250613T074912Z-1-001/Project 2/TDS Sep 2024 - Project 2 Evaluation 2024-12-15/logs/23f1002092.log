@@ -1,0 +1,26 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/dhirajp1603/IITM-TDS-2.git', '/root/.local/share/tds-sep-24-project-2/23f1002092']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1002092/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Starting autolysis process...
+Detected file encoding: utf-8
+Dataset loaded successfully.
+Data analysis complete.
+Analyzing data...
+Generating visualizations...
+Generating narrative using LLM...
+Narrative successfully written to goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1002092/autolysis.py`
+Installed 57 packages in 143ms
+
+
+------------------------------------------------------------------------
+

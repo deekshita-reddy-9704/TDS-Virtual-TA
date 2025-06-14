@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Aaryaganesh/TDS_Project2_21f1001238.git', '/root/.local/share/tds-sep-24-project-2/21f1001238']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1001238/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Arguments passed: ['/root/.local/share/tds-sep-24-project-2/21f1001238/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+Starting analysis script
+Analysis complete. Results saved in /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+
+
+
+
+------------------------------------------------------------------------
+

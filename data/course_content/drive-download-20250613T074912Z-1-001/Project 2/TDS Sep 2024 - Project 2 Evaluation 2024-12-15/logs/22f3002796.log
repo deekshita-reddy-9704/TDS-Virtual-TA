@@ -1,0 +1,55 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Aakash-Prime/project2.git', '/root/.local/share/tds-sep-24-project-2/22f3002796']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3002796/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Hello from tds-project-2!
+goodreads
+Folder Created:/root/.local/share/tds-sep-24-project-2/eval/22f3002796/goodreads.csv/goodreads
+Extracted code saved in file...
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3002796/autolysis.py`
+Installed 34 packages in 246ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3002796/autolysis.py", line 283, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3002796/autolysis.py", line 278, in main
+    rp_code(mdp, folder_path)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3002796/autolysis.py", line 230, in rp_code
+    subprocess.run(
+    ~~~~~~~~~~~~~~^
+        ["python", code_file_path],
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<3 lines>...
+        cwd="/Users/aakash/project2",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )  # check=True stops execution if there is any error in executing generated python file.
+    ^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/subprocess.py", line 554, in run
+    with Popen(*popenargs, **kwargs) as process:
+         ~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/subprocess.py", line 1036, in __init__
+    self._execute_child(args, executable, preexec_fn, close_fds,
+    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                        pass_fds, cwd, env,
+                        ^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+                        gid, gids, uid, umask,
+                        ^^^^^^^^^^^^^^^^^^^^^^
+                        start_new_session, process_group)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/subprocess.py", line 1966, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/aakash/project2'
+
+
+------------------------------------------------------------------------
+

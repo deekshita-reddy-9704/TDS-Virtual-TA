@@ -1,0 +1,36 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/pkala7968/TDS-PROJECT2-IITM.git', '/root/.local/share/tds-sep-24-project-2/23f1002374']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1002374/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset loaded successfully with 10000 rows and 23 columns.
+Correlation heatmap saved as correlation_heatmap.png.
+Outlier detection chart saved as outlier_detection.png.
+Histogram for book_id saved as histogram_book_id.png.
+Histogram for goodreads_book_id saved as histogram_goodreads_book_id.png.
+Histogram for best_book_id saved as histogram_best_book_id.png.
+Histogram for work_id saved as histogram_work_id.png.
+Histogram for books_count saved as histogram_books_count.png.
+Histogram for isbn13 saved as histogram_isbn13.png.
+Histogram for original_publication_year saved as histogram_original_publication_year.png.
+Histogram for average_rating saved as histogram_average_rating.png.
+Histogram for ratings_count saved as histogram_ratings_count.png.
+Histogram for work_ratings_count saved as histogram_work_ratings_count.png.
+Histogram for work_text_reviews_count saved as histogram_work_text_reviews_count.png.
+Histogram for ratings_1 saved as histogram_ratings_1.png.
+Histogram for ratings_2 saved as histogram_ratings_2.png.
+Histogram for ratings_3 saved as histogram_ratings_3.png.
+Histogram for ratings_4 saved as histogram_ratings_4.png.
+Histogram for ratings_5 saved as histogram_ratings_5.png.
+README.md file generated successfully at README.md.
+
+
+
+
+------------------------------------------------------------------------
+

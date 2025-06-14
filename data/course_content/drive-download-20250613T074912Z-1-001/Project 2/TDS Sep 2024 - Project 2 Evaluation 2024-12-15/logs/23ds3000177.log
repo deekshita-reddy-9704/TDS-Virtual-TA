@@ -1,0 +1,10 @@
+['git', 'clone', '-q', '--single-branch', '-b', '038730f1babcefb6d93286964c7c107a8e08c7ad', 'https://github.com/manojpaul9986/tds_project_2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000177']
+
+
+
+warning: Could not find remote branch 038730f1babcefb6d93286964c7c107a8e08c7ad to clone.
+fatal: Remote branch 038730f1babcefb6d93286964c7c107a8e08c7ad not found in upstream origin
+
+
+------------------------------------------------------------------------
+

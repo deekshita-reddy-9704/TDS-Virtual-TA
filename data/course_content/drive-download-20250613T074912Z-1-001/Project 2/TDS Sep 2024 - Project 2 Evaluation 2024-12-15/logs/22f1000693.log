@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/sg-sparsh-goyal/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/22f1000693']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000693/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Trying to read the file with encoding: utf-8
+Correlation Heatmap saved at: correlation_heatmap.png
+
+
+
+
+------------------------------------------------------------------------
+

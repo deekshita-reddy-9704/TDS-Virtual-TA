@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Chinmoydass/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/22f2000481']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000481/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error: 429, {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Analysis complete. Outputs saved in goodreads/
+
+
+
+
+------------------------------------------------------------------------
+

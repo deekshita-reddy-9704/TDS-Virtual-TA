@@ -1,0 +1,23 @@
+#!pip install ydata_profiling
+#!pip install pandas-profiling --quiet --upgrade
+from ydata_profiling import ProfileReport
+import pandas as pd
+from google.colab import files
+
+!pip install --upgrade pip
+!pip install --upgrade Pillow
+
+url='https://drive.google.com/file/d/1KjrSid8AfVggkCX3pmcpRE-OAi8CHVUr/view?usp=sharing'
+url2='https://drive.google.com/uc?id=' + url.split('/')[-2]
+df = pd.read_csv(url2,encoding='latin-1')
+df
+
+
+profile = ProfileReport(df, title="Profiling Report")
+#profile.to_file("your_report.html")
+#files.download('Profiling Report')
+
+!python3 -m PIL
+
+
+

@@ -1,0 +1,17 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/231fiitm/tdsproject2.git', '/root/.local/share/tds-sep-24-project-2/23f1000029']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1000029/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete, graphs and reports generated.
+
+
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/VijeethC300/AnalysisByLLM.git', '/root/.local/share/tds-sep-24-project-2/22f3003121']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3003121/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3003121/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3003121/autolysis.py", line 203, in <module>
+    column_metadata = json.loads(column_info).get("column_metadata", [])
+                      ~~~~~~~~~~^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/__init__.py", line 339, in loads
+    raise TypeError(f'the JSON object must be str, bytes or bytearray, '
+                    f'not {s.__class__.__name__}')
+TypeError: the JSON object must be str, bytes or bytearray, not dict
+
+
+------------------------------------------------------------------------
+

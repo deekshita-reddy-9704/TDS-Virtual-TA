@@ -1,0 +1,24 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/pranay2k3/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/23f3004354']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3004354/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Performing basic analysis...
+Querying LLM for further analysis suggestions...
+Error with request: 429 - {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Generating visualizations...
+Creating README.md...
+Analysis complete.
+
+
+
+
+------------------------------------------------------------------------
+

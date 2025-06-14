@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/RohitGurav29/autolysis_project.git', '/root/.local/share/tds-sep-24-project-2/24ds2000136']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds2000136/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error processing /content/goodreads.csv: [Errno 2] No such file or directory: '/content/goodreads.csv'
+Error processing /content/happiness.csv: [Errno 2] No such file or directory: '/content/happiness.csv'
+Error processing /content/media.csv: [Errno 2] No such file or directory: '/content/media.csv'
+
+
+
+
+------------------------------------------------------------------------
+

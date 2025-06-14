@@ -1,0 +1,35 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/rishabh-iitm/project2.git', '/root/.local/share/tds-sep-24-project-2/21f1004246']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1004246/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis results saved in goodreads directory
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1004246/autolysis.py`
+Installed 30 packages in 95ms
+2024-12-15 10:39:34,344 - INFO - Initializing analysis for dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 10:39:34,385 - INFO - Successfully loaded dataset using utf-8 encoding with 10000 rows
+2024-12-15 10:39:34,385 - INFO - Starting analysis for /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 10:39:34,413 - INFO - Generic analysis completed
+2024-12-15 10:39:35,388 - INFO - Visualizations created successfully
+2024-12-15 10:39:35,388 - INFO - Visualizations created
+2024-12-15 10:39:35,389 - ERROR - Error generating narrative: 'AutomatedAnalysis' object has no attribute '_call_llm'
+2024-12-15 10:39:35,389 - ERROR - Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f1004246/autolysis.py", line 280, in generate_narrative
+    narrative = self._call_llm([{"role": "user", "content": prompt}])
+                ^^^^^^^^^^^^^^
+AttributeError: 'AutomatedAnalysis' object has no attribute '_call_llm'
+
+2024-12-15 10:39:35,389 - INFO - Narrative generation completed
+2024-12-15 10:39:35,389 - INFO - Analysis complete. Check README.md and analysis_visualization.png
+2024-12-15 10:39:35,390 - INFO - Analysis completed successfully
+
+
+------------------------------------------------------------------------
+

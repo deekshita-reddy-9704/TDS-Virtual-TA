@@ -1,0 +1,62 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/27-Swastik/TDS-Project2_Automated-Analysis.git', '/root/.local/share/tds-sep-24-project-2/24f1000781']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1000781/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Output folder created: /root/.local/share/tds-sep-24-project-2/eval/24f1000781/goodreads.csv/goodreads
+Error making API call: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/24f1000781/autolysis.py", line 527, in <module>
+    classifications = classify_columns(preprocess_dataframe(df))
+                                       ~~~~~~~~~~~~~~~~~~~~^^^^
+  File "/root/.local/share/tds-sep-24-project-2/24f1000781/autolysis.py", line 132, in preprocess_dataframe
+    variables = ast.literal_eval(analyze_data_for_relationships(df))
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/ast.py", line 114, in literal_eval
+    return _convert(node_or_string)
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/ast.py", line 113, in _convert
+    return _convert_signed_num(node)
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/ast.py", line 87, in _convert_signed_num
+    return _convert_num(node)
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/ast.py", line 78, in _convert_num
+    _raise_malformed_node(node)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/ast.py", line 75, in _raise_malformed_node
+    raise ValueError(msg + f': {node!r}')
+ValueError: malformed node or string: None
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1000781/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Output folder created: /root/.local/share/tds-sep-24-project-2/eval/24f1000781/goodreads.csv/goodreads
+No columns provided for clustering.
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/24f1000781/autolysis.py", line 532, in <module>
+    analyze_numerical(df, columns, output_folder)
+    ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/24f1000781/autolysis.py", line 207, in analyze_numerical
+    corr_matrix = df[columns].corr()
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/frame.py", line 11049, in corr
+    mat = data.to_numpy(dtype=float, na_value=np.nan, copy=False)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/frame.py", line 1993, in to_numpy
+    result = self._mgr.as_array(dtype=dtype, copy=copy, na_value=na_value)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/internals/managers.py", line 1694, in as_array
+    arr = self._interleave(dtype=dtype, na_value=na_value)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/pandas/core/internals/managers.py", line 1753, in _interleave
+    result[rl.indexer] = arr
+    ~~~~~~^^^^^^^^^^^^
+ValueError: could not convert string to float: '043965548X'
+
+
+------------------------------------------------------------------------
+

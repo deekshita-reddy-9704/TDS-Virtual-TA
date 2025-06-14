@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Anas007-lab/Analysisproj2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000067']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000067/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000067/autolysis.py`
+Installed 65 packages in 762ms
+usage: autolysis.py [-h] --folder FOLDER
+autolysis.py: error: the following arguments are required: --folder
+
+
+------------------------------------------------------------------------
+

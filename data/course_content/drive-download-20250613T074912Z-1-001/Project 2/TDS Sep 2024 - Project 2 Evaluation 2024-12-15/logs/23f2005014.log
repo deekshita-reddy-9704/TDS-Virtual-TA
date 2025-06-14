@@ -1,0 +1,32 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Happytth/tds-project2.git', '/root/.local/share/tds-sep-24-project-2/23f2005014']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2005014/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+File successfully loaded with utf-8 encoding.
+Starting the analysis...
+Performing LDA on column: isbn
+Performing LDA on column: authors
+Performing LDA on column: original_title
+Performing LDA on column: title
+Performing LDA on column: language_code
+Performing LDA on column: image_url
+Performing LDA on column: small_image_url
+Generating narrative...
+Requesting analysis...
+Analysis received!
+Saving README.md to /root/.local/share/tds-sep-24-project-2/eval/23f2005014/goodreads.csv
+README.md saved!
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2005014/autolysis.py`
+Installed 49 packages in 167ms
+
+
+------------------------------------------------------------------------
+

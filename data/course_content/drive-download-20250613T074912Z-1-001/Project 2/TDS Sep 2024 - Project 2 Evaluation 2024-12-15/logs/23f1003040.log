@@ -1,0 +1,90 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/nirmalpillai17/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1003040']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1003040/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connection.py", line 199, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/socket.py", line 975, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connectionpool.py", line 490, in _make_request
+    raise new_e
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1095, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connection.py", line 693, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connection.py", line 206, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x7f625f388980>: Failed to resolve 'to.be.filled.in' ([Errno -2] Name or service not known)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/adapters.py", line 667, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/urllib3/util/retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='to.be.filled.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f625f388980>: Failed to resolve 'to.be.filled.in' ([Errno -2] Name or service not known)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f1003040/autolysis.py", line 4, in <module>
+    response = requests.get("https://to.be.filled.in")
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/adapters.py", line 700, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='to.be.filled.in', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x7f625f388980>: Failed to resolve 'to.be.filled.in' ([Errno -2] Name or service not known)"))
+
+
+------------------------------------------------------------------------
+

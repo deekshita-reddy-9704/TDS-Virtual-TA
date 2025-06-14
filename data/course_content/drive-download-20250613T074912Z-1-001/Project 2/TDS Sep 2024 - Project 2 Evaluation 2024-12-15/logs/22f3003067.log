@@ -1,0 +1,81 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/rishikarai23/TDS-PROJECT2.git', '/root/.local/share/tds-sep-24-project-2/22f3003067']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py`
+2024-12-15 13:20:05,083 - INFO - Dataset loaded successfully: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 13:20:05,122 - INFO - Dataset analysis completed.
+2024-12-15 13:20:06,264 - INFO - Heatmap generated.
+2024-12-15 13:20:06,669 - INFO - Histogram for book_id generated.
+2024-12-15 13:20:07,049 - INFO - Histogram for goodreads_book_id generated.
+2024-12-15 13:20:07,427 - INFO - Histogram for best_book_id generated.
+2024-12-15 13:20:07,815 - INFO - Histogram for work_id generated.
+2024-12-15 13:20:08,229 - INFO - Histogram for books_count generated.
+2024-12-15 13:20:08,649 - INFO - Histogram for isbn13 generated.
+2024-12-15 13:20:09,123 - INFO - Histogram for original_publication_year generated.
+2024-12-15 13:20:09,527 - INFO - Histogram for average_rating generated.
+2024-12-15 13:20:09,933 - INFO - Histogram for ratings_count generated.
+2024-12-15 13:20:10,344 - INFO - Histogram for work_ratings_count generated.
+2024-12-15 13:20:10,756 - INFO - Histogram for work_text_reviews_count generated.
+2024-12-15 13:20:11,147 - INFO - Histogram for ratings_1 generated.
+2024-12-15 13:20:11,550 - INFO - Histogram for ratings_2 generated.
+2024-12-15 13:20:11,969 - INFO - Histogram for ratings_3 generated.
+2024-12-15 13:20:12,379 - INFO - Histogram for ratings_4 generated.
+2024-12-15 13:20:12,786 - INFO - Histogram for ratings_5 generated.
+2024-12-15 13:20:13,144 - ERROR - Error communicating with GPT: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+2024-12-15 13:20:13,145 - INFO - No valid column found for barplot: None
+2024-12-15 13:20:13,500 - ERROR - Error communicating with GPT: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py", line 223, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py", line 219, in main
+    save_markdown(story, charts, output_folder)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py", line 195, in save_markdown
+    f.write(story + "\n\n")
+            ~~~~~~^~~~~~~~
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3003067/autolysis.py`
+2024-12-15 14:10:40,069 - INFO - Dataset loaded successfully: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 14:10:40,141 - INFO - Dataset analysis completed.
+2024-12-15 14:10:41,276 - INFO - Heatmap generated.
+2024-12-15 14:10:41,712 - INFO - Histogram for book_id generated.
+2024-12-15 14:10:42,109 - INFO - Histogram for goodreads_book_id generated.
+2024-12-15 14:10:42,493 - INFO - Histogram for best_book_id generated.
+2024-12-15 14:10:42,888 - INFO - Histogram for work_id generated.
+2024-12-15 14:10:43,298 - INFO - Histogram for books_count generated.
+2024-12-15 14:10:43,712 - INFO - Histogram for isbn13 generated.
+2024-12-15 14:10:44,126 - INFO - Histogram for original_publication_year generated.
+2024-12-15 14:10:44,529 - INFO - Histogram for average_rating generated.
+2024-12-15 14:10:44,940 - INFO - Histogram for ratings_count generated.
+2024-12-15 14:10:45,345 - INFO - Histogram for work_ratings_count generated.
+2024-12-15 14:10:45,754 - INFO - Histogram for work_text_reviews_count generated.
+2024-12-15 14:10:46,149 - INFO - Histogram for ratings_1 generated.
+2024-12-15 14:10:46,539 - INFO - Histogram for ratings_2 generated.
+2024-12-15 14:10:46,953 - INFO - Histogram for ratings_3 generated.
+2024-12-15 14:10:47,360 - INFO - Histogram for ratings_4 generated.
+2024-12-15 14:10:47,756 - INFO - Histogram for ratings_5 generated.
+2024-12-15 14:10:50,000 - INFO - No valid column found for barplot: A suitable categorical column name for a bar plot could be **"authors"**. This would allow you to visualize the average rating or the count of books by each author, providing insights into their popularity or the quality of their works based on ratings.
+2024-12-15 14:11:01,205 - INFO - README.md saved in /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+2024-12-15 14:11:01,206 - INFO - All outputs saved in /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,210 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/hack-sketch/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/23f2004747']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2004747/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+API request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Correlation heatmap saved to /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_heatmap.png
+API request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_5_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for ratings_5_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_1.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for outliers_1.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_count_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for ratings_count_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/book_id_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for book_id_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/pairplot.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for pairplot.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_best_book_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_best_book_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_3_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for ratings_3_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_heatmap.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for correlation_heatmap.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_book_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_book_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_isbn13.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_isbn13.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_books_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_books_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/best_book_id_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for best_book_id_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_goodreads_book_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_goodreads_book_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_id_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for work_id_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_isbn13.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_isbn13.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_text_reviews_count_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for work_text_reviews_count_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_2.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_ratings_2.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_4.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_ratings_4.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_3.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_ratings_3.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_work_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplots_scaled_numerical_columns.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplots_scaled_numerical_columns.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_ratings_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_original_publication_year.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_original_publication_year.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_best_book_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_best_book_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_average_rating.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_average_rating.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_work_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_original_publication_year.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_original_publication_year.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/goodreads_book_id_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for goodreads_book_id_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_4_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for ratings_4_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_2.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for outliers_2.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_4.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_ratings_4.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_text_reviews_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_work_text_reviews_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/chart_1.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for chart_1.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/books_count_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for books_count_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_ratings_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_5.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_ratings_5.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_ratings_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_work_ratings_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/missing_values.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for missing_values.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_ratings_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_work_ratings_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_2.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_ratings_2.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/violin_plot.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for violin_plot.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_book_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_book_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_1_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for ratings_1_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_5.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_ratings_5.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_ratings_count_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for work_ratings_count_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_3.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for outliers_3.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/heatmap.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for heatmap.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_text_reviews_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_work_text_reviews_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_1.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_ratings_1.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_2_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for ratings_2_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_average_rating.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_average_rating.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_1.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for histogram_ratings_1.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/average_rating_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for average_rating_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_books_count.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_books_count.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_goodreads_book_id.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_goodreads_book_id.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/original_publication_year_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for original_publication_year_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/isbn13_distribution.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for isbn13_distribution.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_4.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for outliers_4.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/chart_2.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for chart_2.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_3.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for boxplot_ratings_3.png.
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_matrix.png...
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Failed to generate narrative for correlation_matrix.png.
+README.md created at /root/.local/share/tds-sep-24-project-2/datasets/goodreads/README.md
+Completed processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2004747/autolysis.py`
+
+
+------------------------------------------------------------------------
+

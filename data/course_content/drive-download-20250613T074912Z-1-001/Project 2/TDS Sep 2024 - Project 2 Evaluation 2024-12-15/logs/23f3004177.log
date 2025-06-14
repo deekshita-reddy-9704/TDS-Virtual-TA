@@ -1,0 +1,52 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/n3055/Automated_Analysis.git', '/root/.local/share/tds-sep-24-project-2/23f3004177']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3004177/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f3004177/autolysis.py", line 53, in <module>
+    analysis_recommendations = call_ai_proxy(messages)
+  File "/root/.local/share/tds-sep-24-project-2/23f3004177/autolysis.py", line 40, in call_ai_proxy
+    raise ConnectionError(f"API call failed with status {response.status_code}: {response.text}")
+ConnectionError: API call failed with status 429: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f3004177/autolysis.py", line 55, in <module>
+    raise RuntimeError(f"Failed to retrieve analysis recommendations: {e}")
+RuntimeError: Failed to retrieve analysis recommendations: API call failed with status 429: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3004177/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+<string>:28: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+<string>:39: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+<string>:43: UserWarning: Glyph 141 (\x8d) missing from font(s) DejaVu Sans.
+<string>:43: UserWarning: Tight layout not applied. The left and right margins cannot be made large enough to accommodate all Axes decorations.
+<string>:44: UserWarning: Glyph 141 (\x8d) missing from font(s) DejaVu Sans.
+
+
+------------------------------------------------------------------------
+

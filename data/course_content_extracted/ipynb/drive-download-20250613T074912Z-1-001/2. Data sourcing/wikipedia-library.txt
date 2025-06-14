@@ -1,0 +1,35 @@
+This is a self-explanatory short tutorial on using the `wikipedia` library to extract information from Wikipedia.
+
+!pip install wikipedia
+import wikipedia as wk
+
+print(wk.search("IIT Madras"))
+
+print(wk.search("IIT Madras", results=2))
+
+print(wk.summary("Indian Institutes of Technology"))
+
+print(wk.summary("Indian Institutes of Technology", sentences=2))
+
+full_page = wk.page("Indian Institutes of Technology")
+
+print(full_page.content)
+
+print(full_page.url)
+
+print(full_page.references)
+
+print(full_page.title)
+
+print(full_page.images)
+
+print(full_page.images[0])
+
+# Extract html code of wikipedia page based on any search text
+html = wk.page("Indian Institutes of Technology").html().encode("UTF-8")
+
+import pandas as pd
+df = pd.read_html(html)[1]
+
+df
+

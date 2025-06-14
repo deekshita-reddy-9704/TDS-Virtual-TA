@@ -1,0 +1,84 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/jeelan-ds786/tds-proj-2.git', '/root/.local/share/tds-sep-24-project-2/21f1002851']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+AIPROXY_TOKEN found in environment variables.
+Starting analysis for file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Output directory created: /root/.local/share/tds-sep-24-project-2/eval/21f1002851/goodreads.csv/goodreads
+Detected file extension: .csv
+Loading CSV file with fallback encodings...
+File loaded successfully.
+Cleaning and converting data types...
+Generating summary statistics...
+Detecting outliers...
+Creating correlation matrix plot...
+Correlation matrix plot saved as 'correlation_matrix.png'.
+Creating missing values heatmap...
+Missing values heatmap saved as 'missing_values_heatmap.png'.
+Creating boxplot for outliers...
+Boxplot saved as 'outlier_boxplot.png'.
+Creating histograms...
+Histograms saved as 'numerical_histograms.png'.
+Creating bar plots for categorical data...
+Bar plot for top 10 categories saved as 'isbn_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+Bar plot for top 10 categories saved as 'authors_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+Bar plot for top 10 categories saved as 'original_title_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+Bar plot for top 10 categories saved as 'title_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+Bar plot for top 10 categories saved as 'language_code_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+Bar plot for top 10 categories saved as 'image_url_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+Bar plot for top 10 categories saved as 'small_image_url_top10_distribution.png'.
+Creating bar plots for the least frequent categories in categorical data...
+An error occurred during analysis: module 'openai' has no attribute 'error'
+
+
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+/root/.local/share/tds-sep-24-project-2/21f1002851/autolysis.py:137: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `y` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=top_categories.values, y=top_categories.index, palette="viridis")
+
+
+------------------------------------------------------------------------
+

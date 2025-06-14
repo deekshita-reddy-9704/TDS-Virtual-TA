@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/22f1001786-iitm/tds-project2-automated-analysis.git', '/root/.local/share/tds-sep-24-project-2/22f1001786']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001786/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+An error occurred: RetryError[<Future at 0x7f4575daa850 state=finished raised HTTPStatusError>]
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1001786/autolysis.py`
+Installed 23 packages in 298ms
+
+
+------------------------------------------------------------------------
+

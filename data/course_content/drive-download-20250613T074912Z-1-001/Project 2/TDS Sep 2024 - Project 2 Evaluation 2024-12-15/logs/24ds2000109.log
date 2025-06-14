@@ -1,0 +1,24 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/srch887/tds_sep2024_project2.git', '/root/.local/share/tds-sep-24-project-2/24ds2000109']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds2000109/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24ds2000109/autolysis.py`
+2024-12-15 09:40:33,669 - INFO - Loading data from /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv...
+2024-12-15 09:40:33,717 - INFO - Data loaded and summarized successfully.
+2024-12-15 09:40:33,717 - INFO - Generating correlation matrix heatmap...
+2024-12-15 09:40:36,760 - INFO - Generating box plots for numerical columns...
+2024-12-15 09:40:37,832 - INFO - Generating insights...
+2024-12-15 09:40:53,580 - INFO - README.md created successfully at ./README.md
+2024-12-15 09:40:53,580 - INFO - Analysis successful
+
+
+------------------------------------------------------------------------
+

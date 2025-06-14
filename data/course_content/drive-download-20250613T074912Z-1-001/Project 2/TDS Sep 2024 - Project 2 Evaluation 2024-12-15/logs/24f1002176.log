@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/adityalearnsdata/TSD---Project-2.git', '/root/.local/share/tds-sep-24-project-2/24f1002176']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1002176/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24f1002176/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/24f1002176/autolysis.py", line 439, in <module>
+    is_it,lists,drop_list=create_red_explain(redundant_response)
+                          ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/24f1002176/autolysis.py", line 312, in create_red_explain
+    message = datar['choices'][0]['message']
+              ~~~~~^^^^^^^^^^^
+KeyError: 'choices'
+
+
+------------------------------------------------------------------------
+

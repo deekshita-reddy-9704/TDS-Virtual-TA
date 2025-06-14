@@ -1,0 +1,111 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/agaMadan/TDS-P2.git', '/root/.local/share/tds-sep-24-project-2/24ds2000127']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds2000127/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully read CSV with utf-8-sig encoding
+Data Analysis Complete!
+
+--- Descriptive Statistics ---
+{'description': {'book_id': {'count': 10000.0, 'mean': 5000.5, 'std': 2886.8956799071675, 'min': 1.0, '25%': 2500.75, '50%': 5000.5, '75%': 7500.25, 'max': 10000.0}, 'goodreads_book_id': {'count': 10000.0, 'mean': 5264696.5132, 'std': 7575461.863589611, 'min': 1.0, '25%': 46275.75, '50%': 394965.5, '75%': 9382225.25, 'max': 33288638.0}, 'best_book_id': {'count': 10000.0, 'mean': 5471213.5801, 'std': 7827329.890719961, 'min': 1.0, '25%': 47911.75, '50%': 425123.5, '75%': 9636112.5, 'max': 35534230.0}, 'work_id': {'count': 10000.0, 'mean': 8646183.4246, 'std': 11751060.824080039, 'min': 87.0, '25%': 1008841.0, '50%': 2719524.5, '75%': 14517748.25, 'max': 56399597.0}, 'books_count': {'count': 10000.0, 'mean': 75.7127, 'std': 170.47072765025834, 'min': 1.0, '25%': 23.0, '50%': 40.0, '75%': 67.0, 'max': 3455.0}, 'isbn13': {'count': 10000.0, 'mean': 9756530621824.22, 'std': 429753045646.84436, 'min': 195170342.0, '25%': 9780330413197.5, '50%': 9780451528640.0, '75%': 9780807760637.5, 'max': 9790007672390.0}, 'original_publication_year': {'count': 10000.0, 'mean': 1982.0339, 'std': 152.41969074566023, 'min': -1750.0, '25%': 1990.0, '50%': 2004.0, '75%': 2011.0, 'max': 2017.0}, 'average_rating': {'count': 10000.0, 'mean': 4.002191000000001, 'std': 0.25442748053872905, 'min': 2.47, '25%': 3.85, '50%': 4.02, '75%': 4.18, 'max': 4.82}, 'ratings_count': {'count': 10000.0, 'mean': 54001.2351, 'std': 157369.95643554674, 'min': 2716.0, '25%': 13568.75, '50%': 21155.5, '75%': 41053.5, 'max': 4780653.0}, 'work_ratings_count': {'count': 10000.0, 'mean': 59687.3216, 'std': 167803.7852374182, 'min': 5510.0, '25%': 15438.75, '50%': 23832.5, '75%': 45915.0, 'max': 4942365.0}, 'work_text_reviews_count': {'count': 10000.0, 'mean': 2919.9553, 'std': 6124.378131569911, 'min': 3.0, '25%': 694.0, '50%': 1402.0, '75%': 2744.25, 'max': 155254.0}, 'ratings_1': {'count': 10000.0, 'mean': 1345.0406, 'std': 6635.626262783459, 'min': 11.0, '25%': 196.0, '50%': 391.0, '75%': 885.0, 'max': 456191.0}, 'ratings_2': {'count': 10000.0, 'mean': 3110.885, 'std': 9717.123578396993, 'min': 30.0, '25%': 656.0, '50%': 1163.0, '75%': 2353.25, 'max': 436802.0}, 'ratings_3': {'count': 10000.0, 'mean': 11475.8938, 'std': 28546.449183182456, 'min': 323.0, '25%': 3112.0, '50%': 4894.0, '75%': 9287.0, 'max': 793319.0}, 'ratings_4': {'count': 10000.0, 'mean': 19965.6966, 'std': 51447.35838380058, 'min': 750.0, '25%': 5405.75, '50%': 8269.5, '75%': 16023.5, 'max': 1481305.0}, 'ratings_5': {'count': 10000.0, 'mean': 23789.8056, 'std': 79768.88561077163, 'min': 754.0, '25%': 5334.0, '50%': 8836.0, '75%': 17304.5, 'max': 3011543.0}, 'isbn_encoded': {'count': 10000.0, 'mean': 4324.035, 'std': 2848.0007170967247, 'min': 0.0, '25%': 1799.75, '50%': 4299.5, '75%': 6799.25, 'max': 9299.0}, 'authors_encoded': {'count': 10000.0, 'mean': 2344.0865, 'std': 1321.6996042982498, 'min': 0.0, '25%': 1156.75, '50%': 2369.5, '75%': 3458.25, 'max': 4663.0}, 'original_title_encoded': {'count': 10000.0, 'mean': 4359.8472, 'std': 2814.9599275640744, 'min': 0.0, '25%': 1879.75, '50%': 4341.5, '75%': 6800.25, 'max': 9273.0}, 'title_encoded': {'count': 10000.0, 'mean': 4983.1331, 'std': 2875.5961375859165, 'min': 0.0, '25%': 2493.75, '50%': 4987.5, '75%': 7471.25, 'max': 9963.0}, 'language_code_encoded': {'count': 10000.0, 'mean': 5.7682, 'std': 1.2150787635541014, 'min': 0.0, '25%': 6.0, '50%': 6.0, '75%': 6.0, 'max': 24.0}, 'image_url_encoded': {'count': 10000.0, 'mean': 4444.5554, 'std': 2222.9443992846673, 'min': 0.0, '25%': 2499.75, '50%': 4999.5, '75%': 6668.0, 'max': 6668.0}, 'small_image_url_encoded': {'count': 10000.0, 'mean': 4444.5554, 'std': 2222.9443992846673, 'min': 0.0, '25%': 2499.75, '50%': 4999.5, '75%': 6668.0, 'max': 6668.0}}, 'skewness': {'book_id': 0.0, 'goodreads_book_id': 1.3450513460623226, 'best_book_id': 1.3501105965199585, 'work_id': 1.7627888851221998, 'books_count': 8.408830046446552, 'isbn13': -18.30796454692715, 'original_publication_year': -14.76847596230822, 'average_rating': -0.5115402712762502, 'ratings_count': 13.056937765958065, 'work_ratings_count': 12.41265961075493, 'work_text_reviews_count': 9.128828420036513, 'ratings_1': 37.70594081575401, 'ratings_2': 16.490237450570774, 'ratings_3': 10.397906022313085, 'ratings_4': 10.805281499311098, 'ratings_5': 16.371074464371038, 'isbn_encoded': 0.03972275152393074, 'authors_encoded': -0.045250684162999946, 'original_title_encoded': 0.03098639708334586, 'title_encoded': -0.0021592596267787953, 'language_code_encoded': 6.109212342351673, 'image_url_encoded': -0.4995875398408738, 'small_image_url_encoded': -0.4995875398408738}, 'kurtosis': {'book_id': -1.2000000240000006, 'goodreads_book_id': 0.6877880006303982, 'best_book_id': 0.7455236635400508, 'work_id': 2.492260588357113, 'books_count': 95.25480435603895, 'isbn13': 343.87344415319023, 'original_publication_year': 240.9843589640972, 'average_rating': 0.8810778699146051, 'ratings_count': 258.6161476127255, 'work_ratings_count': 233.9543612299873, 'work_text_reviews_count': 133.9792532453793, 'ratings_1': 2288.469084590992, 'ratings_2': 493.81813757193135, 'ratings_3': 160.74709915460724, 'ratings_4': 173.93804062246545, 'ratings_5': 419.6704232912079, 'isbn_encoded': -1.2409812701577794, 'authors_encoded': -1.1711546459275655, 'original_title_encoded': -1.2306521389342755, 'title_encoded': -1.198696959369848, 'language_code_encoded': 82.00820652313686, 'image_url_encoded': -1.2003297615239212, 'small_image_url_encoded': -1.2003297615239212}, 'missing_values': {'book_id': 0, 'goodreads_book_id': 0, 'best_book_id': 0, 'work_id': 0, 'books_count': 0, 'isbn': 700, 'isbn13': 585, 'authors': 0, 'original_publication_year': 21, 'original_title': 585, 'title': 0, 'language_code': 1084, 'average_rating': 0, 'ratings_count': 0, 'work_ratings_count': 0, 'work_text_reviews_count': 0, 'ratings_1': 0, 'ratings_2': 0, 'ratings_3': 0, 'ratings_4': 0, 'ratings_5': 0, 'image_url': 0, 'small_image_url': 0}}
+
+--- Narrative ---
+Failed to generate narrative. HTTP Status: 429, Response: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+--- Visualization ---
+Correlation Heatmap saved to: correlation_heatmap.png
+Outlier Box Plot saved to: outlier_box_plot.png
+Clustering Visualization saved to: clustering_visualization.png
+Missing Values Plot saved to: missing_values.png
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24ds2000127/autolysis.py`
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds2000127/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully read CSV with utf-8-sig encoding
+Data Analysis Complete!
+
+--- Descriptive Statistics ---
+{'description': {'book_id': {'count': 10000.0, 'mean': 5000.5, 'std': 2886.8956799071675, 'min': 1.0, '25%': 2500.75, '50%': 5000.5, '75%': 7500.25, 'max': 10000.0}, 'goodreads_book_id': {'count': 10000.0, 'mean': 5264696.5132, 'std': 7575461.863589611, 'min': 1.0, '25%': 46275.75, '50%': 394965.5, '75%': 9382225.25, 'max': 33288638.0}, 'best_book_id': {'count': 10000.0, 'mean': 5471213.5801, 'std': 7827329.890719961, 'min': 1.0, '25%': 47911.75, '50%': 425123.5, '75%': 9636112.5, 'max': 35534230.0}, 'work_id': {'count': 10000.0, 'mean': 8646183.4246, 'std': 11751060.824080039, 'min': 87.0, '25%': 1008841.0, '50%': 2719524.5, '75%': 14517748.25, 'max': 56399597.0}, 'books_count': {'count': 10000.0, 'mean': 75.7127, 'std': 170.47072765025834, 'min': 1.0, '25%': 23.0, '50%': 40.0, '75%': 67.0, 'max': 3455.0}, 'isbn13': {'count': 10000.0, 'mean': 9756530621824.22, 'std': 429753045646.84436, 'min': 195170342.0, '25%': 9780330413197.5, '50%': 9780451528640.0, '75%': 9780807760637.5, 'max': 9790007672390.0}, 'original_publication_year': {'count': 10000.0, 'mean': 1982.0339, 'std': 152.41969074566023, 'min': -1750.0, '25%': 1990.0, '50%': 2004.0, '75%': 2011.0, 'max': 2017.0}, 'average_rating': {'count': 10000.0, 'mean': 4.002191000000001, 'std': 0.25442748053872905, 'min': 2.47, '25%': 3.85, '50%': 4.02, '75%': 4.18, 'max': 4.82}, 'ratings_count': {'count': 10000.0, 'mean': 54001.2351, 'std': 157369.95643554674, 'min': 2716.0, '25%': 13568.75, '50%': 21155.5, '75%': 41053.5, 'max': 4780653.0}, 'work_ratings_count': {'count': 10000.0, 'mean': 59687.3216, 'std': 167803.7852374182, 'min': 5510.0, '25%': 15438.75, '50%': 23832.5, '75%': 45915.0, 'max': 4942365.0}, 'work_text_reviews_count': {'count': 10000.0, 'mean': 2919.9553, 'std': 6124.378131569911, 'min': 3.0, '25%': 694.0, '50%': 1402.0, '75%': 2744.25, 'max': 155254.0}, 'ratings_1': {'count': 10000.0, 'mean': 1345.0406, 'std': 6635.626262783459, 'min': 11.0, '25%': 196.0, '50%': 391.0, '75%': 885.0, 'max': 456191.0}, 'ratings_2': {'count': 10000.0, 'mean': 3110.885, 'std': 9717.123578396993, 'min': 30.0, '25%': 656.0, '50%': 1163.0, '75%': 2353.25, 'max': 436802.0}, 'ratings_3': {'count': 10000.0, 'mean': 11475.8938, 'std': 28546.449183182456, 'min': 323.0, '25%': 3112.0, '50%': 4894.0, '75%': 9287.0, 'max': 793319.0}, 'ratings_4': {'count': 10000.0, 'mean': 19965.6966, 'std': 51447.35838380058, 'min': 750.0, '25%': 5405.75, '50%': 8269.5, '75%': 16023.5, 'max': 1481305.0}, 'ratings_5': {'count': 10000.0, 'mean': 23789.8056, 'std': 79768.88561077163, 'min': 754.0, '25%': 5334.0, '50%': 8836.0, '75%': 17304.5, 'max': 3011543.0}, 'isbn_encoded': {'count': 10000.0, 'mean': 4324.035, 'std': 2848.0007170967247, 'min': 0.0, '25%': 1799.75, '50%': 4299.5, '75%': 6799.25, 'max': 9299.0}, 'authors_encoded': {'count': 10000.0, 'mean': 2344.0865, 'std': 1321.6996042982498, 'min': 0.0, '25%': 1156.75, '50%': 2369.5, '75%': 3458.25, 'max': 4663.0}, 'original_title_encoded': {'count': 10000.0, 'mean': 4359.8472, 'std': 2814.9599275640744, 'min': 0.0, '25%': 1879.75, '50%': 4341.5, '75%': 6800.25, 'max': 9273.0}, 'title_encoded': {'count': 10000.0, 'mean': 4983.1331, 'std': 2875.5961375859165, 'min': 0.0, '25%': 2493.75, '50%': 4987.5, '75%': 7471.25, 'max': 9963.0}, 'language_code_encoded': {'count': 10000.0, 'mean': 5.7682, 'std': 1.2150787635541014, 'min': 0.0, '25%': 6.0, '50%': 6.0, '75%': 6.0, 'max': 24.0}, 'image_url_encoded': {'count': 10000.0, 'mean': 4444.5554, 'std': 2222.9443992846673, 'min': 0.0, '25%': 2499.75, '50%': 4999.5, '75%': 6668.0, 'max': 6668.0}, 'small_image_url_encoded': {'count': 10000.0, 'mean': 4444.5554, 'std': 2222.9443992846673, 'min': 0.0, '25%': 2499.75, '50%': 4999.5, '75%': 6668.0, 'max': 6668.0}}, 'skewness': {'book_id': 0.0, 'goodreads_book_id': 1.3450513460623226, 'best_book_id': 1.3501105965199585, 'work_id': 1.7627888851221998, 'books_count': 8.408830046446552, 'isbn13': -18.30796454692715, 'original_publication_year': -14.76847596230822, 'average_rating': -0.5115402712762502, 'ratings_count': 13.056937765958065, 'work_ratings_count': 12.41265961075493, 'work_text_reviews_count': 9.128828420036513, 'ratings_1': 37.70594081575401, 'ratings_2': 16.490237450570774, 'ratings_3': 10.397906022313085, 'ratings_4': 10.805281499311098, 'ratings_5': 16.371074464371038, 'isbn_encoded': 0.03972275152393074, 'authors_encoded': -0.045250684162999946, 'original_title_encoded': 0.03098639708334586, 'title_encoded': -0.0021592596267787953, 'language_code_encoded': 6.109212342351673, 'image_url_encoded': -0.4995875398408738, 'small_image_url_encoded': -0.4995875398408738}, 'kurtosis': {'book_id': -1.2000000240000006, 'goodreads_book_id': 0.6877880006303982, 'best_book_id': 0.7455236635400508, 'work_id': 2.492260588357113, 'books_count': 95.25480435603895, 'isbn13': 343.87344415319023, 'original_publication_year': 240.9843589640972, 'average_rating': 0.8810778699146051, 'ratings_count': 258.6161476127255, 'work_ratings_count': 233.9543612299873, 'work_text_reviews_count': 133.9792532453793, 'ratings_1': 2288.469084590992, 'ratings_2': 493.81813757193135, 'ratings_3': 160.74709915460724, 'ratings_4': 173.93804062246545, 'ratings_5': 419.6704232912079, 'isbn_encoded': -1.2409812701577794, 'authors_encoded': -1.1711546459275655, 'original_title_encoded': -1.2306521389342755, 'title_encoded': -1.198696959369848, 'language_code_encoded': 82.00820652313686, 'image_url_encoded': -1.2003297615239212, 'small_image_url_encoded': -1.2003297615239212}, 'missing_values': {'book_id': 0, 'goodreads_book_id': 0, 'best_book_id': 0, 'work_id': 0, 'books_count': 0, 'isbn': 700, 'isbn13': 585, 'authors': 0, 'original_publication_year': 21, 'original_title': 585, 'title': 0, 'language_code': 1084, 'average_rating': 0, 'ratings_count': 0, 'work_ratings_count': 0, 'work_text_reviews_count': 0, 'ratings_1': 0, 'ratings_2': 0, 'ratings_3': 0, 'ratings_4': 0, 'ratings_5': 0, 'image_url': 0, 'small_image_url': 0}}
+
+--- Narrative ---
+### The Data You Received
+
+The dataset contains information on 10,000 books, featuring key attributes including unique identifiers (book_id, goodreads_book_id, etc.), author details, publication years, language codes, and user-generated ratings (average rating, ratings count, work ratings count, and various star ratings). Some fields have missing values, particularly related to ISBN numbers, original titles, publication years, and language codes. 
+
+### The Analysis You Carried Out
+
+To extract meaningful insights from the dataset, I performed various analyses including:
+
+1. **Descriptive Statistics**: Calculating central tendencies such as means and medians, as well as understanding variability through standard deviations for continuous variables.
+2. **Missing Values Examination**: Identifying and documenting the extent of missing values across various columns.
+3. **Correlation Analysis**: Assessing relationships between numerical features, particularly focusing on ratings and counts, to reveal patterns and dependencies.
+4. **Skewness and Kurtosis Analysis**: Evaluating the distribution shapes of the data for insights into the data symmetry and the presence of outliers.
+
+### The Insights You Discovered
+
+1. **High Average Ratings**: The mean average rating across the dataset is approximately 4.00, indicating that many books receive favorable reviews.
+
+2. **Ratings Distribution**: There’s a clear trend in the ratings distribution; lower ratings (1s and 2s) are notably sparse, while higher ratings (4s and 5s) dominate, resulting in negative skewness for the ratings data. 
+
+3. **Relationship Between Ratings Count and Work Ratings Count**: A strong correlation (around 0.995) exists between ratings count and work ratings count, suggesting that highly-rated books often gather more feedback from readers.
+
+4. **Influence of Books Count**: A negative correlation (-0.263) between the books count and ratings indicates that books by authors with a larger body of work may receive slightly fewer ratings, possibly because they are less prominent or less recent.
+
+5. **Missing Values**: Certain fields such as ISBN numbers, original titles, and language codes show a significant number of missing data points, which may affect usability and standardization of the dataset going forward.
+
+### The Implications of Your Findings
+
+Based on these insights, several actionable recommendations can be outlined:
+
+1. **Target Promotion of High-Rated Books**: Leverage the findings regarding high average ratings to promote books that are well-received, as these are more likely to attract new readers and drive sales.
+
+2. **Reader Engagement Strategies**: For books with higher work rating counts, encourage authors to engage with readers through social media or book events, enhancing community interactions that drive more ratings and reviews.
+
+3. **Focus on Missing Data**: Consider employing methods to either fill in missing data or analyze patterns in missingness (for example, if fewer newer books are represented). This can help standardize the dataset for better analytic outcomes.
+
+4. **Analyze Author Body of Work**: Conduct further analysis on authors with a high number of published works to understand their market presence and how it impacts individual book ratings.
+
+5. **Enhance Use of Metadata**: Improve the database by filling gaps in metadata (like missing ISBN numbers), ensuring a more complete record that supports cataloging and recommendation systems. 
+
+Overall, these steps can translate book data insights into strategic actions enhancing visibility and engagement in the literary marketplace.
+
+--- Visualization ---
+Correlation Heatmap saved to: correlation_heatmap.png
+Outlier Box Plot saved to: outlier_box_plot.png
+Clustering Visualization saved to: clustering_visualization.png
+Missing Values Plot saved to: missing_values.png
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24ds2000127/autolysis.py`
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/umap/umap_.py:1952: UserWarning: n_jobs value 1 overridden to 1 by setting random_state. Use no seed for parallelism.
+  warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+/root/.cache/uv/archive-v0/b5ZK8p_x7NaapdWWwAoW4/lib/python3.9/site-packages/sklearn/utils/deprecation.py:151: FutureWarning: 'force_all_finite' was renamed to 'ensure_all_finite' in 1.6 and will be removed in 1.8.
+  warnings.warn(
+
+
+------------------------------------------------------------------------
+

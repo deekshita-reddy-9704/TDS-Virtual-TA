@@ -1,0 +1,39 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/MathuraPriya-R/TDS-Project2.git', '/root/.local/share/tds-sep-24-project-2/22f1000395']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000395/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Trying to read the file with encoding: utf-8
+File successfully read with encoding: utf-8
+Data loaded successfully.
+Category directories created for: goodreads
+Error generating story: 429, {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1000395/autolysis.py`
+Installed 29 packages in 78ms
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000395/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Trying to read the file with encoding: utf-8
+File successfully read with encoding: utf-8
+Data loaded successfully.
+Category directories created for: goodreads
+Story generated successfully.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f1000395/autolysis.py`
+
+
+------------------------------------------------------------------------
+

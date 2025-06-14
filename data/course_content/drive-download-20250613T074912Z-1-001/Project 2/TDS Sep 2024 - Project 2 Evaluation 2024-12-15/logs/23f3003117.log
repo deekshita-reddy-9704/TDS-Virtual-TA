@@ -1,0 +1,36 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Yasaswini117/Project2.git', '/root/.local/share/tds-sep-24-project-2/23f3003117']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3003117/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset loaded successfully with encoding: utf-8
+Estimated Token Usage: 376
+Error: AIProxy API call failed with status 429: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3003117/autolysis.py`
+Installed 22 packages in 153ms
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3003117/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset loaded successfully with encoding: utf-8
+Estimated Token Usage: 379
+Insights generated with 379 tokens.
+Analysis complete. Report saved to README.md.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3003117/autolysis.py`
+
+
+------------------------------------------------------------------------
+

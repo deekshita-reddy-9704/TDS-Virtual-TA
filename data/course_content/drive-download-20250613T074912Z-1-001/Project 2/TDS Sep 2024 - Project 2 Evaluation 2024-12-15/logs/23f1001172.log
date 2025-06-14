@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f1001172/project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1001172']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001172/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f1001172/autolysis.py", line 20, in <module>
+    import pytesseract
+ModuleNotFoundError: No module named 'pytesseract'
+
+
+------------------------------------------------------------------------
+

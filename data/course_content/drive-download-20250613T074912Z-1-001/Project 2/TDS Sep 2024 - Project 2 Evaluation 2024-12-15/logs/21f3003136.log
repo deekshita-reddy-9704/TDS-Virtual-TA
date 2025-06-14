@@ -1,0 +1,28 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/21f3003136/SmartDataAnalyzer.git', '/root/.local/share/tds-sep-24-project-2/21f3003136']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3003136/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f3003136/autolysis.py`
+Installed 45 packages in 123ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f3003136/autolysis.py", line 324, in <module>
+    main(sys.argv[1])
+    ~~~~^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/21f3003136/autolysis.py", line 279, in main
+    validate_regression_results = validate_regression_model(df, selected_target_column)
+  File "/root/.local/share/tds-sep-24-project-2/21f3003136/autolysis.py", line 125, in validate_regression_model
+    scores = cross_val_score(model, X_scaled, y, cv=5, scoring='neg_mean_squared_error')
+             ^^^^^^^^^^^^^^^
+NameError: name 'cross_val_score' is not defined
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/vijayabhaskar78/automated_analysis--tds.git', '/root/.local/share/tds-sep-24-project-2/22f3002393']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3002393/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Initiating narrative generation...
+HTTP error occurred: Client error '429 Too Many Requests' for url 'http://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3002393/autolysis.py`
+Installed 47 packages in 309ms
+
+
+------------------------------------------------------------------------
+

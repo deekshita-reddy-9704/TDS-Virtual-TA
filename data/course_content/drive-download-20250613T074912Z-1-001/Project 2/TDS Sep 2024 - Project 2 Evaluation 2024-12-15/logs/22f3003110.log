@@ -1,0 +1,40 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/gaurav870922/TDS_PROJECT02.git', '/root/.local/share/tds-sep-24-project-2/22f3003110']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3003110/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Hello from project2!
+folder created successfully
+Python codes to generate chart has been received from OPENAI..
+Generated image successfully
+before function calling
+after function calling
+num cols: average_rating
+cat colms : language_code
+Generating pairplot for language_code
+skipping pairplot generation as unique value of categorical column is too high
+encoding image /root/.local/share/tds-sep-24-project-2/eval/22f3003110/goodreads.csv/goodreads/average_rating_vs_ratings_count.png
+encoding image /root/.local/share/tds-sep-24-project-2/eval/22f3003110/goodreads.csv/goodreads/average_rating_distribution.png
+encoding image /root/.local/share/tds-sep-24-project-2/eval/22f3003110/goodreads.csv/goodreads/ratings_count_boxplot.png
+encoding of image is completed ..
+Insights from the genrated charts done successfully...
+Insights from the genrated charts done successfully...
+Insights from the genrated charts done successfully...
+Final content of anaylysis has been generated successfully..
+Program run completed successfully
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3003110/autolysis.py`
+<string>:27: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+
+
+------------------------------------------------------------------------
+

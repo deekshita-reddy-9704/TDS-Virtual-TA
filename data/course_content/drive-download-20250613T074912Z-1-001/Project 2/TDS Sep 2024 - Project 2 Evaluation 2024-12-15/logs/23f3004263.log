@@ -1,0 +1,9 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'autolysis.py', 'https://github.com/ engalap/gem.git', '/root/.local/share/tds-sep-24-project-2/23f3004263']
+
+
+
+fatal: unable to access 'https://github.com/ engalap/gem.git/': URL rejected: Malformed input to a URL function
+
+
+------------------------------------------------------------------------
+

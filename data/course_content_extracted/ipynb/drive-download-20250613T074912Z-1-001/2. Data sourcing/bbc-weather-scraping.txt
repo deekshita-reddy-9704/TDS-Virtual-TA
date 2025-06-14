@@ -1,0 +1,112 @@
+# A tutorial to scrape the web.
+
+This example scrapes the BBC weather website for any specific city, and collects weather forecast for the next 14 days and saves it as a csv file.
+
+*Web scraping might not be legal always. It is a good idea to check the terms of the website you plan to scrape before proceeding. Also, if your code requests a url from a server multiple times, it is a good practice to either cache your requests, or insert a timed delay between consecutive requests.*
+
+import json                   # to convert API to json format
+
+from urllib.parse import urlencode
+
+import requests               # to get the webpage
+from bs4 import BeautifulSoup # to parse the webpage
+
+import pandas as pd
+import re                     # regular expression operators
+
+from datetime import datetime
+
+We now GET the webpage of interest, from the server
+
+required_city = "Mumbai"
+location_url = 'https://locator-service.api.bbci.co.uk/locations?' + urlencode({
+   'api_key': 'AGbFAKx58hyjQScCXIYrxuEwJh2W2cmv',
+   's': required_city,
+   'stack': 'aws',
+   'locale': 'en',
+   'filter': 'international',
+   'place-types': 'settlement,airport,district',
+   'order': 'importance',
+   'a': 'true',
+   'format': 'json'
+})
+location_url
+
+result = requests.get(location_url).json()
+result
+
+# url      = 'https://www.bbc.com/weather/1275339' # url to BBC weather, corresponding to a specific city (Mumbai, in this example)
+url      = 'https://www.bbc.com/weather/'+result['response']['results']['results'][0]['id']
+response = requests.get(url)
+
+Next, we initiate an instance of  BeautifulSoup.
+
+soup = BeautifulSoup(response.content,'html.parser')
+
+The information we want (daily high and low temp., and daily weather summary), are in specific blocks on the webpage.
+We need to find the block type, type of identifier, and the identifier name (all these can be figured out by right clicking
+on the webpage and selecting 'Inspect' on the Chrome browser; similar modus operandi for other browsers)
+
+daily_high_values = soup.find_all('span', attrs={'class': 'wr-day-temperature__high-value'}) # block-type: span; identifier type: class; and class name: wr-day-temperature__high-value
+daily_high_values
+
+daily_low_values  = soup.find_all('span', attrs={'class': 'wr-day-temperature__low-value'})
+daily_low_values
+
+daily_summary = soup.find('div', attrs={'class': 'wr-day-summary'})
+daily_summary
+
+daily_summary.text
+
+General book keeping.
+
+With the code snippet in the cell above, we get forecast data for 14 days, including today. We will now post process the data to first extract the required information/text and discard all the html wrapper code, then combine all variables into one common list, and finally convert it into a pandas data frame.
+
+daily_high_values[0].text.strip()
+
+daily_high_values[5].text.strip()
+
+daily_high_values[0].text.strip().split()[0]
+
+daily_high_values_list = [daily_high_values[i].text.strip().split()[0] for i in range(len(daily_high_values))]
+daily_high_values_list
+
+daily_low_values_list = [daily_low_values[i].text.strip().split()[0] for i in range(len(daily_low_values))]
+daily_low_values_list
+
+daily_summary.text
+
+daily_summary_list = re.findall('[a-zA-Z][^A-Z]*', daily_summary.text) #split the string on uppercase
+daily_summary_list
+
+datelist = pd.date_range(datetime.today(), periods=len(daily_high_values)).tolist()
+datelist
+
+datelist = [datelist[i].date().strftime('%y-%m-%d') for i in range(len(datelist))]
+datelist
+
+zipped = zip(datelist, daily_high_values_list, daily_low_values_list, daily_summary_list)
+
+df = pd.DataFrame(list(zipped), columns=['Date', 'High','Low', 'Summary'])
+
+display(df)
+
+# remove the 'degree' character
+df.High = df.High.replace('\°','',regex=True).astype(float)
+df.Low  = df.Low.replace('\°','',regex=True).astype(float)
+
+display(df)
+
+Extract the name of the city for which data is gathered.
+
+#location = soup.find('div', attrs={'class':'wr-c-location'})
+location = soup.find('h1', attrs={'id':'wr-location-name-id'})
+location.text.split()
+
+# create a recording
+filename_csv = location.text.split()[0]+'.csv'
+df.to_csv(filename_csv, index=None)
+
+filename_xlsx = location.text.split()[0]+'.xlsx'
+df.to_excel(filename_xlsx)
+

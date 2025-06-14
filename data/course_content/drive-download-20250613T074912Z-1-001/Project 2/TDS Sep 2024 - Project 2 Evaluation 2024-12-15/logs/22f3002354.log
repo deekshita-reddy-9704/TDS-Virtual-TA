@@ -1,0 +1,9 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/microdev1/tds-p2.git', '/root/.local/share/tds-sep-24-project-2/22f3002354']
+
+
+
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,56 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Gowshikraj6/tdsp2.git', '/root/.local/share/tds-sep-24-project-2/23f1002989']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1002989/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Dataset Preview: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Outliers:
+        book_id  ...                                    small_image_url
+0           61  ...  https://images.gr-assets.com/books/1490903702s...
+1          105  ...  https://images.gr-assets.com/books/1395582745s...
+2          262  ...  https://images.gr-assets.com/books/1492239430s...
+3          267  ...  https://images.gr-assets.com/books/1451446316s...
+4          279  ...  https://images.gr-assets.com/books/1470082995s...
+...        ...  ...                                                ...
+11268     2167  ...  https://images.gr-assets.com/books/1463107108s...
+11269     2194  ...  https://images.gr-assets.com/books/1460477682s...
+11270     2356  ...  https://images.gr-assets.com/books/1398100888s...
+11271     2672  ...  https://images.gr-assets.com/books/1491595510s...
+11272     7373  ...  https://images.gr-assets.com/books/1485528243s...
+
+[11273 rows x 23 columns]
+Correlation Matrix:
+                         index   book_id  ...  ratings_4  ratings_5
+0                     book_id  1.000000  ...  -0.816554  -0.723517
+1           goodreads_book_id  0.059480  ...  -0.003126   0.024958
+2                best_book_id  0.057009  ...   0.000124   0.025800
+3                     work_id  0.051501  ...   0.022515   0.014608
+4                 books_count -0.271350  ...   0.363157   0.027692
+5                      isbn13  0.042890  ...  -0.090734   0.030735
+6   original_publication_year  0.035949  ...   0.070535   0.003616
+7              average_rating -0.092592  ...   0.042213   0.572145
+8               ratings_count -0.856580  ...   0.901578   0.845750
+9          work_ratings_count -0.869751  ...   0.940692   0.838150
+10    work_text_reviews_count -0.328118  ...   0.447836   0.164240
+11                  ratings_1 -0.405015  ...   0.238284   0.179455
+12                  ratings_2 -0.481288  ...   0.427056   0.126590
+13                  ratings_3 -0.677640  ...   0.780268   0.347785
+14                  ratings_4 -0.816554  ...   1.000000   0.687094
+15                  ratings_5 -0.723517  ...   0.687094   1.000000
+
+[16 rows x 17 columns]
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1002989/autolysis.py`
+Installed 15 packages in 112ms
+/root/.local/share/tds-sep-24-project-2/23f1002989/autolysis.py:56: MatplotlibDeprecationWarning: The 'labels' parameter of boxplot() has been renamed 'tick_labels' since Matplotlib 3.9; support for the old name will be dropped in 3.11.
+  plt.boxplot([df[col] for col in numeric_columns], labels=numeric_columns)
+
+
+------------------------------------------------------------------------
+

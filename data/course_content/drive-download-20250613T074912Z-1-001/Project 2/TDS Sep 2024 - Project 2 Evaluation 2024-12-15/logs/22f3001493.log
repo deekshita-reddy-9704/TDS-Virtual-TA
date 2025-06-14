@@ -1,0 +1,57 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/iambuhari/TDSP2.git', '/root/.local/share/tds-sep-24-project-2/22f3001493']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001493/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Selecting the best columns for visualization...
+Generating visualizations...
+Request failed with status code: 429
+{
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Request failed with status code: 429
+{
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Request failed with status code: 429
+{
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Gathering dataset context...
+Doing Correlation analysis
+Request failed with status code: 429
+{
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Asking LLM for a summary of the dataset...
+Token count:2388
+Response content: {'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+Asking LLM for Python code suggestions...
+Token count:2388
+Response content: {'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+ 
+# Example analysis logic: 
+result = "" 
+        
+
+Asking LLM for additional function call suggestions...
+Token count:2388
+Response content: {'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+Response content: {'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+Response content: {'message': 'On 2024-12 you used $5.200995000000003, exceeding $5'}
+Generating README.md...
+Analysis complete. Results saved to README.md and visualizations saved in the 'goodreads' folder.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001493/autolysis.py`
+Installed 44 packages in 717ms
+
+
+------------------------------------------------------------------------
+

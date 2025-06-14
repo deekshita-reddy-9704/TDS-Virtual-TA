@@ -1,0 +1,33 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/anshulbaliga7/iitm-tds-proj2.git', '/root/.local/share/tds-sep-24-project-2/22f3002743']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+HTTP error occurred: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+/root/.local/share/tds-sep-24-project-2/22f3002743/autolysis.py:55: UserWarning: Could not infer format, so each element will be parsed individually, falling back to `dateutil`. To ensure parsing is consistent and as-expected, please specify a format.
+  df[column] = pd.to_datetime(df[column], errors='coerce')
+
+
+------------------------------------------------------------------------
+

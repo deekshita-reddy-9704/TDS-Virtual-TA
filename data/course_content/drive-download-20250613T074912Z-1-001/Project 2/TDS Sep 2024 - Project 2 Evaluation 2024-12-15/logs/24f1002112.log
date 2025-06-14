@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/24f1002112/TDSProject2.git', '/root/.local/share/tds-sep-24-project-2/24f1002112']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1002112/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. Results saved in 'README.md'.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24f1002112/autolysis.py`
+Installed 29 packages in 154ms
+/root/.local/share/tds-sep-24-project-2/24f1002112/autolysis.py:129: UserWarning: This figure includes Axes that are not compatible with tight_layout, so results might be incorrect.
+  plt.tight_layout()  # Adjust layout
+
+
+------------------------------------------------------------------------
+

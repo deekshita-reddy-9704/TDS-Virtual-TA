@@ -1,0 +1,17 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/anshverma1975/TDSrepo2.git', '/root/.local/share/tds-sep-24-project-2/23f1001758']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001758/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error accessing folder E:\TDS: [Errno 2] No such file or directory: 'E:\\TDS'
+
+
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,48 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/vaishnavich44/Automated_analysis_project.git', '/root/.local/share/tds-sep-24-project-2/24ds1000036']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds1000036/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Dataset loaded successfully with encoding: utf-8
+Numeric columns: ['book_id', 'goodreads_book_id', 'best_book_id', 'work_id', 'books_count', 'isbn13', 'original_publication_year', 'average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']
+Categorical columns: ['isbn', 'authors', 'original_title', 'title', 'language_code', 'image_url', 'small_image_url']
+Outlier summary: {'book_id': 0, 'goodreads_book_id': 345, 'best_book_id': 357, 'work_id': 601, 'books_count': 844, 'isbn13': 556, 'original_publication_year': 1031, 'average_rating': 158, 'ratings_count': 1163, 'work_ratings_count': 1143, 'work_text_reviews_count': 1005, 'ratings_1': 1140, 'ratings_2': 1156, 'ratings_3': 1149, 'ratings_4': 1131, 'ratings_5': 1158}
+Clustering completed. Cluster labels added to the dataset.
+PCA applied. PCA results added to the dataset.
+Saved: correlation_heatmap.png
+Saved: pca_clustering_scatterplot.png
+Saved: isbn_top10.png
+Error querying the LLM: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24ds1000036/autolysis.py`
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24ds1000036/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Dataset loaded successfully with encoding: utf-8
+Numeric columns: ['book_id', 'goodreads_book_id', 'best_book_id', 'work_id', 'books_count', 'isbn13', 'original_publication_year', 'average_rating', 'ratings_count', 'work_ratings_count', 'work_text_reviews_count', 'ratings_1', 'ratings_2', 'ratings_3', 'ratings_4', 'ratings_5']
+Categorical columns: ['isbn', 'authors', 'original_title', 'title', 'language_code', 'image_url', 'small_image_url']
+Outlier summary: {'book_id': 0, 'goodreads_book_id': 345, 'best_book_id': 357, 'work_id': 601, 'books_count': 844, 'isbn13': 556, 'original_publication_year': 1031, 'average_rating': 158, 'ratings_count': 1163, 'work_ratings_count': 1143, 'work_text_reviews_count': 1005, 'ratings_1': 1140, 'ratings_2': 1156, 'ratings_3': 1149, 'ratings_4': 1131, 'ratings_5': 1158}
+Clustering completed. Cluster labels added to the dataset.
+PCA applied. PCA results added to the dataset.
+Saved: correlation_heatmap.png
+Saved: pca_clustering_scatterplot.png
+Saved: isbn_top10.png
+Saved README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24ds1000036/autolysis.py`
+
+
+------------------------------------------------------------------------
+

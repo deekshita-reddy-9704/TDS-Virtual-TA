@@ -1,0 +1,27 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f1002254/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/23f1002254']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f1002254/TDS_Project2.git', '/root/.local/share/tds-sep-24-project-2/23f1002254']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1002254/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+****************************** SCRIPT START ******************************
+README.md file created at /root//README.md
+****************************** SCRIPT END ******************************
+
+
+
+
+------------------------------------------------------------------------
+

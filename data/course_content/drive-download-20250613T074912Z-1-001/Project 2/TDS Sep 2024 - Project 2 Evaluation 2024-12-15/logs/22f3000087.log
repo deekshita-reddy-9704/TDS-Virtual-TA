@@ -1,0 +1,90 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/NeeharikaBhaide/TDS_P2.git', '/root/.local/share/tds-sep-24-project-2/22f3000087']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully read CSV with utf-8 encoding
+Full API Response: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+HTTP Error: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+Response Text: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py", line 213, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py", line 208, in main
+    analyzer.run_analysis()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py", line 195, in run_analysis
+    story = self.generate_story(overview)
+  File "/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py", line 175, in generate_story
+    story = self.query_llm(story_prompt)
+  File "/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py", line 129, in query_llm
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/httpx/_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000087/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully read CSV with utf-8 encoding
+Full API Response: {
+  "id": "chatcmpl-AejXPWaUFZVYbCeguyx9bgvJ0ugMH",
+  "object": "chat.completion",
+  "created": 1734271531,
+  "model": "gpt-4o-mini-2024-07-18",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "# Unveiling A Literary Universe: An Exploration of Goodreads Books Dataset\n\n## A Brief Description of the Dataset\n\nIn the vast ocean of literature, readers across the globe have found a uniquely interactive space on Goodreads, a platform where book lovers come together to share their thoughts on countless titles. Our dataset, consisting of **10,000 entries and 23 distinct attributes**, gives us a glimpse into this literary world. From details about each book—such as **title, authors, language, and original publication year**—to reader-generated data like **average ratings and counts of ratings**, this collection is a treasure trove waiting to be explored.\n\n### Dataset Features:\n- **Columns:** The dataset encapsulates various columns, including identifiers (*book_id*, *goodreads_book_id*, *best_book_id*, etc.), *ISBN* information, author details, publication years, ratings, and embedded images.\n- **Language Code:** It also highlights the diverse range of languages in which these books are written.\n- **Missing Values:** Some attributes, notably *ISBN* (700 missing) and *original publication year* (21 missing), hint at the challenges of maintaining comprehensive records in a crowdsourced environment.\n\n## Interesting Observations from the Summary Statistics\n\n### Rating Trends\nOne of the most striking observations lies in the ratings finale. The **average rating** column displays a broad spectrum of reader experiences, aiding us in discerning which titles have captivated audiences and which have fallen short. Here are some key takeaways from the summary statistics:\n\n- **Distribution of Ratings:** Out of the 10,000 entries, the sum total of the ratings (from 1 to 5) provides insight into the *rating skews*. Are readers more inclined to extoll their literary loves or chastise the ones that disappoint?\n  \n- **Work Reviews Count:** The *work_text_reviews_count* indicates that **titles with a high number of ratings often also have substantial reviews**, hinting at a deeper level of engagement beyond mere ratings.\n\n### Publication Insights\nWe can discern trends relating to the *original publication year*. For instance, books published in specific decades may dominate the current literary landscape, prompting questions about their enduring appeal or revival through adaptations.\n\n### Language Representation\nWith a notable **1084 missing numbers** in the *language_code* column, the dataset leaves us pondering the extent of global representation within the literary canon. \n\n## Potential Insights or Implications\n\nThe insights gathered from this dataset may hold valuable implications for authors, publishers, and marketers:\n- **Consumer Preference:** Understanding which genres garner the highest average ratings can guide authors and publishers in their creative directions. For instance, if historical fiction receives consistently high ratings, it may prompt a renaissance in that genre.\n- **Marketing Strategies:** Books with extensive reviews may indicate lively discussions that can be harnessed in promotional campaigns, leveraging social proof to attract new readers.\n- **Cultural Heritage:** Identifying language prevalence allows stakeholders to appreciate the linguistic diversity of books. It opens avenues for translation or localized marketing strategies to cater to various linguistic demographics.\n\n## Recommendations for Further Analysis\n\nTo appreciate the depths of this literary dataset fully, we recommend several avenues for further exploration:\n\n1. **Correlation Analysis**: Investigate the relationships between different variables, such as *average rating vs. ratings counts* or *publication year vs. ratings*. Are older books faring better, or is there a trend towards contemporary literature?\n\n2. **Sentiment Analysis**: With access to text reviews, employing natural language processing could yield insights on how emotions influence ratings. Are books with certain keywords in reviews rated higher?\n\n3. **Genre Classification**: While genres are not directly present, clustering and classification with machine learning could unearth underlying genres and patterns within the dataset, enriching our understanding of popular trends.\n\n4. **Visualizations**: Creating interactive visualizations can help readers comprehend trends over time, ratings distribution, and language representation effectively, turning data into a more digestible narrative.\n\nWith this dataset, we are not merely examining numbers; we are uncovering the stories embedded within the literary landscape, one book at a time. Each entry tells a tale of an author’s vision, a reader's experience, and literature's ever-evolving journey through time. The next chapter awaits us as we delve deeper into this fascinating repository of knowledge. Let your analytical spirit roam free! 📚✨",
+        "refusal": null
+      },
+      "logprobs": null,
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 614,
+    "completion_tokens": 881,
+    "total_tokens": 1495,
+    "prompt_tokens_details": {
+      "cached_tokens": 0,
+      "audio_tokens": 0
+    },
+    "completion_tokens_details": {
+      "reasoning_tokens": 0,
+      "audio_tokens": 0,
+      "accepted_prediction_tokens": 0,
+      "rejected_prediction_tokens": 0
+    }
+  },
+  "system_fingerprint": "fp_6fc10e10eb",
+  "monthlyCost": 0.5863590000000002,
+  "cost": 0.007128,
+  "monthlyRequests": 30
+}
+Analysis complete. Check README.md and generated charts.
+
+
+
+
+------------------------------------------------------------------------
+

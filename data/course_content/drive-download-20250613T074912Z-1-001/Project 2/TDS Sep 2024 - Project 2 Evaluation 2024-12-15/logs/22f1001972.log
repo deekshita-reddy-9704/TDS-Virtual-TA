@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/SAM8402/tds-project2.git', '/root/.local/share/tds-sep-24-project-2/22f1001972']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001972/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+  File "/root/.local/share/tds-sep-24-project-2/22f1001972/autolysis.py", line 9
+    !pip install pandas numpy matplotlib seaborn openai -q
+    ^
+SyntaxError: invalid syntax
+
+
+------------------------------------------------------------------------
+

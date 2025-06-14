@@ -1,0 +1,234 @@
+# Data preparation in the shell
+
+UNIX has a great set of tools to clean and analyze data.
+
+This is important because [these tools are](https://jeroenjanssens.com/dsatcl/chapter-1-introduction#why-data-science-at-the-command-line):
+
+- **Agile**: You can quickly explore data and see the results.
+- **Fast**: They're written in C. They're easily parallelizable.
+- **Popular**: Most systems and languages support shell commands.
+
+In this notebook, we'll explore log files with these shell-based commands.
+
+## Download logs
+
+[This file](https://drive.google.com/file/d/1J1ed4iHFAiS1Xq55aP858OEyEMQ-uMnE/view) has Apache web server logs for the site [s-anand.net](https://s-anand.net/) in the month of April 2024.
+
+You can download files using `wget` or `curl`. One of these is usually available by default on most systems.
+
+We'll use `curl` to download the file from the URL `https://drive.usercontent.google.com/uc?id=1J1ed4iHFAiS1Xq55aP858OEyEMQ-uMnE&export=download`
+
+# curl has LOTs of options. You won't remember most, but it's fun to geek out.
+!curl --help all
+
+# We're using 3 curl options here:
+#   --continue-at - continues the download from where it left off. It won't download if already downloaded
+#   --location downloads the file even if the link sends us somewhere else
+#   --output FILE saves the downloaded output as
+!curl --continue-at - \
+  --location \
+  --output s-anand.net-Apr-2024.gz \
+  https://drive.usercontent.google.com/uc?id=1J1ed4iHFAiS1Xq55aP858OEyEMQ-uMnE&export=download
+
+## List files
+
+`ls` lists files. It too has lots of options.
+
+!ls --help
+
+# By default, it just lists all file names
+!ls
+
+# If we want to see the size of the file, use `-l` for the long-listing format
+!ls -l
+
+## Uncompress the log file
+
+`gzip` is the most popular compression format on the web. It's fast and pretty good. (`xz` is much better but slower.)
+
+Since the file has a `.gz` extension, we know it's compressed using `gzip`. We can use `gzip -d FILE.gz` to decompress the file. It'll replace `FILE.gz` with `FILE`.
+
+(Compression works the opposite way. `gzip FILE` replaces `FILE` with `FILE.gz`)[link text](https://)
+
+# gzip -d is the same as gunzip. They both decompress a GZIP-ed file
+!gzip -d s-anand.net-Apr-2024.gz
+
+# Let's list the files and see the size
+!ls -l
+
+In this case, a file that was ~5.8MiB became ~52MiB, roughly 10 times larger. Clearly, it's more efficient to store and transport compressed files -- especitally if they're plain text.
+
+## Preview the logs
+
+To see the first few lines or the last few lines of a text file, use `head` or `tail`*italicized text*
+
+# Show the first 5 lines
+!head -n 5 s-anand.net-Apr-2024
+
+# Show the last 5 files
+!tail -n 5 s-anand.net-Apr-2024
+
+Clearly, the data is from around 31 Mar 2024 a bit after 7 am EST (GMT-5) until 30 Apr 2024, a bit after 7 am EST.
+
+Each line is an Apache log record. It has a lot of data. Some are clear. For example, taking the last row:
+
+- `37.59.21.100` is the IP address that made a request. That's from [OVH](https://www.whois.com/whois/37.59.21.100) - a French cloud provider. Maybe a bot.
+- `[30/Apr/2024:07:11:31 -0500]` is the time of the request
+- `"GET /blog/2003-mumbai-bloggers-meet-photos/feed/ HTTP/1.1"` is the request made to [this page](https://s-anand.net/blog/2003-mumbai-bloggers-meet-photos/feed/)
+- `200` is the HTTP reponse status code, indicating that all's well
+- `686` bytes was the size of the response
+- `"Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36"` is the user agent. That's Chrome 30 -- a really old versio of Chrome on Linux. Very likely a bot.
+
+## Count requests
+
+`wc` counts the number of lines, words, and characters in a file. The number of lines is most often used with data.
+
+!wc s-anand.net-Apr-2024
+
+So, in Apr 2024, there were ~208K requests to the site. Useful to know.
+
+I wonder: **Who is sending most of these requests?**
+
+Let's extract the IP addresses and count them.
+
+## Extract the `IP` column
+
+We'll use `cut` to cut the first column. It has 2 options that we'll use.
+
+`--delimiter` is the character that splits fields. In the log file, it's a space. (We'll confirm this shortly.)
+`--fields` picks the field to cut. We want field 1 (IP address)
+
+Let's preview this:
+
+# Preview just the IP addresses from the logs
+!cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | head -n 5
+
+We used the `|` operator. That passes the output to the next command, `head -n 5`, and gives us first 5 lines. This is called **piping** and is the equivalent of calling a function inside another in programming languages.
+
+We'll use `sort` to sort these IP addresses. That puts the same IP addresses next to each other.
+
+# Preview the SORTED IP addresses from the logs
+!cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | head -n 5
+
+There are no duplicates there... maybe we need to go a bit further? Let's check the top 25 lines.
+
+# Preview the SORTED IP addresses from the logs
+!cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | head -n 25
+
+OK, there are some duplicates. Good to know.
+
+We'll use `uniq` to count the unique IP addresses. It has a `--count` option that displays the number of unique values.
+
+**NOTE**: `uniq` works ONLY on sorted files. You NEED to `sort` first.
+
+!cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | uniq --count | head -n 25
+
+That's useful. [101.2.187.83](https://www.whois.com/whois/101.2.187.83) from Colombo visited 7 times.
+
+But I'd like to know who visited the MOST. So let's `sort` it further.
+
+`sort` has an option `--key 1n` that sorts by field `1` -- the count of IP addresses in this case. The `n` indicates that it's a numeric sort (so 11 appears AFTER 2).
+
+Also, we'll use `tail` instead of `head` to get the highest entries.
+
+# Show the top 5 IP addresses by visits
+!cut --delimiter " " --fields 1 s-anand.net-Apr-2024 | sort | uniq --count | sort --key 1n | tail -n 5
+
+WOW! [136.243.228.193](https://www.whois.com/whois/136.243.228.193) from Dataforseo, Ukraine, sent roughly HALF of ALL the requests!
+
+I wonder if we can figure out what User Agent they send. Is it something that identifies itself as a bot of some kind?
+
+## Find lines matching an IP
+
+`grep` searches for text in files. It uses [Regular Expressions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_expressions) which are a powerful set of wildcards.
+
+💡 TIP: You **MUST** learn regular expressions. They're very helpful.
+
+Here, we'll search for all lines BEGINNING with 136.243.228.193 and having a space after that. That's `"^136.243.228.193 "`. The `^` at the beginning matches the start of a line.
+
+# Preview lines that begin with 136.243.228.193
+!grep "^136.243.228.193 " s-anand.net-Apr-2024 | head -n 5
+
+These requests have clearly identified themselves as `DataForSeoBot/1.0`, which is helpful. It also seems to be crawling `robots.txt` to check if it's allowed to crawl the site, which is polite.
+
+Let's look at the second IP address: [37.59.21.100](https://www.whois.com/whois/37.59.21.100). That seems to be from OVH, a French cloud hosting provider. Is that a bot, too?
+
+# Preview lines that begin with 37.59.21.100
+!grep "^37.59.21.100 " s-anand.net-Apr-2024 | head -n 5
+
+Looking at the user agent, `Mozilla/5.0 (X11; Linux i686) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/30.0.1599.66 Safari/537.36`, it looks like Chrome 30 -- a very old version.
+
+Personally, I believe it's more likely to be a bot than a French human so interested in my website that they made over 250 requests *every day*.
+
+## Find bots
+
+But, I'm curious. What are the user agents that DO identify themselves as bots? Let's use `grep` to find all words that match bot.
+
+`grep --only-matching` will show only the matches, not the entire line.
+
+The regular expression `'\S*bot\S*'` (which ChatGPT generated) finds all words that have bot.
+
+- `\S` matches non-space characters
+- `\S*` matches 0 or more non-space characters
+
+# Find all words with `bot` in it
+!grep --only-matching '\b\w*bot\w*\b' s-anand.net-Apr-2024 | head
+
+# Count frequency of all words with `bot` in it and show the top 10
+!grep --only-matching '\S*bot\S*' s-anand.net-Apr-2024 | sort | uniq --count | sort --key 1n | tail
+
+That gives me a rough sense of who's crawling my site.
+
+1. [DataForSEO](https://dataforseo.com/)
+2. [Apple](https://www.apple.com/)
+3. [Google](https://www.google.com/)
+4. [Anthropic](https://www.anthropic.com/)
+5. [Bing](https://www.bing.com/)
+6. [PetalBot](https://aspiegel.com/petalbot)
+
+## Convert logs to CSV
+
+This file is *almost* a CSV file separated by spaces instead of commas.
+
+The main problem is the date. Instead of `[31/Mar/2024:11:27:43 -0500]` it should have been `"31/Mar/2024:11:27:43 -0500"`
+
+We'll use `sed` (stream editor) to replace the characters. `sed` is like `grep` but lets you replace, not just search.
+
+(Actually, `sed` can do a lot more. It's a full-fledged editor. You can insert, delete, edit, etc. programmatically. In fact, `sed` has truly remarkable features that this paragraph is too small to contain.)
+
+The regular expression we will use is `\[\([^]]*\)\]`. The way this works is:
+
+- `\[`: Match the opening square bracket.
+- `\([^]]*\)`: Capture everything inside the square brackets (non-greedy match for any character except `]`).
+- `\]`: Match the closing square bracket.
+
+BTW, I didn't create this. [ChatGPT did](https://chatgpt.com/share/7f14e9d2-15ec-4562-b263-61547d2230f3).
+
+`sed "s/abc/xyz/" FILE` replaces `abc` with `xyz` in the file. We can use the regular expression above for the search and `"\1"` for the value -- it inserts captured group enclosed in double quotes.
+
+# Replace [datetime] etc. with "datetime" and save as log.csv
+!sed 's/\[\([^]]*\)\]/"\1"/' s-anand.net-Apr-2024 > log.csv
+
+# We should now have a log.csv that's roughly the same size as the original file.
+!ls -l
+
+You can download this `log.csv` and open it in Excel as a CSV file with space as the delimiter.
+
+But when I did that, I faced another problem. Some of the lines had extra columns.
+
+That's because the "User Agent" values sometimes contain a quote. CSV files are supposed to escape quotes with `""` -- two double quotes. But Apache uses `\"` instead.
+
+I'll leave it as an exercise for you to fix that.
+
+## More commands
+
+We've covered the commands most often used to process data before analysis.
+
+Here are a few more that you'll find useful.
+
+- `cat` concatenates multiple files. You can join multiple log files with this, for example
+- `awk` is almost a full-fledged programming interface. It's often used for summing up values
+- `less` lets you open and read files, scrolling through it
+
+You can read the book [Data Science at the Command Line](https://jeroenjanssens.com/dsatcl/) for more tools and examples.
+

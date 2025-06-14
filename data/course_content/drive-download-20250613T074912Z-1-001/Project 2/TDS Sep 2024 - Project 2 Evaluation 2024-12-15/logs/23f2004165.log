@@ -1,0 +1,9 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f2004165/Automated-Analysis-TDS-Project2.git', '/root/.local/share/tds-sep-24-project-2/23f2004165']
+
+
+
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+
+
+------------------------------------------------------------------------
+

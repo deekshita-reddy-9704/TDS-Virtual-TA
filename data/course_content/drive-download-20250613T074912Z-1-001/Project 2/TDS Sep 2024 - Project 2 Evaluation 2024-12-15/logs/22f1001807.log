@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Wamikmk/automated-data-analysis.git', '/root/.local/share/tds-sep-24-project-2/22f1001807']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1001807/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+2024-12-15 14:32:46,353 - INFO - Starting analysis for /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+2024-12-15 14:32:46,402 - INFO - Successfully loaded data with utf-8 encoding
+2024-12-15 14:32:46,440 - INFO - Loaded data from /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv successfully.
+2024-12-15 14:32:52,103 - INFO - HTTP Request: POST https://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-15 14:32:55,682 - INFO - HTTP Request: POST https://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-15 14:33:01,831 - INFO - HTTP Request: POST https://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-15 14:33:11,592 - INFO - HTTP Request: POST https://aiproxy.sanand.workers.dev/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2024-12-15 14:33:11,595 - INFO - README.md created.
+2024-12-15 14:33:11,595 - INFO - Script execution completed.
+
+
+------------------------------------------------------------------------
+

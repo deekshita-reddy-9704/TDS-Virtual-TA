@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/BHUVANESH-P-S/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/22f3001355']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001355/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3001355/autolysis.py", line 11, in <module>
+    import networkx as nx
+ModuleNotFoundError: No module named 'networkx'
+
+
+------------------------------------------------------------------------
+

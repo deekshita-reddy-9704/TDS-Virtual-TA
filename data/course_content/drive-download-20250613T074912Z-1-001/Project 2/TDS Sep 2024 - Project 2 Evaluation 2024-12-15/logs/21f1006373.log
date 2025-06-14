@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Jahnavi530/tds-p2.git', '/root/.local/share/tds-sep-24-project-2/21f1006373']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1006373/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing goodreads.csv...
+File goodreads.csv not found. Skipping.
+Processing happiness.csv...
+File happiness.csv not found. Skipping.
+Processing media.csv...
+File media.csv not found. Skipping.
+
+
+
+
+------------------------------------------------------------------------
+

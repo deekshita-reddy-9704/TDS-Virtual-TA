@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Neet9105/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/23f2005021']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2005021/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error querying AI Proxy: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Analysis complete. Results saved to README.md and charts.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2005021/autolysis.py`
+Installed 19 packages in 216ms
+
+
+------------------------------------------------------------------------
+

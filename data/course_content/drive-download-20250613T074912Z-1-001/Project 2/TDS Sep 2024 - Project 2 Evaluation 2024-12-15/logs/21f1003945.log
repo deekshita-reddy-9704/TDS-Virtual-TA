@@ -1,0 +1,24 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/subhajit2001/TDS-Project2.git', '/root/.local/share/tds-sep-24-project-2/21f1003945']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1003945/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Directory '/root/' already exists.
+
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/21f1003945/autolysis.py", line 62, in <module>
+    summarization_response = llm_response(summary_dataset, prompt=prompt)
+  File "/root/.local/share/tds-sep-24-project-2/21f1003945/autolysis.py", line 44, in llm_response
+    return data_response['choices'][0]['message']['content']
+           ~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'choices'
+
+
+------------------------------------------------------------------------
+

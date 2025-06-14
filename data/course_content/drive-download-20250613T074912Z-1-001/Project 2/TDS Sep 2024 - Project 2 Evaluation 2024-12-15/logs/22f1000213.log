@@ -1,0 +1,32 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/rahul-jha-2001/TDS_Project_2.git', '/root/.local/share/tds-sep-24-project-2/22f1000213']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000213/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Removing identifier columns: ['goodreads_book_id', 'best_book_id', 'work_id', 'isbn', 'original_title', 'title', 'language_code', 'image_url', 'small_image_url']
+Analysis directory: /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+LLM API call error: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+LLM API call error: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f1000213/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Removing identifier columns: ['goodreads_book_id', 'best_book_id', 'work_id', 'isbn', 'original_title', 'title', 'language_code', 'image_url', 'small_image_url']
+Analysis directory: /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+
+
+
+
+------------------------------------------------------------------------
+

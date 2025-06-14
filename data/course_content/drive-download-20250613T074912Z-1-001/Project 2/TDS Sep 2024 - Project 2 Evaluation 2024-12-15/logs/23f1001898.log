@@ -1,0 +1,44 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Omkar-pawar1/Automated-Analysis-Project.git', '/root/.local/share/tds-sep-24-project-2/23f1001898']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001898/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Chart recommendations received: {
+  "charts": [
+    {
+      "type": "Bar Chart",
+      "code": "import matplotlib.pyplot as plt\nimport seaborn as sns\n\nplt.figure(figsize=(12, 6))\nsns.barplot(data=df, x='original_publication_year', y='average_rating', estimator='mean')\nplt.title('Average Rating per Original Publication Year')\nplt.xlabel('Original Publication Year')\nplt.ylabel('Average Rating')\nplt.xticks(rotation=45)\nplt.savefig('average_rating_per_year.png')\nplt.close()"
+    },
+    {
+      "type": "Box Plot",
+      "code": "plt.figure(figsize=(12, 6))\nsns.boxplot(data=df, x='average_rating', y='language_code')\nplt.title('Average Rating Distribution by Language')\nplt.xlabel('Average Rating')\nplt.ylabel('Language Code')\nplt.savefig('average_rating_by_language.png')\nplt.close()"
+    }
+  ]
+}
+Generating Bar Chart and saving to /root/.local/share/tds-sep-24-project-2/datasets/goodreads/Bar Chart.png...
+Generating Box Plot and saving to /root/.local/share/tds-sep-24-project-2/datasets/goodreads/Box Plot.png...
+ INCIDE QUERY FOR STROY ::::   Generated storytelling narrative:
+ **Discovery:**
+In this dataset, we have a rich collection of information on 10,000 books from Goodreads. Each entry includes details such as authors, publication years, ratings, and the number of reviews. This extensive dataset offers an opportunity to uncover patterns related to book popularity, reader preferences, and trends in ratings. The potential insights here could help authors, publishers, and readers alike by offering a clearer picture of what influences a book's success and reception.
+
+**Analysis:**
+The analysis of the data reveals several notable points. First, a bar chart displays a significant correlation between the number of ratings a book has received and its average rating, indicating that more frequently rated books tend to carry higher ratings. However, the box plot illustrates some anomalies: a few books with high average ratings had relatively low ratings counts, suggesting that they may be either niche favorites or newly published works yet to gain traction.
+
+Another observation is the distribution of ratings. While most books received a balanced range of ratings, a select few stand out with exceptionally high ratings but limited reach—these could be hidden gems waiting for broader recognition. Conversely, some books with a high ratings count received lower averages, prompting further questions about the variance in reader satisfaction.
+
+**Implications:**
+Based on these insights, several actions can be taken. For authors and publishers, promoting books that show promise but lack visibility could be beneficial. Targeting marketing efforts towards these hidden gems may boost their readership. Additionally, understanding that books with a strong, engaged rating community usually perform better can push authors and publishers to actively engage with readers through social media or book clubs. 
+
+Furthermore, for readers, this analysis can guide their selections, helping them discover highly-rated yet lesser-known titles. Overall, leveraging these insights can lead to increased satisfaction for all stakeholders in the literary ecosystem.
+Analysis complete. Storytelling narrative written to README.md and PNG charts saved.
+
+
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,36 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/sapiitm/TDS_project2.git', '/root/.local/share/tds-sep-24-project-2/21f1000303']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f1000303/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Hello from project2!
+folder created successfully
+Python codes to generate chart has been received from OPENAI..
+Generated image successfully
+before function calling
+after function calling
+num cols: average_rating
+cat colms : language_code
+Generating pairplot for language_code
+skipping pairplot generation as unique value of categorical column is too high
+encoding image /root/.local/share/tds-sep-24-project-2/eval/21f1000303/goodreads.csv/goodreads/ratings_count_vs_average_rating.png
+encoding image /root/.local/share/tds-sep-24-project-2/eval/21f1000303/goodreads.csv/goodreads/books_published_over_years.png
+encoding image /root/.local/share/tds-sep-24-project-2/eval/21f1000303/goodreads.csv/goodreads/average_rating_distribution.png
+encoding of image is completed ..
+Insights from the genrated charts done successfully...
+Insights from the genrated charts done successfully...
+Insights from the genrated charts done successfully...
+Final content of anaylysis has been generated successfully..
+Program run completed successfully
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f1000303/autolysis.py`
+
+
+------------------------------------------------------------------------
+

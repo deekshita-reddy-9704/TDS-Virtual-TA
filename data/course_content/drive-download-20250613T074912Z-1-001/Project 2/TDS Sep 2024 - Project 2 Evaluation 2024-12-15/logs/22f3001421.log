@@ -1,0 +1,40 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Shiva9361/ATT.git', '/root/.local/share/tds-sep-24-project-2/22f3001421']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001421/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded data with utf8 encoding.
+Analysis complete. Results saved to /root/.local/share/tds-sep-24-project-2/eval/22f3001421/goodreads.csv/goodreads/README.md and charts.
+Successfully loaded data with utf8 encoding.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001421/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3001421/autolysis.py", line 774, in <module>
+    main(file_path)
+    ~~~~^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/22f3001421/autolysis.py", line 759, in main
+    llm_response = analyze_with_llm(file_path, AIPROXY_TOKEN)
+  File "/root/.local/share/tds-sep-24-project-2/22f3001421/autolysis.py", line 177, in analyze_with_llm
+    {json.dumps(dataset_summary, indent=2)}
+     ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/__init__.py", line 238, in dumps
+    **kw).encode(obj)
+          ~~~~~~^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/encoder.py", line 261, in iterencode
+    return _iterencode(o, 0)
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+                    f'is not JSON serializable')
+TypeError: Object of type int64 is not JSON serializable
+
+
+------------------------------------------------------------------------
+

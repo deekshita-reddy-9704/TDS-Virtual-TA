@@ -1,0 +1,115 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Anu-IITM/TDS_PROJECT2.git', '/root/.local/share/tds-sep-24-project-2/22f3000892']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Starting autolysis process...
+Detected file encoding: utf-8
+Dataset loaded successfully.
+Analyzing data...
+Data analysis complete.
+Error fetching analysis suggestions: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+Analysis Suggestions: No suggestions available.
+Generating visualizations...
+Saved correlation heatmap to /root/.local/share/tds-sep-24-project-2/eval/22f3000892/goodreads.csv/goodreads/correlation_heatmap.png
+Saved scatter plot of book_id vs isbn to /root/.local/share/tds-sep-24-project-2/eval/22f3000892/goodreads.csv/goodreads/isbn_scatter_plot.png
+Saved scatter plot of book_id vs authors to /root/.local/share/tds-sep-24-project-2/eval/22f3000892/goodreads.csv/goodreads/authors_scatter_plot.png
+Generating narrative...
+Error generating narrative: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+Narrative saved to /root/.local/share/tds-sep-24-project-2/eval/22f3000892/goodreads.csv/goodreads/README.md
+Process completed. Outputs saved in: /root/.local/share/tds-sep-24-project-2/eval/22f3000892/goodreads.csv/goodreads
+
+
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 26449 (\N{CJK UNIFIED IDEOGRAPH-6751}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 19978 (\N{CJK UNIFIED IDEOGRAPH-4E0A}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 26149 (\N{CJK UNIFIED IDEOGRAPH-6625}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 27193 (\N{CJK UNIFIED IDEOGRAPH-6A39}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 27494 (\N{CJK UNIFIED IDEOGRAPH-6B66}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 20869 (\N{CJK UNIFIED IDEOGRAPH-5185}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 30452 (\N{CJK UNIFIED IDEOGRAPH-76F4}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 23376 (\N{CJK UNIFIED IDEOGRAPH-5B50}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 26395 (\N{CJK UNIFIED IDEOGRAPH-671B}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 26376 (\N{CJK UNIFIED IDEOGRAPH-6708}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 28147 (\N{CJK UNIFIED IDEOGRAPH-6DF3}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 30707 (\N{CJK UNIFIED IDEOGRAPH-77F3}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 30000 (\N{CJK UNIFIED IDEOGRAPH-7530}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12473 (\N{KATAKANA LETTER SU}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12452 (\N{KATAKANA LETTER I}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 20904 (\N{CJK UNIFIED IDEOGRAPH-51A8}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 27179 (\N{CJK UNIFIED IDEOGRAPH-6A2B}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 32681 (\N{CJK UNIFIED IDEOGRAPH-7FA9}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 21338 (\N{CJK UNIFIED IDEOGRAPH-535A}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 49888 (\N{HANGUL SYLLABLE SIN}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 44221 (\N{HANGUL SYLLABLE GYEONG}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 49689 (\N{HANGUL SYLLABLE SUG}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 31070 (\N{CJK UNIFIED IDEOGRAPH-795E}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 23614 (\N{CJK UNIFIED IDEOGRAPH-5C3E}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 33865 (\N{CJK UNIFIED IDEOGRAPH-8449}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 27147 (\N{CJK UNIFIED IDEOGRAPH-6A0B}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 21475 (\N{CJK UNIFIED IDEOGRAPH-53E3}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 27224 (\N{CJK UNIFIED IDEOGRAPH-6A58}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 26716 (\N{CJK UNIFIED IDEOGRAPH-685C}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 22338 (\N{CJK UNIFIED IDEOGRAPH-5742}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 27915 (\N{CJK UNIFIED IDEOGRAPH-6D0B}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12354 (\N{HIRAGANA LETTER A}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12378 (\N{HIRAGANA LETTER ZU}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12414 (\N{HIRAGANA LETTER MA}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12365 (\N{HIRAGANA LETTER KI}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12424 (\N{HIRAGANA LETTER YO}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12402 (\N{HIRAGANA LETTER HI}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12371 (\N{HIRAGANA LETTER KO}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 20013 (\N{CJK UNIFIED IDEOGRAPH-4E2D}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12513 (\N{KATAKANA LETTER ME}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+/root/.local/share/tds-sep-24-project-2/22f3000892/autolysis.py:127: UserWarning: Glyph 12459 (\N{KATAKANA LETTER KA}) missing from font(s) DejaVu Sans.
+  plt.savefig(scatterplot_path)
+
+
+------------------------------------------------------------------------
+

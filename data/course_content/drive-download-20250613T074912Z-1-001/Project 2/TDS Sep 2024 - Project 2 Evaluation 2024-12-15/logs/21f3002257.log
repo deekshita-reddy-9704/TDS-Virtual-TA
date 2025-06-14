@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/fahmeed1713/autolysis.git', '/root/.local/share/tds-sep-24-project-2/21f3002257']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3002257/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Correlation heatmap saved to goodreads/correlation_heatmap.png
+Missing values bar plot saved to goodreads/missing_values_plot.png
+Analysis complete. Report saved to goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f3002257/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/21f3002257/autolysis.py:74: FutureWarning: 
+
+Passing `palette` without assigning `hue` is deprecated and will be removed in v0.14.0. Assign the `x` variable to `hue` and set `legend=False` for the same effect.
+
+  sns.barplot(x=missing_counts.index, y=missing_counts.values, palette="viridis")
+
+
+------------------------------------------------------------------------
+

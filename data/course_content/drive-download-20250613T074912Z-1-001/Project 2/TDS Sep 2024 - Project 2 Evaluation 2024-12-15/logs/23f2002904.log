@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/swalihaattar/IITM_TDS_P2.git', '/root/.local/share/tds-sep-24-project-2/23f2002904']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2002904/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Data loaded successfully from /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Narrative generated successfully
+
+
+
+
+------------------------------------------------------------------------
+

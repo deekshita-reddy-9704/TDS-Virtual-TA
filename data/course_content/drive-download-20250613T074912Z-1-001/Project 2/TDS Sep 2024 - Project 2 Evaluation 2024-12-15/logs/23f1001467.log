@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/PradeepIITMBS/TDS-2024T3-PROJECT-2.git', '/root/.local/share/tds-sep-24-project-2/23f1001467']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001467/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis completed. Results saved in directory: ./goodreads
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001467/autolysis.py`
+Installed 34 packages in 184ms
+
+
+------------------------------------------------------------------------
+

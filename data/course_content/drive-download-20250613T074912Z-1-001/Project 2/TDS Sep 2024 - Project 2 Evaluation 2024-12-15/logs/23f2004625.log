@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f2004625/project2tds.git', '/root/.local/share/tds-sep-24-project-2/23f2004625']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2004625/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing dataset: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv
+Analysis for /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv completed successfully!
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2004625/autolysis.py`
+
+
+------------------------------------------------------------------------
+

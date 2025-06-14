@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Ankit972-dotcom/autolysis-project.git', '/root/.local/share/tds-sep-24-project-2/23ds3000113']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000113/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+  File "/root/.local/share/tds-sep-24-project-2/23ds3000113/autolysis.py", line 46
+    !git clone https://github.com/Ankit972-dotcom/autolysis-project.git
+    ^
+SyntaxError: invalid syntax
+
+
+------------------------------------------------------------------------
+

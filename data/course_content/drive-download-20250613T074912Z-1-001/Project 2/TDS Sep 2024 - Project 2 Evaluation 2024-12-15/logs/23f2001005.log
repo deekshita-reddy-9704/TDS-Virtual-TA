@@ -1,0 +1,272 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/akshat-shethia/autolysis-project.git', '/root/.local/share/tds-sep-24-project-2/23f2001005']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv with UTF-8 encoding
+Dataset Overview:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 23 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+dtypes: float64(3), int64(13), object(7)
+memory usage: 1.8+ MB
+None
+First 5 Rows:
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+
+Missing Values:
+isbn                          700
+isbn13                        585
+original_publication_year      21
+original_title                585
+language_code                1084
+dtype: int64
+
+Handling Missing Values:
+Filled missing values in 'book_id' with mean: 5000.5
+Filled missing values in 'goodreads_book_id' with mean: 5264696.5132
+Filled missing values in 'best_book_id' with mean: 5471213.5801
+Filled missing values in 'work_id' with mean: 8646183.4246
+Filled missing values in 'books_count' with mean: 75.7127
+Filled missing values in 'isbn' with mode: 000100039X
+Filled missing values in 'isbn13' with mean: 9755044298883.465
+Filled missing values in 'authors' with mode: Stephen King
+Filled missing values in 'original_publication_year' with mean: 1981.987674115643
+Filled missing values in 'original_title' with mode:  
+Filled missing values in 'title' with mode: Selected Poems
+Filled missing values in 'language_code' with mode: eng
+Filled missing values in 'average_rating' with mean: 4.002191000000001
+Filled missing values in 'ratings_count' with mean: 54001.2351
+Filled missing values in 'work_ratings_count' with mean: 59687.3216
+Filled missing values in 'work_text_reviews_count' with mean: 2919.9553
+Filled missing values in 'ratings_1' with mean: 1345.0406
+Filled missing values in 'ratings_2' with mean: 3110.885
+Filled missing values in 'ratings_3' with mean: 11475.8938
+Filled missing values in 'ratings_4' with mean: 19965.6966
+Filled missing values in 'ratings_5' with mean: 23789.8056
+Filled missing values in 'image_url' with mode: https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+Filled missing values in 'small_image_url' with mode: https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+
+Missing values handled successfully!
+
+Correlation Matrix:
+                            book_id  goodreads_book_id  ...  ratings_4  ratings_5
+book_id                    1.000000           0.115154  ...  -0.407079  -0.332486
+goodreads_book_id          0.115154           1.000000  ...  -0.063310  -0.056145
+best_book_id               0.104516           0.966620  ...  -0.054462  -0.049524
+work_id                    0.113861           0.929356  ...  -0.054775  -0.046745
+books_count               -0.263841          -0.164578  ...   0.349564   0.279559
+isbn13                    -0.010957          -0.043612  ...   0.010116   0.006603
+original_publication_year  0.049826           0.133730  ...  -0.025781  -0.015385
+average_rating            -0.040880          -0.024848  ...   0.036108   0.115412
+ratings_count             -0.373178          -0.073023  ...   0.978869   0.964046
+work_ratings_count        -0.382656          -0.063760  ...   0.987764   0.966587
+work_text_reviews_count   -0.419292           0.118845  ...   0.817826   0.764940
+ratings_1                 -0.239401          -0.038375  ...   0.672986   0.597231
+ratings_2                 -0.345764          -0.056571  ...   0.838298   0.705747
+ratings_3                 -0.413279          -0.075634  ...   0.952998   0.825550
+ratings_4                 -0.407079          -0.063310  ...   1.000000   0.933785
+ratings_5                 -0.332486          -0.056145  ...   0.933785   1.000000
+
+[16 rows x 16 columns]
+Correlation heatmap saved as '/root//correlation_matrix.png'
+
+Detecting Outliers with Isolation Forest:
+Number of outliers detected: 500
+Outlier visualization saved as '/root//outliers.png'
+
+Performing Clustering Analysis:
+Clustering visualization saved as '/root//clustering.png'
+
+Generating README.md using GPT-4o-Mini...
+README.md generated and saved as '/root//README.md'
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py:67: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data[column].fillna(data[column].mean(), inplace=True)
+/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py:70: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data[column].fillna(data[column].mode()[0], inplace=True)
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv with UTF-8 encoding
+Dataset Overview:
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 10000 entries, 0 to 9999
+Data columns (total 23 columns):
+ #   Column                     Non-Null Count  Dtype  
+---  ------                     --------------  -----  
+ 0   book_id                    10000 non-null  int64  
+ 1   goodreads_book_id          10000 non-null  int64  
+ 2   best_book_id               10000 non-null  int64  
+ 3   work_id                    10000 non-null  int64  
+ 4   books_count                10000 non-null  int64  
+ 5   isbn                       9300 non-null   object 
+ 6   isbn13                     9415 non-null   float64
+ 7   authors                    10000 non-null  object 
+ 8   original_publication_year  9979 non-null   float64
+ 9   original_title             9415 non-null   object 
+ 10  title                      10000 non-null  object 
+ 11  language_code              8916 non-null   object 
+ 12  average_rating             10000 non-null  float64
+ 13  ratings_count              10000 non-null  int64  
+ 14  work_ratings_count         10000 non-null  int64  
+ 15  work_text_reviews_count    10000 non-null  int64  
+ 16  ratings_1                  10000 non-null  int64  
+ 17  ratings_2                  10000 non-null  int64  
+ 18  ratings_3                  10000 non-null  int64  
+ 19  ratings_4                  10000 non-null  int64  
+ 20  ratings_5                  10000 non-null  int64  
+ 21  image_url                  10000 non-null  object 
+ 22  small_image_url            10000 non-null  object 
+dtypes: float64(3), int64(13), object(7)
+memory usage: 1.8+ MB
+None
+First 5 Rows:
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+
+Missing Values:
+isbn                          700
+isbn13                        585
+original_publication_year      21
+original_title                585
+language_code                1084
+dtype: int64
+
+Handling Missing Values:
+Filled missing values in 'book_id' with mean: 5000.5
+Filled missing values in 'goodreads_book_id' with mean: 5264696.5132
+Filled missing values in 'best_book_id' with mean: 5471213.5801
+Filled missing values in 'work_id' with mean: 8646183.4246
+Filled missing values in 'books_count' with mean: 75.7127
+Filled missing values in 'isbn' with mode: 000100039X
+Filled missing values in 'isbn13' with mean: 9755044298883.465
+Filled missing values in 'authors' with mode: Stephen King
+Filled missing values in 'original_publication_year' with mean: 1981.987674115643
+Filled missing values in 'original_title' with mode:  
+Filled missing values in 'title' with mode: Selected Poems
+Filled missing values in 'language_code' with mode: eng
+Filled missing values in 'average_rating' with mean: 4.002191000000001
+Filled missing values in 'ratings_count' with mean: 54001.2351
+Filled missing values in 'work_ratings_count' with mean: 59687.3216
+Filled missing values in 'work_text_reviews_count' with mean: 2919.9553
+Filled missing values in 'ratings_1' with mean: 1345.0406
+Filled missing values in 'ratings_2' with mean: 3110.885
+Filled missing values in 'ratings_3' with mean: 11475.8938
+Filled missing values in 'ratings_4' with mean: 19965.6966
+Filled missing values in 'ratings_5' with mean: 23789.8056
+Filled missing values in 'image_url' with mode: https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png
+Filled missing values in 'small_image_url' with mode: https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png
+
+Missing values handled successfully!
+
+Correlation Matrix:
+                            book_id  goodreads_book_id  ...  ratings_4  ratings_5
+book_id                    1.000000           0.115154  ...  -0.407079  -0.332486
+goodreads_book_id          0.115154           1.000000  ...  -0.063310  -0.056145
+best_book_id               0.104516           0.966620  ...  -0.054462  -0.049524
+work_id                    0.113861           0.929356  ...  -0.054775  -0.046745
+books_count               -0.263841          -0.164578  ...   0.349564   0.279559
+isbn13                    -0.010957          -0.043612  ...   0.010116   0.006603
+original_publication_year  0.049826           0.133730  ...  -0.025781  -0.015385
+average_rating            -0.040880          -0.024848  ...   0.036108   0.115412
+ratings_count             -0.373178          -0.073023  ...   0.978869   0.964046
+work_ratings_count        -0.382656          -0.063760  ...   0.987764   0.966587
+work_text_reviews_count   -0.419292           0.118845  ...   0.817826   0.764940
+ratings_1                 -0.239401          -0.038375  ...   0.672986   0.597231
+ratings_2                 -0.345764          -0.056571  ...   0.838298   0.705747
+ratings_3                 -0.413279          -0.075634  ...   0.952998   0.825550
+ratings_4                 -0.407079          -0.063310  ...   1.000000   0.933785
+ratings_5                 -0.332486          -0.056145  ...   0.933785   1.000000
+
+[16 rows x 16 columns]
+Correlation heatmap saved as '/root//correlation_matrix.png'
+
+Detecting Outliers with Isolation Forest:
+Number of outliers detected: 500
+Outlier visualization saved as '/root//outliers.png'
+
+Performing Clustering Analysis:
+Clustering visualization saved as '/root//clustering.png'
+
+Generating README.md using GPT-4o-Mini...
+README.md generated and saved as '/root//README.md'
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py:67: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data[column].fillna(data[column].mean(), inplace=True)
+/root/.local/share/tds-sep-24-project-2/23f2001005/autolysis.py:70: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.
+The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.
+
+For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.
+
+
+  data[column].fillna(data[column].mode()[0], inplace=True)
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,53 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/virajjdm1/tds_project2.git', '/root/.local/share/tds-sep-24-project-2/23ds2000155']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error occurred: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions. Retrying...
+Error occurred: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions. Retrying...
+
+
+error: Failed to spawn: `autolysis.py`
+  Caused by: No such file or directory (os error 2)
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py", line 237, in <module>
+    main(dataset_file)
+    ~~~~^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py", line 169, in main
+    response_correlation = get_relevant_columns_for_correlation(df)
+  File "/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py", line 65, in get_relevant_columns_for_correlation
+    return query_openai(prompt)
+  File "/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py", line 31, in query_openai
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/yeZHewfxda43i9kCUy-uM/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py", line 242, in <module>
+    subprocess.run(["uv", "run", "autolysis.py", dataset_file], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['uv', 'run', 'autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']' returned non-zero exit status 2.
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds2000155/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,42 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/22f2000894/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/22f2000894']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000894/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+All retry attempts failed: RetryError[<Future at 0x7f0b1df487d0 state=finished raised HTTPError>]
+https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Request failed: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+All retry attempts failed: RetryError[<Future at 0x7f0b1df9fbf0 state=finished raised HTTPError>]
+Data Analysis Error: API request failed
+Error: 'outlier_and_anomaly_detection'
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2000894/autolysis.py`
+Installed 42 packages in 68ms
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2000894/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Request failed: HTTPSConnectionPool(host='aiproxy.sanand.workers.dev', port=443): Read timed out. (read timeout=10)
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f2000894/autolysis.py`
+
+
+------------------------------------------------------------------------
+

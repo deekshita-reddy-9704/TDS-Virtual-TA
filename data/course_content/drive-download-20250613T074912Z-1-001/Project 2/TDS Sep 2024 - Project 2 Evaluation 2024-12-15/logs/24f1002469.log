@@ -1,0 +1,33 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Nandhini-Ammaiappan/Project-2---Automated-Analysis.git', '/root/.local/share/tds-sep-24-project-2/24f1002469']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/24f1002469/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/24f1002469/autolysis.py`
+Installed 27 packages in 60ms
+fatal: not a git repository (or any of the parent directories): .git
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/24f1002469/autolysis.py", line 389, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/24f1002469/autolysis.py", line 384, in main
+    save_markdown(file_name, analysis_story)
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/24f1002469/autolysis.py", line 277, in save_markdown
+    subprocess.run(["git", "add", repo_folder_path],check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/subprocess.py", line 577, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['git', 'add', '/mnt/c/Users/Nandhini/OneDrive/Documents/GitHub/Project-2---Automated-Analysis/goodreads']' returned non-zero exit status 128.
+
+
+------------------------------------------------------------------------
+

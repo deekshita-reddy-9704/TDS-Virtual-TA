@@ -1,0 +1,366 @@
+# Crawl the ECI election statistics
+
+<http://eci.nic.in/eci_main1/ElectionStatistics.aspx> has PDFs of past election results. Let's first download them all.
+
+pip install urllib
+
+from urllib import urlopen, urlretrieve
+from urlparse import urljoin
+from lxml.html import parse
+from os.path import exists
+
+base = 'http://eci.nic.in/eci_main1/ElectionStatistics.aspx'
+tree = parse(urlopen(base))
+
+# Get all rows from the second table in <div id="c">
+# Then download the PDFs. (This can take a few hours.)
+for tr in tree.findall('//*[@id="c"]/table[2]//tr'):
+    state = tr.find('td').text
+    if state is None:
+        continue
+    for link in tr.findall('.//a'):
+        year = link.text.replace('.', '').replace(' ', '').strip()
+        filename = (state + ' ' + year + '.pdf').lower().strip().replace(' ', '-')
+        if not exists(filename):
+            urlretrieve(urljoin(base, link.get('href')), filename)
+
+Now comes the tough bit: parsing the PDFs for information.
+
+First use [xpdf](http://www.foolabs.com/xpdf/) to convert PDFs into text. For example:
+
+```
+pdftotext -layout rajasthan-2013.pdf rajastan-2013.txt
+```
+
+Then, use the following script to convert them all into an `assembly.csv` file.
+
+import os
+import subprocess
+
+for path in os.listdir('.'):
+    base, ext = os.path.splitext(path)
+    if ext.lower() == '.pdf' and not os.path.exists(base + '.txt'):
+        code = subprocess.call(['d:/Apps/xpdf/pdftotext', '-layout', path, base + '.txt'])
+        if code < 0:
+            print('Failed to process ' + path)
+
+import re
+import os
+import logging
+
+columns = [
+    'ST_NAME',
+    'YEAR',
+    'AC_NO',
+    'AC_NAME',
+    'AC_TYPE',
+    '#',
+    'NAME',
+    'SEX',
+    'AGE',
+    'CATEGORY',
+    'PARTY',
+    'VOTES',
+]
+
+header_map = {
+    'GORY': 'CATEGORY',
+    'TOTAL': 'VOTES'
+}
+
+def pdf_parse(filename, out):
+    name = filename.split('.')[0].split('-')
+    state = ' '.join(s.title() for s in name[:-1])
+    year = name[-1].strip()
+
+    headers, last_ac_no, start_parsing = None, 0, False
+    rows = 0
+    for line in open(filename):
+        if not start_parsing:
+            # DETAILED RESULTS. Ignore all lines before this phrase
+            if 'DETAILED RESULTS' in line:
+                start_parsing = True
+            # Exceptions: goa-1989.txt, uttar-pradesh-1996.txt, gujarat-2012.txt (image file)
+            if re.search('CANDIDATE.*PARTY.*VOTES', line):
+                start_parsing = True
+            if not start_parsing:
+                continue
+        else:
+            # Uttar Pradesh 2002 has a Statistical report at the END of the PDF. Ignore it.
+            if 'STATISTICAL REPORT' in line:
+                start_parsing = False
+                continue
+
+        # CONSTITUENCY NAME
+        # If the row mentions a Constituency, or begins with 3+ spaces and a number,
+        if line.startswith('Constituency') or re.match('\s{18,}\d+\s*\.\s*\w', line):
+            # Ignore the word Constituency, and any non-digits, at the beginning.
+            # Remove anything that occurs after 3 spaces. e.g. Total electors are added at the end
+            ac = re.sub('Constituency[^\d]*', '', line, re.I).strip()
+            ac = re.sub('NUMBER *OF *SEATS.*', '', ac, re.I).strip()
+            ac = re.sub('TOTAL *ELECTORS', '', ac, re.I).strip()
+            # Sometimes, there's just a blank word Constituency -- ignore these.
+            if not ac:
+                continue
+
+            # Get the AC number, name and type
+            match = re.match(r'(\d+)[^A-Za-z]*([A-Za-z0-9 \.\-\(\)]*)', ac)
+            ac_no = int(match.group(1))
+            ac_name_type = match.group(2).strip().upper()
+            match = re.search(r'\((SC|ST|GEN|BL)\)', ac_name_type)
+            if match:
+                start, end = match.start(), match.end()
+                ac_name = ac_name_type[:start].strip()
+                ac_type = ac_name_type[start+1:end-1]
+            else:
+                ac_name = ac_name_type
+                ac_type = 'GEN'
+
+            # Ensure that AC number is consecutive for the same
+            if ac_no > last_ac_no + 1:
+                logging.warn('AC No skipped: %s %s: %d to %d',
+                             state, year, last_ac_no, ac_no)
+            last_ac_no = ac_no
+            continue
+
+        # HEADER ROW
+        # Only header lines have both CANDIDATE and PARTY mentioned
+        if re.search(r'CANDIDATE.*PARTY', line):
+            # Ignore Name & Address... just consider everything else after that
+            headers = re.sub('^.*CANDIDATE(.*NAME)?(.*ADDRESS)?', '', line.strip()).split()
+            # Standardise headers
+            headers = [header_map.get(h, h) for h in headers]
+            continue
+
+        # CANDIDATE ROW
+        # If the row starts with a number, it's probably a candidate.
+        # Some exceptions: West Bengal 1951: "14 - Page 16 of 38". Ignore page numbers
+        # TODO: The candidate name is often split over 2 rows. Handle that.
+        match = re.match(r'^\s{,20}([\d\,]+)\D.*?(\w.*)', line)
+        if match and not ('Page ' in line and ' of ' in line):
+            # Note: not all fields are one word.
+            # E.g. "Aa S P" is a UP party. But we'll correct these manually.
+            fields = line.strip().split()
+
+            # If candidate is uncontested, the last field (%) is often missing. e.g. Nagaland 1998
+            # Replace this with 100%
+            if len(fields) and 'uncontested' in fields[-1].lower() and headers[-2] == 'VOTES':
+                fields.append('100%')
+
+            fields = dict(zip(headers, fields[len(fields) - len(headers):]))
+            rank = match.group(1).replace(',', '')
+            name = match.group(2).split('  ')[0].strip()
+
+            # Some 2008-2009 elections have TWO numbers before the name (prev year rank?)
+            # E.g. Chhattisgarh 2008, Delhi 2008, J&K 2008, Arunachal Pradesh 2009, etc
+            # If the first part of name is a number (with decimal or comma), use that as rank
+            parts = name.split()
+            first_part = parts[0].replace('.', '').replace(',', '')
+            if first_part.isdigit():
+                rank, name = first_part, ' '.join(parts[1:])
+
+            out.writerow([
+                state,
+                year,
+                ac_no,
+                ac_name,
+                ac_type,
+                rank,
+                name,
+                # Punjab 1997 uses 'W' instead of 'F' for gender
+                fields.get('SEX', '').replace('W', 'F'),
+                fields.get('AGE', ''),
+                fields.get('CATEGORY', ''),
+                fields.get('PARTY', ''),
+                fields.get('VOTES', '').lower().replace('uncontested', ''),
+            ])
+            rows += 1
+
+    if rows < 2:
+        logging.warn('Only %d candidates: %s %s' % (rows, state, year))
+
+import csv
+import glob
+logging.basicConfig(level=logging.WARNING)
+with open('assembly.csv', 'w') as f:
+    out = csv.writer(f, lineterminator='\n')
+    out.writerow(columns)
+    for filename in glob.glob('*.txt'):
+        pdf_parse(filename, out)
+
+### Validations
+
+I've manually validated these. Some of the above warnings are because the PDF itself skipped the number. (Some of these are clearly errors in the PDF, e.g. Beas is missing in Punjab 2007, though the summary exists).
+
+However, only two errors are real, and must be fixed manually:
+
+- Uttar Pradesh, 1951: for consituencies 6, 53 and 81, there are 2 rows for constituences, not 1. (This may not visible in the warnings above -- I fixed it manually.)
+- Gujarat, 2012: the file has images, not text.
+
+# Scrape the 2013 Indian election results
+
+The main portal that holds the results is <http://eciresults.nic.in/>. Of these, the constituency-wise results <http://eciresults.nic.in/ConstituencywiseS2653.htm> appears to have the maximum detail, with the following fields:
+
+- State
+- Constituency
+- Candidate
+- Party
+- Votes
+
+So let's scrape that.
+
+from hashlib import sha256
+
+def get(url):
+    """Retrieves a URL as an lxml tree, cached where possible"""
+    filename = '.cache.' + sha256(url).hexdigest()
+    if not os.path.exists(filename):
+        html = urlretrieve(url, filename)
+    return parse(filename)
+
+def constituencies(url):
+    """Yields dicts with state, state_code, constituency, constituency_code."""
+    tree = get(url)
+
+    # States and codes are stored in Javascript, like this:
+    #     if (st.value == 'S26') {
+    #         strValues = document.getElementById('HdnFldChhattisgarh').value;
+    # This is a crude parsing of that code
+    statecode = re.findall('st.value *=+ *\'([^\']+).*?HdnFld([^\']+)',
+                           tree.findall('.//script')[0].text, re.S)
+    statecode = {state:code for code, state in statecode}
+
+    # Constituency codes are in hidden input fields. Format is:
+    # code,constituency; code,constituency; ...
+    for el in tree.findall('.//input[@id]'):
+        id = el.get('id', '').strip()
+        if id.startswith('HdnFld'):
+            state = id.replace('HdnFld', '')
+            for row in el.get('value').split(';'):
+                row = row.strip()
+                if row:
+                    cells = row.split(',')
+                    yield {
+                        'YEAR': '2013',
+                        'ST_NAME': state,
+                        'ST_CODE': statecode.get(state),
+                        'AC_NAME': cells[1],
+                        'AC_NO': cells[0]
+                    }
+
+def results(url):
+    """For a constituency URL, yields dicts with candidate, party, votes."""
+    tree = get(url)
+
+    # Results are inside a table in a <div id="div1">
+    count = 1
+    for row in tree.findall('.//*[@id="div1"]//tr'):
+        cells = row.findall('td')
+        if len(cells) >= 3:
+            yield {
+                '#': str(count),
+                'NAME': cells[0].text.strip(),
+                # Party Proutist Bloc India is wrongly split into 2 cells.
+                # E.g. Delhi 2013 at CHHATARPUR
+                'PARTY': ' '.join(c.text.strip() for c in cells[1:-1]),
+                'VOTES': cells[-1].text.strip(),
+            }
+            count += 1
+
+with open('assembly.csv', 'a') as f:
+    out = csv.writer(f, lineterminator='\n')
+    for place in constituencies('http://eciresults.nic.in/ConstituencywiseS2653.htm'):
+        url = 'http://eciresults.nic.in/Constituencywise{:s}{:s}.htm?ac={:s}'.format(
+            place['ST_CODE'], place['AC_NO'], place['AC_NO'])
+        # print 'Debug: scraping', place['ST_CODE'], place['AC_NO']
+        for result in results(url):
+            result.update(place)
+            out.writerow([result.get(f, '').encode('cp1252') for f in columns])
+
+# Standardise and manually override data
+
+import pandas as pd
+data = pd.read_csv('assembly.csv', dtype=object)
+
+# In some PDFs, the rows are repeated. Remove these.
+data = data.drop_duplicates()
+
+Make sure AC, party and candidate names in upper case, for standardisation, and replace multiple spaces with single spaces. (State names are standardised anyway, so let's not worry about their case.)
+
+data['AC_NAME'] = data['AC_NAME'].str.upper().str.replace('\s+', ' ')
+data['NAME'] = data['NAME'].str.upper().str.replace('\s+', ' ')
+data['PARTY'] = data['PARTY'].str.upper().str.replace('\s+', ' ')
+
+The file `override.csv` has data in the same format as `assembly.csv` that overrides the data. The primary keys are `ST_NAME`, `YEAR`, `AC_NO`, `#`. Let's first make sure that these are unique.
+
+primary_keys = ['ST_NAME', 'YEAR', 'AC_NO', '#']
+if len(data[primary_keys].drop_duplicates()) != len(data):
+    logging.warn('Duplicate rows found')
+
+override = pd.read_csv('override.csv', dtype=object).set_index(primary_keys)
+data = data.set_index(primary_keys)
+data.update(override)
+data = data.reset_index()
+
+# data.update will not replace NaNs. So use "-" in override.csv instead of blank.
+# Finally, replace '-' with NaNs.
+data['VOTES'].replace({'-': pd.np.nan}, inplace=True)
+
+Now, let's rename columns to standardise names of parties, constituencies, etc. This is from the manually prepared `rename.csv`.
+
+rename = pd.read_csv('rename.csv', dtype=object)
+for column, indices in rename.groupby('Column').groups.iteritems():
+    lookup = rename.ix[indices].set_index('Field')['Value'].to_dict()
+    data[column] = data[column].replace(lookup)
+
+The number of votes needs to be standardised. Let's ensure that the only places where VOTES is NA are where the candidate is uncontested.
+
+data['VOTES'] = data['VOTES'].astype(float)
+num_contestants = data.groupby(['ST_NAME', 'YEAR', 'AC_NO'])['NAME'].transform(lambda x: [len(x)] * len(x))
+data['VOTES'][num_contestants == 1] = pd.np.nan
+
+The ranks are often incorrect in the source data. Correct that.
+
+data['#'] = data.groupby(['ST_NAME', 'YEAR', 'AC_NO'])['VOTES'].transform(
+    lambda x: x.rank(ascending=False, method='min').fillna(1).astype(int)
+)
+
+Save it back in the same file
+
+data.to_csv('assembly.csv', index=False, na_rep='', float_format='%.0f')
+
+## Interesting facts
+
+1. Maximum candidates:
+    - 1,033 in Modakurichi, TN 1996. 28 women. 88 people got ZERO votes -- didn't even vote for themselves.
+    - 301 in Belgaum, KA 1985. 54 women (highest ever)
+    - ~260 somewhere in TN
+
+1. 312 candidates got 0 votes, i.e. didn't even vote for themselves.
+   TN again leads the list. 88 in Modakurichi, TN 1996.
+   
+   - 4 in Pallipet, TN 1991.
+   - 3 in Aravakurichi, TN 1991.
+   - 2 in Dharmapur, Assam 1983.
+   - 2 in Madhepur, Bihar, 1995.
+   
+   By party:
+   
+   - 136 from INC
+   - 130 independents
+   - 34 from NC
+   - 5 from AHL
+   - Just one each from the others (no BJP though)
+   
+   In the last 10 years, this has happened only with 3 INC ST candidates in Arunachal Pradesh 2009, who forgot to vote for themselves.
+   
+1. Largest number of votes: NAROTTAMBHAI PATEL (BJP) won with 5,84,098 votes at Chorasi in Gujarat 2007 against DHANANI JANAKBHAI (INC) who got 2,37,158 votes.
+
+1. Largest % margin of victory: Who got the single largest % of votes in a constituency?
+
+1. Clean sweeps by a party: When all has a party swept a state assembly election?
+
+1. Anti-incumbency: Which states have switched parties in successive elections, and when?
+
+More ideas are at <http://eci.nic.in/eci_main1/intresting_states.aspx>
+

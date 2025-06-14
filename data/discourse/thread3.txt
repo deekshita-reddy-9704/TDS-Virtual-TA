@@ -1,0 +1,250 @@
+This category is created to address 
+subject-specific queries
+ related to 
+Tools in Data Science
+
+
+- Why should people use this category? What is it for?
+
+
+
+The larger goal of the Discourse forum is to act as a Knowledge base for the course. You can make this more productive by
+
+
+
+
+
+
+Elaborating your question sufficiently and supporting it with steps that you have already tried at your end before posting this question
+
+
+
+
+
+
+Sharing additional content or explanations related to the topic being discussed
+
+
+-  Are there any rules for posting in this category?
+
+
+
+
+
+
+
+Before you create a new post, 
+review the existing threads
+ to see if there are already highly similar or identical postings. Discourse will suggest similar posts once you start typing titles
+
+
+
+
+
+
+Tag the post appropriately
+ so that it gets indexed correctly in our Knowledge Base. For instance, if your query is on an Activity Question in Week 1 then use the tags 
+#
+activity-question
+, 
+#
+week-1
+
+
+
+
+
+
+Provide a meaningful title to your post
+ that contains the topic/details of your query so that it can be searched by others easily. For instance: Do not use the titles like 
+“AQ1.1 Q3”
+ which just gives question number alone.  Instead use a more meaningful title like - 
+“Need help in calculating the 
+N
+t
+h
+N^{th}
+N
+t
+h
+ prime number”
+
+
+
+
+
+
+Type in your question and explanations
+ rather than pasting images or screenshots.
+
+
+- What is NOT Permitted in this category?
+
+
+
+
+
+
+
+Being argumentative or sarcastic
+
+
+
+
+
+
+Use of abusive/strong language
+
+
+
+
+
+
+Posting support/logistics related query
+
+
+
+
+
+
+Unnecessarily tagging Faculty/Instructors in posts
+
+
+
+
+
+
+Posting Solutions or discussing solutions to graded assignments
+
+
+- Who will be moderating the content in this forum?
+
+
+
+
+
+
+
+The foum will be moderated by Course Instructors. They will have the authority to decide whether a post violates forum rules/guidelines. You can flag/report any such violations that you observe by clicking on 
+ icon on the post. Please do mention the reason why you are flagging the topic.
+
+
+  - What are the disciplinary actions if some one violates the rules and guidelines of the forum? 
+
+
+
+The flagged posts that violates forum rules/guidelines will be hidden. Repeated violation of the rules can result in the offender being removal from the forum.
+
+Can some course instructor talk more about the Discover the problem statement ?
+
+From the graded assignment we can’t understand what is right way to think unless we make trial and error. can we have some practice assignment to understand our thinking process is properly aligned or not. With just GA it would be difficult to assess.
+
+Apart from what 
+@CKPIITM
+ observed about this course, here’s my first impression of this course…Granted, it has been only a week, but I think I must go ahead anyway…
+
+
+The week-1 clearly shows a lack of planning, from the program as well as the specific course perspective.  It starts off with an example that completely caught me off-guard.  The first video discussed an example that left me wondering why is the instructor even discussing all of that, at this point.  What’s the context and the motivation?  Moreover, every slide is filled to the brim with text.  Can’t decide whether to read it or listen to the speaker.  Neither does give me much understanding anyway.  It was filled with terminology that I’m yet to pick up.  The speaker didn’t apparently know much about who the audience is, and what are they aware of, and what they aren’t…In short, it failed to implement any of the very matter it speaks of - Understanding the problem.
+
+
+Summary.  I feel the course is offered too early.  Rather, I took it a little too early.
+
+Definitely, I can’t relate to most things the speaker is talking about.  At least, I don’t see how and where the ideas will gel with our program.  I’m sure it does, but now, I don’t know how.
+
+
+Sorry, I’d never been as critical about anything as this one.  I just had to.  I’m willing to hear different opinions.
+
+
+I’m awaiting the announcement from IIT for the course drop.
+
+I am totally clue less about the expectation of instructor from the participants of this course. And the question of graded assignment was something, I found myself out of context. I know I can pass any course but I don’t just wanna pass without any concrete learning. The real problem this time is not TIME.
+
+
+Hopefully courses instructor will guide us through this conundrum.
+
+I feel like we need an introduction video of some kind for this. Or it should have been suggested only to those who have completed all the ML courses. From the offset, there are people who don’t know what modelling is, the different kinds of models etc. but there is no explanation for all this. Granted, it was mentioned in the orientation that it would only be tools with no explanation.
+
+
+But I am hopeful that this will get better in the later weeks as this is the only “comprehension” type of week (reminiscent of the english courses lol). The other weeks will all involve practical approach and coding. As long as adequate time is spent on introducing each new thing, I think it should be okay.
+
+As of now, I’m set on my mind to drop the course, unless something hopeful turns up next week.  Will continue after all other ML courses are done…
+
+Some sort of introduction would have been better instead of just diving into the topic. Nevertheless, I hope we get practice questions/assignment to comprehend the concepts.
+
+In the meantime if anyone gets some sort of resources to practice elsewhere, do share.
+
+Adding to the discussion here, I’d also have to say it’s quite the same feeling for me. I got lost while going through the videos. At first, I thought it’s some issue with me, because of which, the video is making less meaning. Seems like, many have the same issues. As told by many here, I would also emphasize the need for more practice questions.
+
+Participants of this course should express their experience so that a more meaningful content can be created and provided to us as supplementary. From lec video it is clear that the recording were made around july so they had around half an year time to work on it.
+
+
+The other problem is, there is no visible resource to get our hands on experience.
+
+I also feel the same. but I think with further weeks the course will become more interesting.
+
+As my peers said i also feels the same way but i don’t have thought of dropping course rather i wanted some more content to add from IITM side to make the students more comfortable in this journey.
+
+well, my choice of dropping might be wrong…but, guided by the following factors.
+
+
+
+
+
+
+The recording was perhaps done much earlier as 
+@CKPIITM
+ pointed out in his reply, and so chances are most of it would’ve been already recorded.  So, lesser chances to re-record them.
+
+
+
+
+
+
+There are no live sessions planned yet for this course… the absence of enough sessions (especially given that it’s a 2-credit course) will worsen the situation.
+
+
+
+
+
+
+Finally, I feel I might be able to better appreciate the technicalities and jargon if I finish all other ML courses before taking this up.
+
+Imagine if your reason doesn’t get resolved even after all ML courses are over then in that case you will underutilize your time. So I would suggest don’t think of dropping, it is just a course and we just need to pass it and leverage this knowledge to search for better resources and learning material.
+
+
+@Anand
+
+CKPIITM:
+
+
+
+
+I know I can pass any course but I don’t just wanna pass without any concrete learning.
+
+
+
+
+
+
+wasn’t it you who wrote this earlier
+
+But this will not lead me to dropping either. I always find ways to learn. 
+ I start with expectation and then start my own search for knowledge.
+
+I certainly differ from the point of view of the conversation going on in this thread.
+
+In my opinion, I am thinking this first week of content as to understand how the problems or objective come from a company which needs these models to implemented. It is more of a professional view rather than a student view. We need to first understand the problem and then start the solution rather than just jumping on to modelling each question.
+
+I also found 1st week content engaging and practical. Maybe I will get few questions wrong,but I feel the concept of discovering the problem was well introduced.
+
+I too find content of week 1 engaging and practical. I agree with 
+@anand095
+ and 
+@akruti
+.
+
+Interesting!  Just this morning, during my morning walk I was thinking how each of us is different in our outlook, our potential, how we realize it, how we’re challenged…and the recent posts show that we indeed are different!  It’s important that none of us stay put on what works for us and what we think is right, but be willing to see the other point of view too…
+
+
+I think I’m starting to understand the other points of view…well I’m trying to
+

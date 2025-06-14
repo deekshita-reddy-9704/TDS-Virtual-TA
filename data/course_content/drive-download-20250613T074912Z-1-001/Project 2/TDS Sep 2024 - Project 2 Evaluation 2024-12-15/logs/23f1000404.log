@@ -1,0 +1,18 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/raunak-kumar800/autolysis.git', '/root/.local/share/tds-sep-24-project-2/23f1000404']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1000404/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing file: /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv...
+Viola ! Analysis is complete. Results are saved in README.md
+
+
+
+
+------------------------------------------------------------------------
+

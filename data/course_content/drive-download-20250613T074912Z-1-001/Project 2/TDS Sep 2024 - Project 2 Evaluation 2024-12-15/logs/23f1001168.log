@@ -1,0 +1,205 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/hamees-sayed/tds_project_2.git', '/root/.local/share/tds-sep-24-project-2/23f1001168']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001168/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_5_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_5_distribution.png
+Could not generate story for image: ratings_5_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_1.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_1.png
+Could not generate story for image: outliers_1.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_count_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_count_distribution.png
+Could not generate story for image: ratings_count_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/book_id_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/book_id_distribution.png
+Could not generate story for image: book_id_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/pairplot.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/pairplot.png
+Could not generate story for image: pairplot.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_best_book_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_best_book_id.png
+Could not generate story for image: histogram_best_book_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_3_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_3_distribution.png
+Could not generate story for image: ratings_3_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_heatmap.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_heatmap.png
+Could not generate story for image: correlation_heatmap.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_book_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_book_id.png
+Could not generate story for image: histogram_book_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_isbn13.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_isbn13.png
+Could not generate story for image: histogram_isbn13.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_books_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_books_count.png
+Could not generate story for image: histogram_books_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/best_book_id_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/best_book_id_distribution.png
+Could not generate story for image: best_book_id_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_goodreads_book_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_goodreads_book_id.png
+Could not generate story for image: histogram_goodreads_book_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_id_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_id_distribution.png
+Could not generate story for image: work_id_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_isbn13.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_isbn13.png
+Could not generate story for image: boxplot_isbn13.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot.png
+Could not generate story for image: boxplot.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_text_reviews_count_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_text_reviews_count_distribution.png
+Could not generate story for image: work_text_reviews_count_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_2.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_2.png
+Could not generate story for image: boxplot_ratings_2.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_4.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_4.png
+Could not generate story for image: histogram_ratings_4.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_3.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_3.png
+Could not generate story for image: histogram_ratings_3.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_id.png
+Could not generate story for image: histogram_work_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplots_scaled_numerical_columns.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplots_scaled_numerical_columns.png
+Could not generate story for image: boxplots_scaled_numerical_columns.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_count.png
+Could not generate story for image: boxplot_ratings_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_original_publication_year.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_original_publication_year.png
+Could not generate story for image: boxplot_original_publication_year.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_best_book_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_best_book_id.png
+Could not generate story for image: boxplot_best_book_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_average_rating.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_average_rating.png
+Could not generate story for image: boxplot_average_rating.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_id.png
+Could not generate story for image: boxplot_work_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_original_publication_year.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_original_publication_year.png
+Could not generate story for image: histogram_original_publication_year.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/goodreads_book_id_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/goodreads_book_id_distribution.png
+Could not generate story for image: goodreads_book_id_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_4_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_4_distribution.png
+Could not generate story for image: ratings_4_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_2.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_2.png
+Could not generate story for image: outliers_2.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_4.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_4.png
+Could not generate story for image: boxplot_ratings_4.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_text_reviews_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_text_reviews_count.png
+Could not generate story for image: boxplot_work_text_reviews_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/chart_1.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/chart_1.png
+Could not generate story for image: chart_1.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/books_count_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/books_count_distribution.png
+Could not generate story for image: books_count_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_count.png
+Could not generate story for image: histogram_ratings_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_5.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_5.png
+Could not generate story for image: histogram_ratings_5.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_ratings_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_work_ratings_count.png
+Could not generate story for image: boxplot_work_ratings_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/missing_values.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/missing_values.png
+Could not generate story for image: missing_values.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_ratings_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_ratings_count.png
+Could not generate story for image: histogram_work_ratings_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_2.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_2.png
+Could not generate story for image: histogram_ratings_2.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/violin_plot.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/violin_plot.png
+Could not generate story for image: violin_plot.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_book_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_book_id.png
+Could not generate story for image: boxplot_book_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_1_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_1_distribution.png
+Could not generate story for image: ratings_1_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_5.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_5.png
+Could not generate story for image: boxplot_ratings_5.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_ratings_count_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/work_ratings_count_distribution.png
+Could not generate story for image: work_ratings_count_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_3.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_3.png
+Could not generate story for image: outliers_3.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/heatmap.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/heatmap.png
+Could not generate story for image: heatmap.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_text_reviews_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_work_text_reviews_count.png
+Could not generate story for image: histogram_work_text_reviews_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_1.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_1.png
+Could not generate story for image: boxplot_ratings_1.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_2_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/ratings_2_distribution.png
+Could not generate story for image: ratings_2_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_average_rating.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_average_rating.png
+Could not generate story for image: histogram_average_rating.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_1.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/histogram_ratings_1.png
+Could not generate story for image: histogram_ratings_1.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/average_rating_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/average_rating_distribution.png
+Could not generate story for image: average_rating_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_books_count.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_books_count.png
+Could not generate story for image: boxplot_books_count.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_goodreads_book_id.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_goodreads_book_id.png
+Could not generate story for image: boxplot_goodreads_book_id.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/original_publication_year_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/original_publication_year_distribution.png
+Could not generate story for image: original_publication_year_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/isbn13_distribution.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/isbn13_distribution.png
+Could not generate story for image: isbn13_distribution.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_4.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/outliers_4.png
+Could not generate story for image: outliers_4.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/chart_2.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/chart_2.png
+Could not generate story for image: chart_2.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_3.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/boxplot_ratings_3.png
+Could not generate story for image: boxplot_ratings_3.png
+Processing image: /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_matrix.png
+Failed to generate story for image /root/.local/share/tds-sep-24-project-2/datasets/goodreads/correlation_matrix.png
+Could not generate story for image: correlation_matrix.png
+README.md created at /root/.local/share/tds-sep-24-project-2/datasets/goodreads/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001168/autolysis.py`
+Installed 26 packages in 523ms
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,28 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/adityach8/aditya_iitm_p2.git', '/root/.local/share/tds-sep-24-project-2/21f2000168']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f2000168/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Starting the analysis...
+Dataset loaded successfully!
+Analyzing the dataset...
+Data analysis complete.
+Detecting outliers...
+Outlier detection complete.
+Generating visualizations...
+Visualizations generated.
+Generating story using LLM...
+Creating README file...
+Error writing to README.md: Missing optional dependency 'tabulate'.  Use pip or conda to install tabulate.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f2000168/autolysis.py`
+
+
+------------------------------------------------------------------------
+

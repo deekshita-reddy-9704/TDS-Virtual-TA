@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/kneedheeee/proj2.git', '/root/.local/share/tds-sep-24-project-2/23f2002105']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2002105/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Outliers detected: 0
+Explained variance: [9.99999999e-01 1.07304211e-09]
+Missing values found. Please clean the dataset before clustering.
+AI Insights: Error querying AI model: 401 Client Error: Unauthorized for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+Advanced AI Insights: Error querying AI model: 401 Client Error: Unauthorized for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+
+
+------------------------------------------------------------------------
+

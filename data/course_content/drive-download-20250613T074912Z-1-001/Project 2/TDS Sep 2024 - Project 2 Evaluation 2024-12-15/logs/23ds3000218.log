@@ -1,0 +1,38 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/MeenakshiIIT/TDS-Project2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000218']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error interacting with AI Proxy: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py", line 354, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py", line 348, in main
+    write_markdown_report(output_dir, insights, visualizations)
+    ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py", line 297, in write_markdown_report
+    f.write(analysis_summary)
+    ~~~~~~~^^^^^^^^^^^^^^^^^^
+TypeError: write() argument must be str, not None
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000218/autolysis.py`
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,21 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Malavika1915/TDS_P2.git', '/root/.local/share/tds-sep-24-project-2/23ds3000211']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23ds3000211/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Saved correlation heatmap: output/correlation_heatmap.png
+Saved histogram: output/isbn13_histogram.png
+Saved histogram: output/work_id_histogram.png
+Saved narrative: output/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23ds3000211/autolysis.py`
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,33 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/puneeth2907/TDS-Project-2.git', '/root/.local/share/tds-sep-24-project-2/23f1001562']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1001562/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Successfully loaded file using utf-8 encoding
+Error executing AI-suggested graph code: invalid syntax (<string>, line 1)
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f1001562/autolysis.py`
+/root/.local/share/tds-sep-24-project-2/23f1001562/autolysis.py:75: FutureWarning: The argument 'infer_datetime_format' is deprecated and will be removed in a future version. A strict version of it is now the default, see https://pandas.pydata.org/pdeps/0004-consistent-to-datetime-parsing.html. You can safely remove this argument.
+  df = pd.read_csv(self.filename, encoding=encoding,
+/root/.local/share/tds-sep-24-project-2/23f1001562/autolysis.py:108: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif pd.api.types.is_categorical_dtype(self.df[col]):
+/root/.cache/uv/archive-v0/u36Y-saW9IUzXl1UyVM1R/lib/python3.13/site-packages/sklearn/utils/_array_api.py:392: RuntimeWarning: invalid value encountered in cast
+  return x.astype(dtype, copy=copy, casting=casting)
+/root/.cache/uv/archive-v0/u36Y-saW9IUzXl1UyVM1R/lib/python3.13/site-packages/sklearn/utils/_array_api.py:392: RuntimeWarning: invalid value encountered in cast
+  return x.astype(dtype, copy=copy, casting=casting)
+/root/.local/share/tds-sep-24-project-2/23f1001562/autolysis.py:108: DeprecationWarning: is_categorical_dtype is deprecated and will be removed in a future version. Use isinstance(dtype, pd.CategoricalDtype) instead
+  elif pd.api.types.is_categorical_dtype(self.df[col]):
+/root/.cache/uv/archive-v0/u36Y-saW9IUzXl1UyVM1R/lib/python3.13/site-packages/sklearn/utils/_array_api.py:392: RuntimeWarning: invalid value encountered in cast
+  return x.astype(dtype, copy=copy, casting=casting)
+/root/.cache/uv/archive-v0/u36Y-saW9IUzXl1UyVM1R/lib/python3.13/site-packages/sklearn/utils/_array_api.py:392: RuntimeWarning: invalid value encountered in cast
+  return x.astype(dtype, copy=copy, casting=casting)
+
+
+------------------------------------------------------------------------
+

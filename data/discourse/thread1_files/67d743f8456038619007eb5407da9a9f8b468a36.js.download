@@ -1,0 +1,10 @@
+/* Translation data for theme 10 (en)*/
+const data = {"en":{"search_banner":{"headline":"Welcome to our community IITM DSA","subhead":"We're happy to have you here. If you need help, please search before you post.","search_button_text":""}}};
+
+for (let lang in data){
+  let cursor = I18n.translations;
+  for (let key of [lang, "js", "theme_translations"]){
+    cursor = cursor[key] ??= {};
+  }
+  cursor[10] = data[lang];
+}

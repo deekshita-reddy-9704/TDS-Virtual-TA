@@ -1,0 +1,22 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/RishabhBarthwal28/TDS-PROJECT-2.git', '/root/.local/share/tds-sep-24-project-2/23f2004112']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2004112/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2004112/autolysis.py`
+Installed 32 packages in 659ms
+  File "/root/.local/share/tds-sep-24-project-2/23f2004112/autolysis.py", line 174
+        main()
+    ^
+SyntaxError: invalid non-printable character U+00A0
+
+
+------------------------------------------------------------------------
+

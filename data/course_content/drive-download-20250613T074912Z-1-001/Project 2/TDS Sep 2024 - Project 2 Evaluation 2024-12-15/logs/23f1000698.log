@@ -1,0 +1,16 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/23f1000698/autolysis-project.git', '/root/.local/share/tds-sep-24-project-2/23f1000698']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f1000698/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+
+
+------------------------------------------------------------------------
+

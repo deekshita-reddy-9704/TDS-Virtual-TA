@@ -1,0 +1,19 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Utkarsh002-winner/TDS-Project2.git', '/root/.local/share/tds-sep-24-project-2/21f3000045']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3000045/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error querying AI Proxy: 'choices'
+Error querying AI Proxy: 'choices'
+Analysis completed. Check README.md and generated images.
+
+
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,48 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/sufyan-12/TDS-PR2.git', '/root/.local/share/tds-sep-24-project-2/22f3001506']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001506/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected file encoding: utf-8
+File read successfully!
+Initial prompt generated successfully!
+Calling model...
+Error communicating with OpenAI API: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+{'error': '429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'}
+Error processing OpenAI response: 'choices'
+Analysis complete! Results saved to /root/.local/share/tds-sep-24-project-2/eval/22f3001506/goodreads.csv/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001506/autolysis.py`
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001506/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected file encoding: utf-8
+File read successfully!
+Initial prompt generated successfully!
+Calling model...
+{}
+Calling function: calculate_missing_values 
+
+{'plot_name': 'correlation_heatmap'}
+Calling function: generate_correlation_heatmap 
+
+{'columns': 'language_code', 'plot_name': 'language_distribution_bar_plot'}
+Calling function: generate_bar_plot 
+
+Analysis complete! Results saved to /root/.local/share/tds-sep-24-project-2/eval/22f3001506/goodreads.csv/README.md
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001506/autolysis.py`
+
+
+------------------------------------------------------------------------
+

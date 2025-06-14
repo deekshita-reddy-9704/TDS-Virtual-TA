@@ -1,0 +1,20 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Ashly-06/Tds_project_2.git', '/root/.local/share/tds-sep-24-project-2/23f2000319']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2000319/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+  File "/root/.local/share/tds-sep-24-project-2/23f2000319/autolysis.py", line 2
+    ! mkdir foldername
+    ^
+SyntaxError: invalid syntax
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,28 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'master', 'https://github.com/raj-jaiswal/TDS_project2.git', '/root/.local/share/tds-sep-24-project-2/23f2001487']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001487/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001487/autolysis.py`
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f2001487/autolysis.py", line 480, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/23f2001487/autolysis.py", line 452, in main
+    col1, col2 = get_scatter_plot_columns(corr_matrix)
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/root/.local/share/tds-sep-24-project-2/23f2001487/autolysis.py", line 125, in get_scatter_plot_columns
+    return columns[0].strip(), columns[1].strip()
+                               ~~~~~~~^^^
+IndexError: list index out of range
+
+
+------------------------------------------------------------------------
+

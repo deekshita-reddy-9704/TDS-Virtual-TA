@@ -1,0 +1,30 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Rishitahazra/IIT_project_autolysis.git', '/root/.local/share/tds-sep-24-project-2/22f3001768']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001768/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001768/autolysis.py`
+Installed 30 packages in 226ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/22f3001768/autolysis.py", line 307, in <module>
+    jsont = json.loads(text_feature_understand.strip('```json\n').strip('```'))
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ~~~~~~~~~~~~~~~~~~~~~~~^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/decoder.py", line 345, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/root/.local/share/uv/python/cpython-3.13.1-linux-x86_64-gnu/lib/python3.13/json/decoder.py", line 363, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+
+------------------------------------------------------------------------
+

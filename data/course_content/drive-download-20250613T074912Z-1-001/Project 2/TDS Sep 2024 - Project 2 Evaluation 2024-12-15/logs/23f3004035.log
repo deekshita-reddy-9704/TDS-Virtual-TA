@@ -1,0 +1,40 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/vath-21/TDS_project_2.git', '/root/.local/share/tds-sep-24-project-2/23f3004035']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py`
+Installed 27 packages in 74ms
+Traceback (most recent call last):
+  File "/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py", line 204, in <module>
+    main()
+    ~~~~^^
+  File "/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py", line 199, in main
+    story = generate_analysis_story(summary, outliers, correlation_matrix)
+  File "/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py", line 172, in generate_analysis_story
+    response.raise_for_status()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/root/.cache/uv/archive-v0/0a2AenA-ehoI7T2MGY-PQ/lib/python3.13/site-packages/requests/models.py", line 1024, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. Results saved in README.md.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f3004035/autolysis.py`
+
+
+------------------------------------------------------------------------
+

@@ -1,0 +1,25 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/21f3000105/Project2-Automated_Analysis.git', '/root/.local/share/tds-sep-24-project-2/21f3000105']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/21f3000105/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Error generating narrative: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+Processed /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv. Results saved to goodreads.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/21f3000105/autolysis.py`
+Installed 31 packages in 64ms
+/root/.local/share/tds-sep-24-project-2/21f3000105/autolysis.py:130: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()  # Adjust layout
+/root/.local/share/tds-sep-24-project-2/21f3000105/autolysis.py:130: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()  # Adjust layout
+
+
+------------------------------------------------------------------------
+

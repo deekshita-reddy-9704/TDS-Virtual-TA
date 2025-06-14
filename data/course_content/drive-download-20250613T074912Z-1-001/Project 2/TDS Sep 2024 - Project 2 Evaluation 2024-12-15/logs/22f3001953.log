@@ -1,0 +1,30 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Sh1617/tds_pro2.git', '/root/.local/share/tds-sep-24-project-2/22f3001953']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001953/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Arguments passed: ['/root/.local/share/tds-sep-24-project-2/22f3001953/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+Starting analysis script
+Error generating narration: 429 Client Error: Too Many Requests for url: https://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001953/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Arguments passed: ['/root/.local/share/tds-sep-24-project-2/22f3001953/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+Starting analysis script
+Analysis complete. Results saved in /root/.local/share/tds-sep-24-project-2/datasets/goodreads
+
+
+
+
+------------------------------------------------------------------------
+

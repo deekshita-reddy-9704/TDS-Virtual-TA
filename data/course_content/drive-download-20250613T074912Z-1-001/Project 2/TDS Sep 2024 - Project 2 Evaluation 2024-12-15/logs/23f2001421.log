@@ -1,0 +1,29 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/deep2003tds/TDSproject2.git', '/root/.local/share/tds-sep-24-project-2/23f2001421']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001421/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+An error occurred: Client error '429 Too Many Requests' for url 'https://aiproxy.sanand.workers.dev/openai/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001421/autolysis.py`
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2001421/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Analysis complete. See the 'goodreads' directory for results.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/23f2001421/autolysis.py`
+
+
+------------------------------------------------------------------------
+

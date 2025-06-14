@@ -1,0 +1,88 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'master', 'https://github.com/srupat/tds-project-2.git', '/root/.local/share/tds-sep-24-project-2/22f3001954']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001954/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding for /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv: utf-8
+Generic analysis completed.
+Advanced analysis completed.
+Error: Error during LLM query: 429 Client Error: Too Many Requests for url: http://aiproxy.sanand.workers.dev/openai/v1/chat/completions
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001954/autolysis.py`
+Installed 39 packages in 162ms
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001954/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding for /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv: utf-8
+Generic analysis completed.
+Advanced analysis completed.
+LLM insights retrieved.
+Visualizations created.
+Narrative created.
+README.md generated.
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001954/autolysis.py`
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1513: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=vector, **plot_kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1513: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=vector, **plot_kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1513: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=vector, **plot_kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1513: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=vector, **plot_kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1513: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=vector, **plot_kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+/root/.cache/uv/archive-v0/MGswkep48Mt5zDLf2xbRU/lib/python3.13/site-packages/seaborn/axisgrid.py:1615: UserWarning: Ignoring `palette` because no `hue` variable has been assigned.
+  func(x=x, y=y, **kwargs)
+
+
+------------------------------------------------------------------------
+

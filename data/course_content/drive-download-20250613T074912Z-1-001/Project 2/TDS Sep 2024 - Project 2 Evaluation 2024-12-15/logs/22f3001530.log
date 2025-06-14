@@ -1,0 +1,23 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/azeebneuron/TDS-Project2.git', '/root/.local/share/tds-sep-24-project-2/22f3001530']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f3001530/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Processing /root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv in directory: goodreads
+API Error: {
+  "message": "On 2024-12 you used $5.200995000000003, exceeding $5"
+}
+Analysis completed successfully!
+
+
+Reading inline script metadata from `/root/.local/share/tds-sep-24-project-2/22f3001530/autolysis.py`
+Installed 29 packages in 234ms
+
+
+------------------------------------------------------------------------
+

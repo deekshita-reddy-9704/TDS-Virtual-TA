@@ -1,0 +1,27 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Karanshrivastav/tds_project_2.git', '/root/.local/share/tds-sep-24-project-2/22f2001062']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/22f2001062/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Detected encoding: utf-8
+DataFrame loaded successfully. First few rows:
+   book_id  ...                                    small_image_url
+0        1  ...  https://images.gr-assets.com/books/1447303603s...
+1        2  ...  https://images.gr-assets.com/books/1474154022s...
+2        3  ...  https://images.gr-assets.com/books/1361039443s...
+3        4  ...  https://images.gr-assets.com/books/1361975680s...
+4        5  ...  https://images.gr-assets.com/books/1490528560s...
+
+[5 rows x 23 columns]
+Analysis complete. Outputs saved as README.md and *.png files.
+
+
+
+
+------------------------------------------------------------------------
+

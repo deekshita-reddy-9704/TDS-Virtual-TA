@@ -1,0 +1,35 @@
+['git', 'clone', '-q', '--single-branch', '-b', 'main', 'https://github.com/Amrendra-kumar7/23f2005504-tdsproject2.git', '/root/.local/share/tds-sep-24-project-2/23f2005504']
+
+
+
+
+
+------------------------------------------------------------------------
+
+['uv', 'run', '/root/.local/share/tds-sep-24-project-2/23f2005504/autolysis.py', '/root/.local/share/tds-sep-24-project-2/datasets/goodreads.csv']
+
+Loaded dataset with 10000 rows and 23 columns.
+Saved heatmap as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_heatmap.png
+Saved distribution plot for book_id as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_book_id_distribution.png
+Saved distribution plot for goodreads_book_id as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_goodreads_book_id_distribution.png
+Saved distribution plot for best_book_id as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_best_book_id_distribution.png
+Saved distribution plot for work_id as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_work_id_distribution.png
+Saved distribution plot for books_count as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_books_count_distribution.png
+Saved distribution plot for isbn13 as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_isbn13_distribution.png
+Saved distribution plot for original_publication_year as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_original_publication_year_distribution.png
+Saved distribution plot for average_rating as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_average_rating_distribution.png
+Saved distribution plot for ratings_count as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_ratings_count_distribution.png
+Saved distribution plot for work_ratings_count as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_work_ratings_count_distribution.png
+Saved distribution plot for work_text_reviews_count as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_work_text_reviews_count_distribution.png
+Saved distribution plot for ratings_1 as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_ratings_1_distribution.png
+Saved distribution plot for ratings_2 as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_ratings_2_distribution.png
+Saved distribution plot for ratings_3 as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_ratings_3_distribution.png
+Saved distribution plot for ratings_4 as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_ratings_4_distribution.png
+Saved distribution plot for ratings_5 as /root/.local/share/tds-sep-24-project-2/datasets/goodreads_ratings_5_distribution.png
+Analysis complete. Results saved to README.md and PNG files.
+
+
+
+
+------------------------------------------------------------------------
+
